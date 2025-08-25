@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notizen/Ideen/Untitled.md",
+<<<<<<< HEAD
+                "file": "Notizen/Ideen/Story Auflösung.md",
+=======
+                "file": "Story/Calls/Beste Freundin.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+<<<<<<< HEAD
+              "title": "Story Auflösung"
+=======
+              "title": "Beste Freundin"
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
             }
           }
         ]
@@ -94,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +112,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sorgentelefon; Katzenlady"
+              "title": "Backlinks for Sorgentelefon"
             }
           },
           {
@@ -113,12 +121,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sorgentelefon; Katzenlady"
+              "title": "Outgoing links from Sorgentelefon"
             }
           },
           {
@@ -142,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorgentelefon; Katzenlady"
+              "title": "Outline of Sorgentelefon"
             }
           }
         ]
@@ -171,8 +179,9 @@
   },
   "active": "a5e45d3a83a59764",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Notizen/Ideen/Drogenkartel.md",
-    "Notizen/Ideen/Untitled.md",
+    "Notizen/Ideen/Story Auflösung.md",
     "Story/Calls/Kim Brick/Kim Brick; Diner Bestellung.md",
     "Charakter/Karl Brick.md",
     "Notizen/Ideen/Ideen weil ich kein Plan habe.md",
@@ -189,23 +198,62 @@
     "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Story/Calls/Noras Mutter/Noras Mutter; Interview.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+=======
+    "Ort/Brücke im Wald.md",
+    "Story/Calls/Beste Freundin.md",
+    "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon.md",
+    "Story/Calls/John Smith/1-2 John Smith; Tatort Polizeianruf.md",
+    "Story/Calls/James Miller/James Miller; Anruf bei der Autopsie.md",
+    "Story/Calls/John Smith/John Smith; Essenbestellung.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Story/Calls/Untitled 1.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Charakter/Lara Hickens.md",
     "Notizen/Ideen/Prolog Idee von Jonathan.md",
     "Story/Calls/Noras Mutter",
+<<<<<<< HEAD
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Story/Calls/Untitled 1.md",
     "Story/Calls/Untitled.md",
     "Charakter/Anita Zelmer.md",
+=======
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Story/Calls/John Smith",
+    "Charakter/Kim Brick.md",
     "Charakter/Elvera Hellner.md",
+<<<<<<< HEAD
     "Charakter/Lara Hickens.md",
     "Story/Calls/Noras Mutter",
     "Story/Calls/Sorgentelefon 1",
     "Story/Calls/Nora Hickens",
     "Story/Calls/James Miller",
+=======
+    "Charakter/Anita Zelmer.md",
+    "Story/Calls/Sorgentelefon/Hinweise.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon Dialog.md",
+    "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+    "Story/Sorgentelefon",
+    "Story/Grundlegende Story/Grundlegende Story.md",
+    "Story/Calls/James Miller/1-2 James Miller; Tatort Polizeianruf.md",
+    "Story/Calls",
+    "Story/Grundlegende Story",
+    "Story/Calls/Sorgentelefon",
+    "Story/Nora Hickens",
+    "Story/Akt 1/Untitled.md",
+    "Story/Calls/James Miller",
+    "Charakter/John Smith.md",
+    "Story/1-2 Pizzaria anruf.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Ort",
+    "Charakter/James Miller.md",
     "Story/Akt 1",
+<<<<<<< HEAD
     "Story"
+=======
+    "Charakter/Nora Hickens.md",
+    "Untitled.md",
+    "Notizen/Ideen/Startidee von Jonathan.md"
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
   ]
 }
