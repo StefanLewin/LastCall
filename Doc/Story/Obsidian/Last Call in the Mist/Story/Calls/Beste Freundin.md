@@ -1,1 +1,2 @@
 Sie war stiller in den letzten Wochen. So kannte ich sie gar nicht. Hat sich mehr und mehr zurückgezogen. Definitiv war sie mehr am Handy. Ich weiß nicht, mit wem sie da geschrieben hat. Nach der Schule gingen wir eigentlich öfter zu Sophie’s Diner. Aber es hat dann aufgehört.
+Detective Clarke: Danke dass Sie sich die Zeit nehmen. 
