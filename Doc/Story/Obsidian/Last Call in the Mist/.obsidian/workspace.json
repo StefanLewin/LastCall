@@ -14,7 +14,11 @@
               "type": "markdown",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Notizen/Ideen/Story Auflösung.md",
+=======
+                "file": "Story/Calls/Beste Freundin.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
 =======
                 "file": "Story/Calls/Beste Freundin.md",
 >>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
@@ -23,7 +27,11 @@
               },
               "icon": "lucide-file",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "title": "Story Auflösung"
+=======
+              "title": "Beste Freundin"
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
 =======
               "title": "Beste Freundin"
 >>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
@@ -180,6 +188,7 @@
   "active": "a5e45d3a83a59764",
   "lastOpenFiles": [
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Notizen/Ideen/Drogenkartel.md",
     "Notizen/Ideen/Story Auflösung.md",
     "Story/Calls/Kim Brick/Kim Brick; Diner Bestellung.md",
@@ -201,17 +210,25 @@
 =======
     "Ort/Brücke im Wald.md",
     "Story/Calls/Beste Freundin.md",
+=======
+    "Ort/Brücke im Wald.md",
+    "Story/Calls/Beste Freundin.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon.md",
     "Story/Calls/John Smith/1-2 John Smith; Tatort Polizeianruf.md",
     "Story/Calls/James Miller/James Miller; Anruf bei der Autopsie.md",
     "Story/Calls/John Smith/John Smith; Essenbestellung.md",
+<<<<<<< HEAD
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
+=======
 >>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Story/Calls/Untitled 1.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Charakter/Lara Hickens.md",
     "Notizen/Ideen/Prolog Idee von Jonathan.md",
     "Story/Calls/Noras Mutter",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Story/Calls/Untitled 1.md",
@@ -229,6 +246,11 @@
     "Story/Calls/Nora Hickens",
     "Story/Calls/James Miller",
 =======
+=======
+    "Story/Calls/John Smith",
+    "Charakter/Kim Brick.md",
+    "Charakter/Elvera Hellner.md",
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Charakter/Anita Zelmer.md",
     "Story/Calls/Sorgentelefon/Hinweise.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon Dialog.md",
@@ -244,6 +266,7 @@
     "Story/Calls/James Miller",
     "Charakter/John Smith.md",
     "Story/1-2 Pizzaria anruf.md",
+<<<<<<< HEAD
 >>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
     "Ort",
     "Charakter/James Miller.md",
@@ -251,6 +274,14 @@
 <<<<<<< HEAD
     "Story"
 =======
+    "Charakter/Nora Hickens.md",
+    "Untitled.md",
+    "Notizen/Ideen/Startidee von Jonathan.md"
+>>>>>>> 52945bb8e7030e4f67f4f6bad9c94440baf3a895
+=======
+    "Ort",
+    "Charakter/James Miller.md",
+    "Story/Akt 1",
     "Charakter/Nora Hickens.md",
     "Untitled.md",
     "Notizen/Ideen/Startidee von Jonathan.md"
