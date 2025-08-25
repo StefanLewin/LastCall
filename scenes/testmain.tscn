@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://7qi2c1mj1nsu"]
+
+[ext_resource type="Script" uid="uid://drprf1ww1026r" path="res://manager/dialog_manager.gd" id="1_fny4c"]
+
+[node name="Testmain" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call", "label_caller_name", "label_called_name", "label_time")]
+script = ExtResource("1_fny4c")
+calls_text_file = "res://assets/json/example.json"
+label_call = NodePath("../LabelCall")
+label_caller_name = NodePath("../LabelCaller")
+label_called_name = NodePath("../LabelCalled")
+label_time = NodePath("../LabelTime")
+metadata/_custom_type_script = "uid://drprf1ww1026r"
+
+[node name="LabelCall" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 158.0
+offset_top = 148.0
+offset_right = 727.0
+offset_bottom = 391.0
+meta_underlined = false
+
+[node name="LabelCaller" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 850.0
+offset_top = 11.0
+offset_right = 1148.0
+offset_bottom = 154.0
+
+[node name="LabelCalled" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 828.0
+offset_top = 125.0
+offset_right = 1159.0
+offset_bottom = 284.0
+
+[node name="LabelTime" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 225.0
+offset_right = 779.0
+offset_bottom = 328.0

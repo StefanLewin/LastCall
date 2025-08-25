@@ -1,0 +1,40 @@
+{
+	"level_1":[
+		"Hello Space Pilot! We have a tini tiny little Problem",
+		"The Astroid Reflector Shild seems to been inverted!",
+		"Instead of keeping the Astroids out, they will be attracted.",
+		"You need to defend us until the issue is fixed!"
+	],
+	"level_1_end":[
+		"Ahh, all back in order. Thank you Space Pilot! You saved the day!"
+	],
+	"level_2":[
+		"Oi Space Pilot! nice to see you",
+		"I was just adjusting these parame...",
+		"Oh. My. God Your gonna hate me!",
+		"I somehow inverted the Reflector Shild again!",
+		"Could you protect the Research Bases till its fixed again?",
+		"Oh I can even help! You know these Upgrates that sometimes pop out of the Astroids?",
+		"If you dont collect them I will send a Droid to collect them, to help the fixing progress",
+		"Only if you dont need the Upgrades of course"
+	],
+	"level_2_end":[
+		"That is so weird. I dont even have a progamm to reverse the Reflector Shilds. How did this happen...",
+		"Anyway, thank you again many times."
+	],
+	"level_3":[
+		"S.O.S! Is there any Space Pilot to save our digital souls?",
+		"Ah, you! good you are here. We are in dire need of your help",
+		"The Reflector Shild inversions were no accident. It was Sabotage!",
+		"Somehow an evil A.I. has developed in our Research Bases and tries to destroy them!",
+		"I think I can deactivate the evil A.I. but I need Time and Ressources.",
+		"Make sure to let our Droid pick up as many Upgrades as you can spare!"
+	],
+	"level_3_end":[
+		"This is it! Sudo delete evil A.I.!",
+		"Finally we can reserch in peace once again.",
+		"We cant thank you enough Space Pilot"
+	],
+	"error":[
+		"Congratulations, you found a bug!"]
+}
