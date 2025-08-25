@@ -3,7 +3,7 @@
 	<PROJECT>
 		<Ver>7</Ver>
 		<SavedWith>7.1.2.4</SavedWith>
-		<SavedOn>2025-08-25 12:13:49</SavedOn>
+		<SavedOn>2025-08-25 12:37:25</SavedOn>
 		<Title><![CDATA[]]></Title>
 		<AuthorName><![CDATA[]]></AuthorName>
 		<Bio><![CDATA[]]></Bio>
@@ -69,7 +69,7 @@
 	<PROJECTNOTES>
 	<PROJECTNOTE>
 		<ID>1</ID>
-		<Title><![CDATA[Startidee]]></Title>
+		<Title><![CDATA[Startidee von Jonathan]]></Title>
 		<Desc><![CDATA[Suizid eine Charakter Nora Hickens Im Wald mit aufgeschlißten Armen im Wald bei Regen. Es sieht durch den Regen und Blut wie ein Engel aus. DIe Polizei hat es wie ein Suizid aus.]]></Desc>
 		<SortOrder>1</SortOrder>
 	</PROJECTNOTE>
@@ -78,6 +78,13 @@
 		<ID>2</ID>
 		<Title><![CDATA[Grundidee Copy from Maria]]></Title>
 		<SortOrder>2</SortOrder>
+	</PROJECTNOTE>
+
+	<PROJECTNOTE>
+		<ID>3</ID>
+		<Title><![CDATA[Prolog Idee von Jonathan]]></Title>
+		<Desc><![CDATA[Nora wird in der Schule gemobbt und sucht sich neue Freunde. Sie findet neue Freunde, aber sie sind Miteglieder von einer Sekte. Diese Sekte will irgenwann sie für ihre Gottheit Opfern, aber sie kann noch flüchten und kann noch ein Anruf tätigen. Da sagt sie das sie von welchem Gejagt werden mit ein paar Informationen und dann bricht der Anruf ab.]]></Desc>
+		<SortOrder>3</SortOrder>
 	</PROJECTNOTE>
 
 	</PROJECTNOTES>
