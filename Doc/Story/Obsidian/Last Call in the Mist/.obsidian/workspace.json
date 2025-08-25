@@ -11,10 +11,14 @@
             "id": "a5e45d3a83a59764",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Charakter/John Smith.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "John Smith"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Charakter/John Smith.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for John Smith"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Charakter/John Smith.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from John Smith"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Charakter/John Smith.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of John Smith"
             }
           }
         ]
@@ -163,6 +170,14 @@
   },
   "active": "ba2aea45c9f5b84c",
   "lastOpenFiles": [
+    "Story/Akt 1/1-2 Tatort Polizeianruf.md",
+    "Charakter/John Smith.md",
+    "Story/Akt 1/Untitled.md",
+    "Story/1-2 Pizzaria anruf.md",
+    "Ort/Brücke im Wald.md",
+    "Ort",
+    "Charakter/James Miller.md",
+    "Story/Akt 1",
     "Story",
     "Charakter/Nora Hickens.md",
     "Untitled.md",
