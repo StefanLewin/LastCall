@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon.md",
+                "file": "Story/Calls/Sorgentelefon/Sorgentelefon.md",
                 "mode": "source",
                 "source": false
               },
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,12 +171,15 @@
   },
   "active": "a5e45d3a83a59764",
   "lastOpenFiles": [
-    "Story/James Miller/1-2 James Miller; Tatort Polizeianruf.md",
-    "Story/Sorgentelefon/Sorgentelefon.md",
-    "Story/Sorgentelefon",
+    "Story/Grundlegende Story/Grundlegende Story.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon.md",
+    "Story/Calls/James Miller/1-2 James Miller; Tatort Polizeianruf.md",
+    "Story/Calls",
+    "Story/Grundlegende Story",
+    "Story/Calls/Sorgentelefon",
     "Story/Nora Hickens",
     "Story/Akt 1/Untitled.md",
-    "Story/James Miller",
+    "Story/Calls/James Miller",
     "Charakter/John Smith.md",
     "Story/1-2 Pizzaria anruf.md",
     "Ort/Brücke im Wald.md",
@@ -189,7 +193,6 @@
     "Notizen/Ideen/Prolog Idee von Jonathan.md",
     "Charakter",
     "Notizen",
-    "Welcome.md",
-    "Notizen/Ideen"
+    "Welcome.md"
   ]
 }
