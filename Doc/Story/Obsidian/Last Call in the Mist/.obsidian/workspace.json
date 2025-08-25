@@ -25,10 +25,14 @@
             "id": "e928d3815b32c056",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Noras Mutter; Anruf zur Oma"
             }
           }
         ],
@@ -182,18 +186,18 @@
   },
   "active": "e928d3815b32c056",
   "lastOpenFiles": [
+    "Story/Calls/John Smith/John Smith; Essenbestellung.md",
+    "Story/Calls/John Smith/1-2 John Smith; Tatort Polizeianruf.md",
+    "Story/Calls/James Miller/James Miller; Anruf bei der Autopsie.md",
+    "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+    "Story/Calls/Untitled.md",
     "Story/Grundlegende Story/Grundlegende Story.md",
     "Charakter/Kim Brick.md",
     "Charakter/Anita Zelmer.md",
-    "Story/Calls/James Miller/James Miller; Anruf bei der Autopsie.md",
-    "Story/Calls/John Smith/John Smith; Essenbestellung.md",
-    "Story/Calls/John Smith/1-2 John Smith; Tatort Polizeianruf.md",
-    "Story/Calls/Untitled.md",
     "Story/Calls/John Smith",
-    "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Charakter/Elvera Hellner.md",
-    "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Charakter/Lara Hickens.md",
     "Story/Calls/Noras Mutter",
     "Charakter/James Miller.md",
