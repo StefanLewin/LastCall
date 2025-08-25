@@ -1,11 +1,12 @@
 extends Control
 
-@onready var rich_text_label: RichTextLabel = $Panel/RichTextLabel
+@onready var call_transcript: RichTextLabel = $"Panel/VBoxContainer/Call Transcript"
+
 const popup_scene = preload("res://scenes/text_block.tscn")
 var active_popup: Node = null
 
 func _ready():
-	rich_text_label.connect("meta_clicked", Callable(self, "_on_meta_clicked"))
+	call_transcript.connect("meta_clicked", Callable(self, "_on_meta_clicked"))
 
 
 func _on_meta_clicked(meta):
