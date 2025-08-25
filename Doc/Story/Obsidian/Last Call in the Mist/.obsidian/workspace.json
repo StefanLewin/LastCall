@@ -18,7 +18,7 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Noras Mutter; Anruf zur Oma"
+              "title": "John Smith; Essenbestellung"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sorgentelefon"
+              "title": "Backlinks for Sorgentelefon; Katzenlady"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sorgentelefon"
+              "title": "Outgoing links from Sorgentelefon; Katzenlady"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Story/Sorgentelefon/Sorgentelefon.md",
+                "file": "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorgentelefon"
+              "title": "Outline of Sorgentelefon; Katzenlady"
             }
           }
         ]
@@ -181,31 +181,40 @@
     "Story/Calls/Noras Mutter",
     "Story/Calls/John Smith/John Smith; Essenbestellung.md",
     "Story/Calls/John Smith/1-2 John Smith; Tatort Polizeianruf.md",
-    "Story/Calls/John Smith",
+    "Story/Calls/Beste Freundin.md",
     "Story/Calls/James Miller/James Miller; Anruf bei der Autopsie.md",
-    "Charakter/Kim Brick.md",
-    "Charakter/Elvera Hellner.md",
-    "Charakter/Anita Zelmer.md",
-    "Story/Calls/Sorgentelefon/Hinweise.md",
-    "Story/Calls/Sorgentelefon/Sorgentelefon Dialog.md",
-    "Story/Sorgentelefon/Sorgentelefon; Katzenlady.md",
-    "Story/Sorgentelefon",
+    "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
+    "Story/Calls/Untitled 1.md",
+    "Story/Calls/Untitled.md",
+    "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
+    "Story/Calls/John Smith/John Smith; Essenbestellung.md",
+    "Story/Calls/Sorgentelefon/Sorgentelefon.md",
     "Story/Grundlegende Story/Grundlegende Story.md",
-    "Story/Calls/James Miller/1-2 James Miller; Tatort Polizeianruf.md",
-    "Story/Calls",
-    "Story/Grundlegende Story",
-    "Story/Calls/Sorgentelefon",
-    "Story/Nora Hickens",
+    "Charakter/Kim Brick.md",
+    "Charakter/Anita Zelmer.md",
+    "Story/Calls/John Smith",
+    "Charakter/Elvera Hellner.md",
+    "Charakter/Lara Hickens.md",
+    "Story/Calls/Noras Mutter",
+    "Charakter/James Miller.md",
+    "Story/James Miller/1-2 James Miller; Tatort Polizeianruf.md",
+    "Story/Sorgentelefon/Sorgentelefon.md",
+    "Story/Calls/Sorgentelefon 1",
+    "Story/Calls/Nora Hickens",
     "Story/Akt 1/Untitled.md",
     "Story/Calls/James Miller",
     "Charakter/John Smith.md",
     "Story/1-2 Pizzaria anruf.md",
     "Ort/Brücke im Wald.md",
     "Ort",
-    "Charakter/James Miller.md",
     "Story/Akt 1",
+    "Story",
     "Charakter/Nora Hickens.md",
     "Untitled.md",
-    "Notizen/Ideen/Startidee von Jonathan.md"
+    "Notizen/Ideen/Startidee von Jonathan.md",
+    "Notizen/Ideen/Prolog Idee von Jonathan.md",
+    "Charakter",
+    "Notizen",
+    "Welcome.md"
   ]
 }
