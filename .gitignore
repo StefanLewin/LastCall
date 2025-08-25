@@ -17,4 +17,4 @@ mono_crash.*.json
 
 
 # yWriter ingores
-.lock
+*.lock
