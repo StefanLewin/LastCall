@@ -1,4 +1,8 @@
-Erste Aufnahme – Nora Stimme, Telefonseelsorger 
+---
+tags:
+  - Story
+---
+Erste Aufnahme – [[Nora Hickens]] Stimme, Telefonseelsorger 
 
 [Telefonseelsorger]: Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich? 
 
