@@ -74,7 +74,7 @@ texture = ExtResource("7_o6xl0")
 [node name="Pause" parent="." instance=ExtResource("8_tipki")]
 visible = false
 
-[node name="Transcript" parent="." instance=ExtResource("10_ya4ey")]
+[node name="Transcript" parent="." groups=["Transcript"] instance=ExtResource("10_ya4ey")]
 offset_left = 674.0
 offset_top = 397.0
 offset_right = 1074.0
