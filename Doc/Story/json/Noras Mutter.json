@@ -1,14 +1,19 @@
 {
 	"character": {
 	  "id": 2,
-	  "name": "Noras Mutter",
+	  "name": "Lara Hickens",
 	  "phoneCalls": [
 		{
 		  "callId": 201,
 		  "from": "Oma",
 		  "time": "2025-08-24T15:30:00Z",
 		  "transcript": [
-			
+			"Ich muss dir was sagen.",
+			"Nora hat sich das Leben genommen.",
+			"Was das kann ich nicht glauben. Warum hat sie es gemacht sie hat doch immer so Glücklich gewirkt.",
+			"Der Polizist [url=James Miller]James Miller[/url] hat es uns gesagt das sie gestoben ist. Er hat uns auch ein Paar fragen gestellt. Sie wollten was über Ihre Freundin [url=Kim Brick]Kim Brick[/url].",
+			"Wie unverschämt direkt was zu Fragen nachdem man so eine Schlechte Nachricht bekommen haben. Ich werde so schnell wie es geht zu euch fahren.", 
+			"Dann sehenen wir uns."
 			]
 		},
 		{
