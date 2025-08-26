@@ -77,6 +77,7 @@ func next_line():
 func finish():
 	label_call.clear()
 	full_call = ""
+	index = 0
 	in_progress = false
 
 func display_call():
