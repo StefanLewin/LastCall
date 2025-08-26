@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://co6ga8o57gbpp"]
 
 [ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="1_80nbo"]
-[ext_resource type="Script" uid="uid://05i7xii1pmlj" path="res://scripts/game_manager.gd" id="1_lnu2h"]
+[ext_resource type="Script" uid="uid://05i7xii1pmlj" path="res://manager/game_manager.gd" id="1_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="2_yqjtg"]
 
 [node name="Game" type="Node2D"]
@@ -20,6 +20,7 @@ offset_right = -194.0
 offset_bottom = 996.0
 
 [node name="Notepad" parent="." instance=ExtResource("2_yqjtg")]
+unique_name_in_owner = true
 offset_left = 184.0
 offset_top = -1019.0
 offset_right = 1684.0

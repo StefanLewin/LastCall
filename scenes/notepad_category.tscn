@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5qhs4bpw1u0t"]
+
+[ext_resource type="Script" uid="uid://1qu2dskseq60" path="res://scripts/notepad_category.gd" id="1_m0ftf"]
+
+[node name="Category" type="VBoxContainer"]
+custom_minimum_size = Vector2(1000, 0)
+mouse_filter = 2
+script = ExtResource("1_m0ftf")
+
+[node name="Title" type="RichTextLabel" parent="."]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 60
+text = "Kategorie
+"
+fit_content = true
+
+[node name="Items" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 30
