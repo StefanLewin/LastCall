@@ -23,6 +23,7 @@ func _on_panel_gui_input(event: InputEvent) -> void:
 		print("selecting: " + str(entryInfo.ID))
 		match entryInfo.ID:
 			102:
-				DialogManager._on_display_call("Lara Hittgens","phoneCalls", 0)
+				Transcript.get_child(0).finish()
+				Transcript.get_child(0)._on_display_call("Lara Hickens","phoneCalls", 0)
 func deselectItem():
 	_is_selected = false;

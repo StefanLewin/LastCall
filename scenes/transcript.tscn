@@ -14,7 +14,6 @@ script = ExtResource("1_yaytj")
 
 [node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_caller_name", "label_called_name", "label_time")]
 script = ExtResource("2_yaytj")
-calls_text_file = "res://Doc/Story/json/Dialogs.json"
 label_caller_name = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/CallerValue")
 label_called_name = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/CalledValue")
 label_time = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/TimeValue")
@@ -97,3 +96,4 @@ theme_override_font_sizes/normal_font_size = 20
 bbcode_enabled = true
 text = "Click [url=this part]this part[/url] to trigger something.
 "
+scroll_following = true
