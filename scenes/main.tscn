@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dlav4dnhlxjwh"]
+[gd_scene load_steps=10 format=3 uid="uid://dlav4dnhlxjwh"]
 
 [ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://cos4nyfxpuh0o" path="res://assets/graphics/full_resolution/desk.png" id="2_tbgi4"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dwnvyq7rg7j5l" path="res://assets/graphics/full_resolution/phone_highlight.png" id="6_tefeu"]
 [ext_resource type="Texture2D" uid="uid://boqjbr5ai6b7t" path="res://assets/graphics/full_resolution/Mug_Highlight.png" id="7_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://cb04t4ifjb3pa" path="res://scenes/pause.tscn" id="8_tipki"]
+[ext_resource type="Script" uid="uid://drprf1ww1026r" path="res://manager/dialog_manager.gd" id="9_85g3d"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_tbgi4")
@@ -70,6 +71,18 @@ texture = ExtResource("7_o6xl0")
 
 [node name="Pause" parent="." instance=ExtResource("8_tipki")]
 visible = false
+
+[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call")]
+script = ExtResource("9_85g3d")
+calls_text_file = "res://Doc/Story/json/Brian Hopkins.json"
+label_call = NodePath("../RichTextLabel")
+metadata/_custom_type_script = "uid://drprf1ww1026r"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 534.0
+offset_top = 272.0
+offset_right = 986.0
+offset_bottom = 636.0
 
 [connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
 [connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]

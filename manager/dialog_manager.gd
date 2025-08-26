@@ -2,7 +2,7 @@ class_name DialogManagerComponent
 extends Node
 
 @export_file("*json") var calls_text_file: String
-@export var calls_dict := {}
+var calls_dict := {}
 var call_text
 var caller_text
 var called_text
@@ -19,8 +19,8 @@ var typing := false
 
 
 func _ready() -> void:
-	#calls_dict = load_call_text()
-	#_on_display_call("character", "phoneCalls", 0)
+	calls_dict = load_call_text()
+	_on_display_call("character", "phoneCalls", 0)
 	pass
 func _process(delta: float) -> void:
 	if !typing:
@@ -52,6 +52,7 @@ func _on_display_call(character_key, phonecalls_key, index_key):
 		display_caller_name()
 		display_call_time()
 
+#Loads the json file
 func load_call_text():
 	if FileAccess.file_exists(calls_text_file):
 		var file = FileAccess.open(calls_text_file, FileAccess.READ)
