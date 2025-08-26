@@ -2,24 +2,34 @@
 	"characters": [
 		{
 			"id": 101,
-			"name": "Stefan",
-			"relation": "0"
+			"name": "Sorgentelefon",
+			"relation": "3"
 		},
 				{
 			"id": 102,
-			"name": "Tom",
-			"relation": "0"
+			"name": "Lara Hittgens",
+			"relation": "1"
 		},
 				{
 			"id": 103,
-			"name": "Nadja",
+			"name": "Kim Brick",
 			"relation": "0"
 		},
 		{
 			"id": 104,
-			"name": "Maria",
-			"relation": "1"
+			"name": "James Miller",
+			"relation": "2"
 		},
+		{
+			"id": 105,
+			"name": "Brian Hopkins",
+			"relation": "0"
+		},
+		{
+			"id": 106,
+			"name": "Neil Hopkins",
+			"relation": "3"
+		}
 	],
 	"weapons": [
 		{
@@ -28,27 +38,43 @@
 		},
 		{
 			"id": 202,
-			"name": "Pistole"
+			"name": "physische Gewalt"
+		},
+		{
+			"id": 203,
+			"name": "keine fremde Einwirkung"
 		}
 	],
 	"motives": [
 		{
 			"id": 301,
-			"name": "Eifersucht"
+			"name": "Familienehre"
 		},
 		{
 			"id": 302,
-			"name": "Geld"
+			"name": "Gekrankte Mannlichkeit"
+		},
+		{
+			"id": 303,
+			"name": "Eifersucht der Freundin"
+		},
+		{
+			"id": 304,
+			"name": "Selbstmord"
 		}
 	],
 	"places": [
 		{
 			"id": 401,
-			"name": "Park"
+			"name": "Waldbrucke im Bay-Distrikt"
 		},
 		{
 			"id": 402,
-			"name": "Vorstadt"
+			"name": "Stadtische Autopsie"
+		},
+		{
+			"id": 403,
+			"name": "Hopkins Anwesen"
 		}
 	]
 }

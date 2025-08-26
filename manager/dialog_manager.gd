@@ -20,7 +20,7 @@ var typing := false
 
 func _ready() -> void:
 	calls_dict = load_call_text()
-	_on_display_call("character", "phoneCalls", 0)
+	_on_display_call("Sorgentelefon", "phoneCalls", 0)
 	pass
 func _process(delta: float) -> void:
 	if !typing:
@@ -81,7 +81,7 @@ func display_call():
 		var tween = get_tree().create_tween()
 		full_call += call_text[index]
 		label_call.visible_characters = full_call.length() - call_text[index].length()
-		text_display_time = 0.1 * (full_call.length() - (full_call.length() - call_text[index].length()))
+		text_display_time = 0.05 * (full_call.length() - (full_call.length() - call_text[index].length()))
 		label_call.text = full_call
 		tween.tween_property(label_call, "visible_characters", full_call.length(), text_display_time)
 		await tween.finished
