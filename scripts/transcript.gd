@@ -11,6 +11,8 @@ func _ready():
 
 func _on_meta_clicked(meta):
 	print("You clicked the link: " + meta + "!")
+	AudioManager.get_child(0).stream = preload("res://assets/sounds/info_notif.wav")
+	AudioManager.get_child(0).play()
 	GameManager.setText(meta)
 	
 	# Remove any existing popup first

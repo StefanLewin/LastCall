@@ -1,9 +1,10 @@
 extends Node2D
 
 func _ready() -> void:
-	#AudioManager.get_child(0) = preload("res://assets/sounds/phone_ring.ogg")
-	#AudioManager.play()
+	AudioManager.get_child(0).stream = preload("res://assets/sounds/phone_ring.ogg")
+	AudioManager.get_child(0).fade_in()
 	pass
+
 func _on_area_paper_mouse_entered() -> void:
 	$PaperHighlights.visible = true
 
@@ -21,3 +22,23 @@ func _on_area_archive_mouse_entered() -> void:
 
 func _on_area_archive_mouse_exited() -> void:
 	$ArchiveHighlights.visible =  false
+
+func _on_area_phone_mouse_entered() -> void:
+	$PhoneHighlights.visible = true
+
+func _on_area_phone_mouse_exited() -> void:
+	$PhoneHighlights.visible = false
+
+func _on_area_phone_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+	if InputEventMouseButton and event.is_pressed():
+		AudioManager.get_child(0).playing = false
+
+func _on_area_mug_mouse_entered() -> void:
+	$MugHighlights.visible = true
+
+func _on_area_mug_mouse_exited() -> void:
+	$MugHighlights.visible = false
+
+func _on_area_mug_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+	if InputEventMouseButton and event.is_pressed():
+		$Pause.show()
