@@ -9,20 +9,20 @@
 					"from": "Nora Hickens",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Telefonseelsorger: Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich? ",
-						"Nora: Nora. Ich… ich weiß nicht, wie lange ich sprechen darf.",
-						"Telefonseelsorger: Sie dürfen so lange reden, wie Sie möchten. Was bedrückt Sie?",
-						"Nora: Es fühlt sich an, als… als wäre alles schon entschieden. Jemand hat die Worte für mich aufgeschrieben. Ich soll sie einfach nur hinterlassen. Aber sie… sie gehören nicht mir.",
-						"Telefonseelsorger: Sie meinen… einen Brief?",
-						"Nora: Ja. Er liegt zu Hause, auf meinem Schreibtisch. Sehr ordentlich. Zu ordentlich. So rede ich nicht. Wenn jemand ihn liest… er wird denken, es war meine Entscheidung.",
-						"Telefonseelsorger: Aber Sie klingen, als wollten Sie das nicht",
-						"Nora: Ich wollte nie gehen. Ich wollte nach Hause… zu meiner [url=101]Mutter[/url]. Stattdessen stehe ich jetzt … … an einem Ort, den ich mir nicht ausgesucht habe.",
-						"Telefonseelsorger: Wo sind Sie, Nora?",
-						"Nora: Ich sehe das Wasser. Und die alten Kräne der Werft, sie sind von hier aus ganz nah. Es ist kalt… und laut.",
-						"Telefonseelsorger: Gibt es jemanden, dem Sie das erzählen könnten damit er Ihnen helfen kann?",
-						"Nora: Wenn… wenn jemand wissen will, was wirklich passiert ist… dann sollte er nicht den Brief lesen. Sondern dort nachsehen, wo Spuren sich nicht so leicht verwischen lassen. In dem Gerät, das wir alle ständig in der Hand haben.",
-						"Telefonseelsorger: Sie meinen Ihr Telefon?",
-						"Nora: Bitte… ich kann nicht lauter. Ich wollte nur, dass jemand zuhört. Damit… damit es nicht aussieht, als hätte ich einfach aufgegeben.",
+						"Telefonseelsorger: Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich?\n",
+						"Nora: Nora. Ich… ich weiß nicht, wie lange ich sprechen darf.\n",
+						"Telefonseelsorger: Sie dürfen so lange reden, wie Sie möchten. Was bedrückt Sie?\n",
+						"Nora: Es fühlt sich an, als… als wäre alles schon entschieden. Jemand hat die Worte für mich aufgeschrieben. Ich soll sie einfach nur hinterlassen. Aber sie… sie gehören nicht mir.\n",
+						"Telefonseelsorger: Sie meinen… einen Brief?\n",
+						"Nora: Ja. Er liegt zu Hause, auf meinem Schreibtisch. Sehr ordentlich. Zu ordentlich. So rede ich nicht. Wenn jemand ihn liest… er wird denken, es war meine Entscheidung.\n",
+						"Telefonseelsorger: Aber Sie klingen, als wollten Sie das nicht.\n",
+						"Nora: Ich wollte nie gehen. Ich wollte nach Hause… zu meiner [url=102]Mutter[/url]. Stattdessen stehe ich jetzt … … an einem Ort, den ich mir nicht ausgesucht habe.",
+						"Telefonseelsorger: Wo sind Sie, Nora?\n",
+						"Nora: Ich sehe das Wasser. Und die alten Kräne der Werft, sie sind von hier aus ganz nah. Es ist kalt… und laut.\n",
+						"Telefonseelsorger: Gibt es jemanden, dem Sie das erzählen könnten damit er Ihnen helfen kann?\n",
+						"Nora: Wenn… wenn jemand wissen will, was wirklich passiert ist… dann sollte er nicht den Brief lesen. Sondern dort nachsehen, wo Spuren sich nicht so leicht verwischen lassen. In dem Gerät, das wir alle ständig in der Hand haben.\n",
+						"Telefonseelsorger: Sie meinen Ihr Telefon?\n",
+						"Nora: Bitte… ich kann nicht lauter. Ich wollte nur, dass jemand zuhört. Damit… damit es nicht aussieht, als hätte ich einfach aufgegeben.\n",
 						"Nora: Ich… ich muss jetzt auflegen."
 					]
 				}
@@ -37,17 +37,17 @@
 					"from": "Clarkson",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Detective Clark: Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?",
-						"Miss Hittgens: Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.",
-						"Detective Clark: Haben Sie sie gefragt, was los sei?",
-						"Miss Hittgens: Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.",
-						"Detective Clark: Gab es jemanden, mit dem sie vertrauter sprach?",
-						"Miss Hittgens: Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?",
-						"Detective Clark: Können Sie sich noch an den genauen Wortlaut erinnern?",
-						"Miss Hittgens: Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.",
-						"Detective Clark: Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?",
-						"Miss Hittgens: Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.",
-						"Miss Hittgens: Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt."
+						"Detective Clark: Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?\n",
+						"Miss Hittgens: Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.\n",
+						"Detective Clark: Haben Sie sie gefragt, was los sei?\n",
+						"Miss Hittgens: Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.\n",
+						"Detective Clark: Gab es jemanden, mit dem sie vertrauter sprach?\n",
+						"Miss Hittgens: Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?\n",
+						"Detective Clark: Können Sie sich noch an den genauen Wortlaut erinnern?\n",
+						"Miss Hittgens: Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.\n",
+						"Detective Clark: Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?\n",
+						"Miss Hittgens: Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.\n",
+						"Miss Hittgens: Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt.\n"
 					]
 				}
 			]
@@ -61,18 +61,18 @@
 					"from": "Clarkson",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Detective Clark: Danke, dass Sie sich die Zeit nehmen. Können Sie mir etwas mehr erzählen über die Tage vor Noras… Tod?",
-						"Kim Bricks: Sie war… anders. Still, sehr still. Und ständig am Handy. Sie wirkte oft abwesend, als würde sie… auf etwas warten. Ich habe sie gefragt, was los sei - aber sie hat mir keine Antwort gegeben.",
-						"Detective Clark: Hat sie Ihnen denn gar nichts anvertraut? Oder gab es vielleicht andere Personen in ihrem Umfeld, mit denen sie darüber gesprochen haben könnte?",
-						"Kim Bricks: Sie… hat manchmal gesagt, dass sie sich beobachtet fühlt. Wortwörtlich: „Die Augen hören nicht auf, mich anzusehen.“ Ich habe sie ausgelacht - naja, vielleicht nicht ausgelacht, aber ich habe gesagt, dass sie sich das nur einbildet. Sie… war da schon sehr empfindlich.",
-						"Detective Clark: Ihre Mutter erwähnte, dass Nora Angst hatte - nicht nur um sich, sondern auch um Sie. Erkennen Sie sich darin wieder?",
-						"Kim Bricks: Nein… also… vielleicht. Sie sagte einmal: „Wenn mir nichts passiert, dann vielleicht dir.“ - Ich habe das nicht ernst genommen. Ich meine, wer sollte mir schon etwas tun? Aber… Nora konnte in den letzten Wochen ziemlich… dramatisch sein.",
-						"Detective Clark: Dramatisch?",
-						"Kim Bricks: Sie hat über einen Brief gesprochen, der auf ihrem Schreibtisch lag, „der nicht von ihr sei“. Ich habe sie gefragt, was das bedeutet, aber sie wollte es mir nicht zeigen. Vielleicht war da gar nichts. Vielleicht wollte sie nur Aufmerksamkeit.",
-						"Detective Clark: Sind Sie sicher, dass es nur das war?",
-						"Kim Bricks: Ich weiß nicht, Detective. Vielleicht hat sie auch einfach… Dinge gesehen, die nicht da waren. Ich wollte helfen. Wirklich. Aber sie hat mir nicht vertraut.",
-						"Detective Clark: Gab es sonst jemanden, mit dem Nora in letzter Zeit Schwierigkeiten hatte?",
-						"Kim Bricks: Ihren Exfreund. Brian Hopkins. Sie hat seinen Namen ein paar Mal erwähnt, aber nie direkt gesagt, was los war. Nur, dass sie Angst hatte, er würde nicht loslassen. Ob sie ihn noch getroffen hat, weiß ich nicht. Aber… wenn Sie Antworten suchen, sollten Sie mit ihm reden."
+						"Detective Clark: Danke, dass Sie sich die Zeit nehmen. Können Sie mir etwas mehr erzählen über die Tage vor Noras… Tod?\n",
+						"Kim Bricks: Sie war… anders. Still, sehr still. Und ständig am Handy. Sie wirkte oft abwesend, als würde sie… auf etwas warten. Ich habe sie gefragt, was los sei - aber sie hat mir keine Antwort gegeben.\n",
+						"Detective Clark: Hat sie Ihnen denn gar nichts anvertraut? Oder gab es vielleicht andere Personen in ihrem Umfeld, mit denen sie darüber gesprochen haben könnte?\n",
+						"Kim Bricks: Sie… hat manchmal gesagt, dass sie sich beobachtet fühlt. Wortwörtlich: „Die Augen hören nicht auf, mich anzusehen.“ Ich habe sie ausgelacht - naja, vielleicht nicht ausgelacht, aber ich habe gesagt, dass sie sich das nur einbildet. Sie… war da schon sehr empfindlich.\n",
+						"Detective Clark: Ihre Mutter erwähnte, dass Nora Angst hatte - nicht nur um sich, sondern auch um Sie. Erkennen Sie sich darin wieder?\n",
+						"Kim Bricks: Nein… also… vielleicht. Sie sagte einmal: „Wenn mir nichts passiert, dann vielleicht dir.“ - Ich habe das nicht ernst genommen. Ich meine, wer sollte mir schon etwas tun? Aber… Nora konnte in den letzten Wochen ziemlich… dramatisch sein.\n",
+						"Detective Clark: Dramatisch?\n",
+						"Kim Bricks: Sie hat über einen Brief gesprochen, der auf ihrem Schreibtisch lag, „der nicht von ihr sei“. Ich habe sie gefragt, was das bedeutet, aber sie wollte es mir nicht zeigen. Vielleicht war da gar nichts. Vielleicht wollte sie nur Aufmerksamkeit.\n",
+						"Detective Clark: Sind Sie sicher, dass es nur das war?\n",
+						"Kim Bricks: Ich weiß nicht, Detective. Vielleicht hat sie auch einfach… Dinge gesehen, die nicht da waren. Ich wollte helfen. Wirklich. Aber sie hat mir nicht vertraut.\n",
+						"Detective Clark: Gab es sonst jemanden, mit dem Nora in letzter Zeit Schwierigkeiten hatte?\n",
+						"Kim Bricks: Ihren Exfreund. Brian Hopkins. Sie hat seinen Namen ein paar Mal erwähnt, aber nie direkt gesagt, was los war. Nur, dass sie Angst hatte, er würde nicht loslassen. Ob sie ihn noch getroffen hat, weiß ich nicht. Aber… wenn Sie Antworten suchen, sollten Sie mit ihm reden.\n"
 					]
 				},
 				{
@@ -80,17 +80,17 @@
 					"from": "Clarkson",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Detective Clark: Danke, dass Sie erneut Zeit für uns haben, Kim. Ich möchte noch einmal über die Nacht von Noras Tod sprechen. Können Sie mir sagen, wo Sie zur Tatzeit gewesen sind?",
-						"Kim Bricks: Ich war zu Hause. Ich habe den ganzen Abend dort verbracht, Serien geschaut, Nachrichten gecheckt… allein. Niemand kann mir das widerlegen, aber mein Handy zeigt es. Ich habe keine Ahnung, was mit Nora passiert ist, als sie unter der Brücke war.",
-						"Detective Clark: Gab es irgendeine Begegnung oder etwas Auffälliges an diesem Tag?",
-						"Kim Bricks: Nein, ehrlich nicht. Ich habe mich nicht mit ihr getroffen. Ich habe sie nur ein paar Stunden vorher kurz angerufen, aber sie hat nicht abgenommen.",
-						"Detective Clark: Haben Sie jemals bemerkt, dass [url=106]Neil Hopkins[/url] besonders auf Noras Verhalten reagiert hat?",
-						"Kim Bricks: Ja. Er ist extrem auf die [url=301]„Familienehre“[/url] bedacht, wie er es nennt. Ich meine… wirklich extrem. Er hat immer betont, wie wichtig es ist, dass alles in der [url=301]Familie „sauber“[/url] aussieht. Ich habe nie verstanden, warum [url=106]er[/url] sich so auf Nora fixiert hat.",
-						"Detective Clark: Hat er Ihnen gegenüber jemals Andeutungen gemacht, wie er wollte, dass Nora sich verhält?",
-						"Kim Bricks: Ja, er hat öfter kommentiert, dass sie „sich zusammenreißen“ soll oder „die Dinge richtig stellen“ müsse, weil sonst alles schlecht für die Familie aussieht. Ich dachte damals, er übertreibt… aber vielleicht war es mehr, als nur Kontrolle.",
-						"Detective Clark: Gab es sonst jemanden, der Druck auf Nora ausgeübt hat?",
-						"Kim Bricks: Brian, ja… er war ihr [url=105]Ex[/url]. Aber [url=106]Neil…[/url] er war immer da, hat jede ihrer Entscheidungen irgendwie bewertet. Ich habe sie nie so gesehen, als hätte sie sich freiwillig bedroht gefühlt - außer vielleicht durch seinen ständigen Druck.",
-						"Detective Clark: Danke, Kim. Ihre Angaben helfen uns, die Umstände besser zu verstehen"
+						"Detective Clark: Danke, dass Sie erneut Zeit für uns haben, Kim. Ich möchte noch einmal über die Nacht von Noras Tod sprechen. Können Sie mir sagen, wo Sie zur Tatzeit gewesen sind?\n",
+						"Kim Bricks: Ich war zu Hause. Ich habe den ganzen Abend dort verbracht, Serien geschaut, Nachrichten gecheckt… allein. Niemand kann mir das widerlegen, aber mein Handy zeigt es. Ich habe keine Ahnung, was mit Nora passiert ist, als sie unter der Brücke war.\n",
+						"Detective Clark: Gab es irgendeine Begegnung oder etwas Auffälliges an diesem Tag?\n",
+						"Kim Bricks: Nein, ehrlich nicht. Ich habe mich nicht mit ihr getroffen. Ich habe sie nur ein paar Stunden vorher kurz angerufen, aber sie hat nicht abgenommen.\n",
+						"Detective Clark: Haben Sie jemals bemerkt, dass [url=106]Neil Hopkins[/url] besonders auf Noras Verhalten reagiert hat?\n",
+						"Kim Bricks: Ja. Er ist extrem auf die [url=301]„Familienehre“[/url] bedacht, wie er es nennt. Ich meine… wirklich extrem. Er hat immer betont, wie wichtig es ist, dass alles in der [url=301]Familie „sauber“[/url] aussieht. Ich habe nie verstanden, warum [url=106]er[/url] sich so auf Nora fixiert hat.\n",
+						"Detective Clark: Hat er Ihnen gegenüber jemals Andeutungen gemacht, wie er wollte, dass Nora sich verhält?\n",
+						"Kim Bricks: Ja, er hat öfter kommentiert, dass sie „sich zusammenreißen“ soll oder „die Dinge richtig stellen“ müsse, weil sonst alles schlecht für die Familie aussieht. Ich dachte damals, er übertreibt… aber vielleicht war es mehr, als nur Kontrolle.\n",
+						"Detective Clark: Gab es sonst jemanden, der Druck auf Nora ausgeübt hat?\n",
+						"Kim Bricks: Brian, ja… er war ihr [url=105]Ex[/url]. Aber [url=106]Neil…[/url] er war immer da, hat jede ihrer Entscheidungen irgendwie bewertet. Ich habe sie nie so gesehen, als hätte sie sich freiwillig bedroht gefühlt - außer vielleicht durch seinen ständigen Druck.\n",
+						"Detective Clark: Danke, Kim. Ihre Angaben helfen uns, die Umstände besser zu verstehen.\n"
 					]
 				}
 			]
@@ -104,30 +104,30 @@
 					"from": "Clarkson",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"James Miller: Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der [url=401]Brücke im Wald[/url]. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert - ich werde später mit Frau Zelmer Rücksprache halten.",
-						"Clarkson: Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?",
-						"James Miller: Ja, ein [url=201]Messer[/url] - etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben.",
-						"Clarkson: Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch.",
-						"James Miller: Verstanden. Ich warte hier auf Sie."
+						"James Miller: Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der [url=401]Brücke im Wald[/url]. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert - ich werde später mit Frau Zelmer Rücksprache halten.\n",
+						"Clarkson: Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?\n",
+						"James Miller: Ja, ein [url=201]Messer[/url] - etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben.\n",
+						"Clarkson: Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch.\n",
+						"James Miller: Verstanden. Ich warte hier auf Sie.\n"
 					]
 				},
 				{
-					"callId": 402,
-					"from": "Anita Zelmer",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"James Miller: Kommissar Miller hier. Ich wollte mich über die Autopsie von Nora Hickens erkundigen.",
-						"Anita Zelmer: Schön, dass Sie gerade anrufen. Ich wollte gerade mit ihr anfangen.",
-						"James Miller: Soll ich sie lieber später zurückrufen?",
-						"Anita Zelmer: Nicht nötig, ich habe sowieso ein Headset für die Berichte.",
-						"James Miller: Gut",
-						"Anita Zelmer: Ich starte jetzt die Aufnahme für den Bericht. (Piep) Hier ist Dr. Anita Ziegler, die leitende Pathologin der städtischen Autopsie. Die Autopsie wird bei Nora Hickens durchgeführt. Sie ist 23 Jahre alt, wurde unter der Waldbrücke im Flussbett im Bay-Distrikt um 10 Uhr gefunden. Nach grober äußerlicher Sichtung kann man erkennen, dass durch die noch anhaltende Totenstarre es immer noch innerhalb der 24 bis 48 Stunden gestorben sein müsste. Aber durch die Totenflecken kann man bestimmen, dass die Leiche mindestens 8 bis 12 Stunden tot gewesen war. An den Fingerkuppen und Ohrläppchen kann man schon ein paar Spuren von kleineren Weißfischen erkennen, die sie schon angefangen haben, sie zu verzerren. Am Rücken, auf dem halben Weg zur Brust, kann man am ganzen Körper Schnitte von wahrscheinlichen Scheren von Flusskrebsen erkennen, was man auch an der Kleidung zu erkennen war.",
-						"James Miller: Das hört sich sehr unangenehm an.",
-						"Anita Zelmer: Am ganzen Körper sind starke Prellungen zu erkennen, die wahrscheinlich durch einen möglichen Sturz kommen könnten. Am Kopf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlarven eingenistet haben. Es sieht nach einem Ja aus, es ist ein Schädelbruch. Sehr wahrscheinlich ist sie an diesem Blutverlust gestorben. Aufnahme beenden. (Piep) Hat es dir weitergeholfen?",
-						"James Miller: Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein [url=203]Selbstmord[/url], wenn man den Abschiedsbrief beachtet.",
-						"Anita Zelmer: Kann sein. Aber für Mutmaßungen bin ich nicht zuständig! Es könnte auch so gut wie ein [url=203]Selbstmord[/url] sein, auch dass jemand mit [url=202]psychischer Kraft[/url] sie von der Brücke geschubst hat.",
-						"James Miller: Danke für die Zeit. Und noch einen schönen Tag.",
-						"Anita Zelmer: Danke dir auch."
+				"callId": 402,
+				"from": "Anita Zelmer",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"James Miller: Kommissar Miller hier. Ich wollte mich über die Autopsie von Nora Hickens erkundigen.\n",
+					"Anita Zelmer: Schön, dass Sie gerade anrufen. Ich wollte gerade mit ihr anfangen.\n",
+					"James Miller: Soll ich sie lieber später zurückrufen?\n",
+					"Anita Zelmer: Nicht nötig, ich habe sowieso ein Headset für die Berichte.\n",
+					"James Miller: Gut\n",
+					"Anita Zelmer: Ich starte jetzt die Aufnahme für den Bericht. (Piep) Hier ist Dr. Anita Zelmler, die leitende Pathologin der städtischen Autopsie. Die Autopsie wird bei Nora Hickens durchgeführt. Sie ist 23 Jahre alt und wurde um 10 Uhr unter der [url=401]Waldbrücke im Flussbett im Bay-Distrikt[/url] gefunden. Nach grober äußerlicher Sichtung kann man erkennen, dass die Obduzierte durch die noch anhaltende Totenstarre noch innerhalb der letzten 24 bis 48 Stunden gestorben sein müsste. Durch die Totenflecken kann man das ganze auf 8 bis 10 Stunden eingrenzen. An Fingerkuppen und Ohrläppchen erkennt man bereits Verwesung.\n",
+					"James Miller: Das hört sich sehr unangenehm an.\n",
+					"Anita Zelmer: Am ganzen Körper sind starke Prellungen zu erkennen, die wahrscheinlich von einem Sturz kommen könnten. Am Kopf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlarven eingenistet haben. Es sieht nach einem... Ja. es ist ein Schädelbruch. Hohe Wahrscheinlichkeit, dass sie an diesem Blutverlust gestorben ist. Aufnahme beenden. (Piep) Hat es dir weitergeholfen?\n",
+					"James Miller: Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein [url=203]Selbstmord[/url], wenn man den Abschiedsbrief beachtet.\n",
+					"Anita Zelmer: Kann sein. Aber für Mutmaßungen bin ich nicht zuständig. Es war zumindest [url=202]physische Kraft[/url] sim Spiel, die den starken Aufprall unterstützt hat.\n",
+					"James Miller: Danke für die Zeit. Und noch einen schönen Tag.\n",
+					"Anita Zelmer: Danke, gleichfalls."
 					]
 				}
 			]
@@ -141,15 +141,15 @@
 					"from": "Sarah",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Detective Clark: Danke, dass Sie sich die Zeit nehmen, Brian. Können Sie mir sagen, wann Sie das letzte Mal Kontakt zu Nora hatten?",
-						"Brian Hopkins: Es war ein paar Wochen her. Wir haben telefoniert, das war alles. [url=302]Ich habe Abstand gehalten[/url], weil… nun ja, weil sie sich verändert hat.",
-						"Detective Clark: Inwiefern?",
-						"Brian Hopkins: Sie wurde immer stiller, zurückgezogener. Manchmal wirkte sie… überängstlich. Sie hat ständig über Dinge gesprochen, die ich nie wirklich nachvollziehen konnte. Über Briefe, Nachrichten… sie meinte immer, jemand würde sie beobachten. Ich habe versucht, sie zu beruhigen, aber sie hat alles überdramatisiert.",
-						"Detective Clark: Gab es zwischen Ihnen Streit?",
-						"Brian Hopkins:  Natürlich, wir hatten unsere Probleme. Aber ich habe nie wirklich etwas falsch gemacht. Nora war… kompliziert, ich weiß nicht, wie ich es anders sagen soll. Sie hat oft Dinge angestellt, die ich nicht verstand.",
-						"Detective Clark: Gab es sonst jemanden, der Einfluss auf sie hatte?",
-						"Brian Hopkins: Neil… mein [url=106]Bruder[/url]. Sie hat ihn ab und zu erwähnt. Ich weiß nicht genau, warum sie so reagierte, aber sie wirkte nervös, wenn sein Name fiel. Vielleicht hat sie sich Dinge eingebildet - das kann ich nicht sagen.",
-						"Detective Clark: Also glauben Sie, dass jemand Druck auf sie ausgeübt haben könnte?",
+						"Detective Clark: Danke, dass Sie sich die Zeit nehmen, Brian. Können Sie mir sagen, wann Sie das letzte Mal Kontakt zu Nora hatten?\n",
+						"Brian Hopkins: Es war ein paar Wochen her. Wir haben telefoniert, das war alles. [url=302]Ich habe Abstand gehalten[/url], weil… nun ja, weil sie sich verändert hat.\n",
+						"Detective Clark: Inwiefern?\n",
+						"Brian Hopkins: Sie wurde immer stiller, zurückgezogener. Manchmal wirkte sie… überängstlich. Sie hat ständig über Dinge gesprochen, die ich nie wirklich nachvollziehen konnte. Über Briefe, Nachrichten… sie meinte immer, jemand würde sie beobachten. Ich habe versucht, sie zu beruhigen, aber sie hat alles überdramatisiert.\n",
+						"Detective Clark: Gab es zwischen Ihnen Streit?\n",
+						"Brian Hopkins:  Natürlich, wir hatten unsere Probleme. Aber ich habe nie wirklich etwas falsch gemacht. Nora war… kompliziert, ich weiß nicht, wie ich es anders sagen soll. Sie hat oft Dinge angestellt, die ich nicht verstand.\n",
+						"Detective Clark: Gab es sonst jemanden, der Einfluss auf sie hatte?\n",
+						"Brian Hopkins: Neil… mein [url=106]Bruder[/url]. Sie hat ihn ab und zu erwähnt. Ich weiß nicht genau, warum sie so reagierte, aber sie wirkte nervös, wenn sein Name fiel. Vielleicht hat sie sich Dinge eingebildet - das kann ich nicht sagen.\n",
+						"Detective Clark: Also glauben Sie, dass jemand Druck auf sie ausgeübt haben könnte?\n",
 						"Brian Hopkins: Ich weiß nicht. Sie hat selbst oft alles dramatisiert. Ich meine… wer weiß schon, was in ihrem Kopf vorging. Wenn Sie Antworten suchen, sollten Sie vielleicht trotzdem mit [url=106]Neil Hopkins[/url] sprechen."
 					]
 				}
@@ -164,16 +164,16 @@
 					"from": "Clarkson",
 					"time": "2025-08-24T15:30:00Z",
 					"transcript": [
-						"Detective Clark: Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?",
-						"Neil Hopkins: Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen.",
-						"Detective Clark: Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?",
-						"Neil Hopkins: Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional.",
-						"Detective Clark: Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?",
-						"Neil Hopkins: Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist.",
-						"Detective Clark: Wie war Ihr Verhältnis zu Nora?",
-						"Neil Hopkins: Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld.",
-						"Detective Clark:** Was könnte das Umfeld damit zu tun haben?",
-						"Neil Hopkins: Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht."
+						"Detective Clark: Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?\n",
+						"Neil Hopkins: Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen.\n",
+						"Detective Clark: Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?\n",
+						"Neil Hopkins: Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional.\n",
+						"Detective Clark: Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?\n",
+						"Neil Hopkins: Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist.\n",
+						"Detective Clark: Wie war Ihr Verhältnis zu Nora?\n",
+						"Neil Hopkins: Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld.\n",
+						"Detective Clark:** Was könnte das Umfeld damit zu tun haben?\n",
+						"Neil Hopkins: Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht.\n"
 					]
 				}
 			]
