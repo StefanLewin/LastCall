@@ -10,7 +10,7 @@ var time_text
 var index: int = 0
 var full_call: String
 var text_display_time
-@export var label_call: RichTextLabel
+@onready var label_call: RichTextLabel = $"../Panel/MarginContainer/VBoxContainer/Call Transcript"
 @export var label_caller_name: RichTextLabel
 @export var label_called_name: RichTextLabel
 @export var label_time: RichTextLabel
@@ -34,7 +34,7 @@ func _on_display_call(character_key, phonecalls_key, index_key):
 	if in_progress:
 		next_line()
 	else:
-		var character: Dictionary
+		var character
 		var phonecalls
 		var index
 		
@@ -59,6 +59,8 @@ func load_call_text():
 		var test_json_conv = JSON.new()
 		test_json_conv.parse(file.get_as_text())
 		return test_json_conv.get_data()
+	else:
+		return {}
 
 func next_line():
 	if call_text != null:

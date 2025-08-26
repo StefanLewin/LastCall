@@ -44,9 +44,10 @@ func addNote(note):
 
 func addPerson(person):
 	for node in persons.get_children():
-		if node.relationship == person.Relation:
-			personNodes.append(node.addItem(person))
-			return
+		if personNodes.has(person) == false:
+			if node.relationship == person.Relation:
+				personNodes.append(node.addItem(person))
+				return
 
 func deselectPersonNodes():
 	for personNode in personNodes:

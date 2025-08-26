@@ -18,7 +18,7 @@ func _on_meta_clicked(meta):
 	# Remove any existing popup first
 	if active_popup:
 		active_popup.queue_free()
-		active_popup = null
+		#active_popup = null
 
 	# Create new popup
 	active_popup = popup_scene.instantiate()
