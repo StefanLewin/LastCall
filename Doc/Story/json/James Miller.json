@@ -1,0 +1,40 @@
+{
+	"character": {
+	  "id": 4,
+	  "name": "James Miller",
+	  "phoneCalls": [
+		{
+			"callId": 401,
+			"from": "Clarkson",
+			"time": "2025-08-24T15:30:00Z",
+			"transcript": [
+				"Detektiv Clarkson. Ich melde mich gerade vom Tatort unter der Brücke im Wald. Wir haben schon den Tatort abgesichert und der Suchtrupp sucht gerade die Umgebung ab. Die Leute von der Autopsie haben schon die Leiche abgeholt, da werde ich auch mal bei Anita Zelmer anrufen.",
+				"Gut, ich werde später bei ihr noch anrufen. Hat der Suchtrupp schon was gefunden?",
+				"Ja, ein Messer am Flussende zum Meer. Aber ich bezweifle leider stark, ob man irgendwelche Fingerabdrücke oder geschweige denn Teilabdrücke finden werden kann.",
+				"Alles klar, dann werden wir uns später wiedersehen. Bis gleich"
+			]
+		},
+		{
+		  "callId": 402,
+		  "from": "Anita Zelmer",
+		  "time": "2025-08-24T15:30:00Z",
+		  "transcript": [
+			"Kommissar Miller hier. Ich wollte mich über die Autopsie von Nora Hickens erkundigen.",
+			"Schön, dass Sie gerade kommen. Ich bin gerade mit ihr fertig geworden. Nach dem Verwesungsprozess müsste sie schon seit 10 Stunden tot sein. Anhand der Prellungen und Brüchen kann man sehen, dass sie rückwärts auf den Rücken aufgekommen ist. Gestorben ist sie aber durch den Blutverlust.",
+			"Also wie bei einem Selbstmord oder?",
+			"Kann sein.",
+			"Danke für die Zeit. Und noch ein schönen Tag."
+			]
+		},
+
+		  {
+			"callId": 403,
+			"from": "?",
+			"time": "2025-08-24T15:30:00Z",
+			"transcript": "Lorem ipsum..."
+		  }
+
+	  ]
+	}
+  }
+  
