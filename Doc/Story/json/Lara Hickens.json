@@ -1,0 +1,27 @@
+{
+	"character": {
+	  "id": 2,
+	  "name": "Lara Hickens",
+	  "phoneCalls": [
+		{
+			"callId": 201,
+			"from": "Clarkson",
+			"time": "2025-08-24T15:30:00Z",
+			"transcript": [
+				"Detective Clark: Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?",
+				"Miss Hittgens: Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.",
+				"Detective Clark: Haben Sie sie gefragt, was los sei?",
+				"Miss Hittgens: Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.",
+				"Detective Clark: Gab es jemanden, mit dem sie vertrauter sprach?",
+				"Miss Hittgens: Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?",
+				"Detective Clark: Können Sie sich noch an den genauen Wortlaut erinnern?",
+				"Miss Hittgens: Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.",
+				"Detective Clark: Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?",
+				"Miss Hittgens: Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.",
+				"Miss Hittgens: Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt."
+			]
+		}
+	  ]
+	}
+  }
+  

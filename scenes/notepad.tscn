@@ -37,9 +37,10 @@ mouse_filter = 2
 theme_override_font_sizes/font_size = 40
 theme_override_styles/panel = SubResource("StyleBoxEmpty_pq6gc")
 tab_alignment = 2
-current_tab = 0
+current_tab = 1
 
-[node name="Personen" type="VBoxContainer" parent="Panel/TabContainer"]
+[node name="Notizen" type="VBoxContainer" parent="Panel/TabContainer"]
+visible = false
 layout_mode = 2
 mouse_filter = 2
 metadata/_tab_index = 0
@@ -66,7 +67,6 @@ relationship = 3
 [node name="Notizen" type="VBoxContainer" parent="Panel/TabContainer"]
 visible = false
 layout_mode = 2
-metadata/_tab_index = 1
 
 [node name="Weapons" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
