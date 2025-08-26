@@ -1,6 +1,6 @@
 extends Control
 
-@onready var call_transcript: RichTextLabel = $"Panel/VBoxContainer/Call Transcript"
+@onready var call_transcript: RichTextLabel = $"Panel/MarginContainer/VBoxContainer/Call Transcript"
 
 const popup_scene = preload("res://scenes/text_block.tscn")
 var active_popup: Node = null

@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dtygpitmw4tm8"]
+[gd_scene load_steps=5 format=3 uid="uid://dtygpitmw4tm8"]
 
 [ext_resource type="Script" uid="uid://bx2sd4v8yilwc" path="res://scripts/notepad.gd" id="1_nkxj1"]
 [ext_resource type="PackedScene" uid="uid://c5brqahg1khus" path="res://scenes/notepad_entry.tscn" id="2_fhm5p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fhm5p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pq6gc"]
 
 [node name="Notepad" type="Control"]
 custom_minimum_size = Vector2(1500, 2000)
@@ -19,6 +23,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_fhm5p")
 
 [node name="TabContainer" type="TabContainer" parent="Panel"]
 layout_mode = 1
@@ -28,6 +33,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 40
+theme_override_styles/panel = SubResource("StyleBoxEmpty_pq6gc")
 tab_alignment = 2
 current_tab = 0
 
@@ -184,3 +190,4 @@ layout_mode = 2
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]
 [connection signal="mouse_entered" from="Panel" to="." method="_on_panel_mouse_entered"]
+[connection signal="mouse_exited" from="Panel" to="." method="_on_panel_mouse_exited"]
