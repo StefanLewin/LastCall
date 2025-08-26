@@ -21,7 +21,7 @@ Anita Zelmer:"Ich starte jetzt die Aufnahme für den Bericht. (Piep) Hier ist Dr
 
 James Miller (erhäblich unangenehm): "Das hört sich sehr unangenehm an."
 
-Anita Zelmer: "Am ganzen Körper sind starke Prellungen zu erkennen, die wahrscheinlich durch einen möglichen Sturz kommen könnten. Am Kopf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlarven eingenistet haben. Es sieht nach einem Ja aus, es ist ein Schädelbruch. Sehr wahrscheinlich ist sie an diesem Blutverlust gestorben. Aufnahme beenden. Hat es dir weitergeholfen?"
+Anita Zelmer: "Am ganzen Körper sind starke Prellungen zu erkennen, die wahrscheinlich durch einen möglichen Sturz kommen könnten. Am Kopf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlarven eingenistet haben. Es sieht nach einem Ja aus, es ist ein Schädelbruch. Sehr wahrscheinlich ist sie an diesem Blutverlust gestorben. Aufnahme beenden. (Piep) Hat es dir weitergeholfen?"
 
 James Miller: "Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein Selbstmord, wenn man den Abschiedsbrief beachtet."
 
