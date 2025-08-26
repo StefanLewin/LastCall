@@ -4,34 +4,21 @@
 	  "name": "Lara Hickens",
 	  "phoneCalls": [
 		{
-		  "callId": 201,
-		  "from": "Oma",
-		  "time": "2025-08-24T15:30:00Z",
-		  "transcript": [
-			"Ich muss dir was sagen.",
-			"Nora hat sich das Leben genommen.",
-			"Was das kann ich nicht glauben. Warum hat sie es gemacht sie hat doch immer so Glücklich gewirkt.",
-			"Der Polizist [url=James Miller]James Miller[/url] hat es uns gesagt das sie gestoben ist. Er hat uns auch ein Paar fragen gestellt. Sie wollten was über Ihre Freundin [url=Kim Brick]Kim Brick[/url].",
-			"Wie unverschämt direkt was zu Fragen nachdem man so eine Schlechte Nachricht bekommen haben. Ich werde so schnell wie es geht zu euch fahren.", 
-			"Dann sehenen wir uns."
-			]
-		},
-		{
-			"callId": 202,
+			"callId": 201,
 			"from": "Clarkson",
 			"time": "2025-08-24T15:30:00Z",
 			"transcript": [
-				"Miss Hittgens können Sie mir sagen ob in den letzten Tagen etwas bei Ihrer Tochter aufgefallen ist?",
-				"Nora hat sich sehr stark zurück gezogen. Sie war oft in ihrem Zimmer aber ich hörte sie manchmal reden. Wenn ich nachsah hat sie hastig das Handy weg gezogen.",
-				"Haben Sie gefragt was los ist?",
-				"Natürlich, aber sie war immer ausweichend. So kannte ich meine Tochter gar nicht.",
-				"Gab es jemanden den sie sich anvertraut hat?",
-				"Ihre beste Freundin, [url=Kim Brick}Kim Bricks[/url], hat sie noch in ihr Zimmer gelassen. Wenn Nora lachte, dann mit ihr - aber auch da wirkte es gezwungen. Einmal habe ich Nora zu Kim sagen hören: \"Du darfst nicht hingehen. Du darfst es niemanden verraten.\" Ich weiß nicht was sie damit sagen wollte.",
-				"Können Sie sich noch an den genauen Wortlaut erinnern?",
-				"Leider nein, aber es klang so als hätte sie wirklich Angst um Kim gehabt.",
-				"Hat Nora Ihnen gegenüber von einen Brief oder Papieren geredet?",
-				"Nur darüber, dass was auf Ihren Schreibtisch liegen würde *das nicht von ihr sei*. Mehr wollte sie nicht sagen.",
-				"Herr Kommissar, egal was dieser Brief sagt, es war nicht meine Tochter."
+				"Detective Clark: MMiss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?",
+				"Miss Hittgens: Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.",
+				"Detective Clark: Haben Sie sie gefragt, was los sei?",
+				"Miss Hittgens: Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.",
+				"Detective Clark: Gab es jemanden, mit dem sie vertrauter sprach?",
+				"Miss Hittgens: Ihre beste Freundin, Kim Bricks. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?",
+				"Detective Clark: Können Sie sich noch an den genauen Wortlaut erinnern?",
+				"Miss Hittgens: Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.",
+				"Detective Clark: Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?",
+				"Miss Hittgens: Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.",
+				"Miss Hittgens: Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher."
 			]
 		}
 	  ]
