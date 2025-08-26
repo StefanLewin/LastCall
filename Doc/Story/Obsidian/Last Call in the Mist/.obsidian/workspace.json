@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/Calls/Autopsie/Autopsiebericht.md",
+                "file": "Story/Calls/Neil Hopkins/1. Interview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Autopsiebericht"
+              "title": "1. Interview"
             }
           }
         ]
@@ -169,42 +169,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5e45d3a83a59764",
+  "active": "ba2aea45c9f5b84c",
   "lastOpenFiles": [
-    "Story/Calls/James Miller/James Miller Tatort Polizeianruf.md",
+    "Story/Calls/James Miller/James Miller Autopsie.md",
+    "Story/Calls/Brian Hopkins/1. Interview.md",
+    "Story/Calls/Neil Hopkins/1. Interview.md",
+    "Story/Calls/Neil Hopkins",
     "Story/Calls/Autopsie/Autopsiebericht.md",
-    "Story/Calls/Noras Mutter/1. Interview.md",
+    "Story/Calls/James Miller/James Miller Tatort Polizeianruf.md",
     "Story/Calls/Kim Brick/1. Interview.md",
+    "Story/Calls/Noras Mutter/1. Interview.md",
     "Story/Calls/Sorgentelefon/Anfangsaufnahme.md",
+    "Story/Calls/Brian Hopkins",
     "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Story/Calls/James Miller",
-    "Charakter/Neil Hopkins.md",
-    "Charakter/Lara Hittgens.md",
+    "Charaktere/Neil Hopkins.md",
+    "Charaktere/Lara Hittgens.md",
     "Story/Grundlegende Story/Grundlegende Story.md",
     "Story/Calls/Noras Mutter/Noras Mutter.md",
     "Story/Calls/Kim Brick/Kim Brick; Diner Bestellung.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
     "Story/Calls/Untitled 1.md",
-    "Charakter/Brian Hopkins.md",
+    "Charaktere/Brian Hopkins.md",
     "Charakter/Anita Zelmer.md",
-    "Charakter/James Miller (Autopsie).md",
-    "Charakter/Kim Brick.md",
+    "Charaktere/James Miller (Autopsie).md",
+    "Charaktere/Kim Brick.md",
     "Charakter/Elvera Hellner.md",
     "Charakter/John Smith.md",
-    "Charakter/Nora Hittgens.md",
+    "Charaktere/Nora Hittgens.md",
     "Notizen/Ideen/Story Auflösung.md",
     "Notizen/Ideen/Ideen weil ich kein Plan habe.md",
     "Story/Calls/John Smith/John Smith; Essenbestellung.md",
     "Story/Calls/Kim Brick",
-    "Notizen/Ideen/Drogenkartel.md",
-    "Ort/Brücke im Wald.md",
     "Story/Calls/Noras Mutter",
     "Story/Sorgentelefon",
     "Story/Calls",
     "Story/Grundlegende Story",
     "Story/Calls/Sorgentelefon",
-    "Story/Nora Hickens",
-    "Story/Calls/Autopsie",
-    "Ort"
+    "Story/Nora Hickens"
   ]
 }
