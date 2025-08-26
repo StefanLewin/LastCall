@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Last Call"
-run/main_scene="uid://co6ga8o57gbpp"
+run/main_scene="uid://dlav4dnhlxjwh"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://btypux25xl0tv"
 
