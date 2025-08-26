@@ -21,7 +21,7 @@ func _on_button_pressed() -> void:
 		murderer == "neil" or murderer == "neilhopkins"
 		and weapon == "physischegewalt" or weapon == "gewalt"
 		and motive == "familienehre" or motive == "ehre" or motive == "familie"
-		and place == "waldbrückeimbay-distrikt" or place == "waldbrücke" or place == "brücke"
+		and place == "waldbrückeimbay-distrikt" or place == "waldbrücke" or place == "brücke" or place == "bruecke"
 	):
 		solution_feedback.visible = true
 		print("RICHTIGE Lösung")
