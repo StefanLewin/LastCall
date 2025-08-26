@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwb01y7s3g6y2"
+path="res://.godot/imported/Telefonseelsorge spricht 3.ogg-a65a8048b3508d483b4715e80c9d3c4b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Telefonseelsorge/Telefonseelsorge spricht 3.ogg"
+dest_files=["res://.godot/imported/Telefonseelsorge spricht 3.ogg-a65a8048b3508d483b4715e80c9d3c4b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

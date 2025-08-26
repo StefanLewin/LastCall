@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cuq0nm6vtosk7"
+path="res://.godot/imported/Brian Interview Clark spricht 3.ogg-e39d0290bbfcf44836656cbeb5ca5b48.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Brian Interview/Brian Interview Clark spricht 3.ogg"
+dest_files=["res://.godot/imported/Brian Interview Clark spricht 3.ogg-e39d0290bbfcf44836656cbeb5ca5b48.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://duyopnqbfy0rv"
+path="res://.godot/imported/Nora spricht 1.ogg-baff5c6e5ea3c60d0cb98b414c77b9fc.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Telefonseelsorge/Nora spricht 1.ogg"
+dest_files=["res://.godot/imported/Nora spricht 1.ogg-baff5c6e5ea3c60d0cb98b414c77b9fc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
