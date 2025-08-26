@@ -18,9 +18,9 @@ var  in_progress := false
 
 
 func _ready() -> void:
-	calls_dict = load_call_text()
-	_on_display_call("character", "phoneCalls", 0)
-
+	#calls_dict = load_call_text()
+	#_on_display_call("character", "phoneCalls", 0)
+	pass
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept"):
 		next_line()

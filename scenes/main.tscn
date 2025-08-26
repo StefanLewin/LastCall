@@ -21,12 +21,12 @@ polygon = PackedVector2Array(1132, 330, 1110, 456, 1103, 564, 1117, 728, 1133, 8
 [node name="AreaNoteblock" type="Area2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaNoteblock"]
-polygon = PackedVector2Array(1316, 523, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
+polygon = PackedVector2Array(1311, 524, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
 
 [node name="AreaArchive" type="Area2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaArchive"]
-polygon = PackedVector2Array(1, 657, 287, 647, 396, 650, 447, 707, 468, 912, 484, 1080, 1, 1079)
+polygon = PackedVector2Array(0, 656, 287, 647, 396, 650, 447, 707, 468, 912, 484, 1080, 1, 1079)
 
 [node name="AreaPhone" type="Area2D" parent="."]
 
@@ -53,6 +53,15 @@ offset = Vector2(960, 540)
 visible = false
 texture = ExtResource("5_tipki")
 offset = Vector2(960, 540)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+offset_left = 676.0
+offset_top = 402.0
+offset_right = 1070.0
+offset_bottom = 948.0
+rotation = -0.0558505
+text = "hallo  ich habe nora ermordet ich mag die farbe rot einfach viel  zu sehr. im rau gab es kein rot das war UNACCAPTABLE also musste nora fuer die farbe geopfert werden MUAHAHAHHAHAHAHAHAHAH"
 
 [connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
 [connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]
