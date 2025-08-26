@@ -50,3 +50,7 @@ func _on_area_mug_mouse_exited() -> void:
 func _on_area_mug_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if InputEventMouseButton and event.is_pressed():
 		$Pause.show()
+
+
+func _on_area_paper_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+	Transcript.get_child(0)._on_display_call("Sorgentelefon", "phoneCalls", 0)

@@ -97,6 +97,7 @@ offset_right = 1559.0
 offset_bottom = 940.0
 rotation = -0.0698132
 
+[connection signal="input_event" from="AreaPaper" to="." method="_on_area_paper_input_event"]
 [connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
 [connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]
 [connection signal="mouse_entered" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_entered"]
