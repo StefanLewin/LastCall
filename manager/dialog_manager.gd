@@ -9,6 +9,7 @@ var called_text
 var time_text
 var index: int = 0
 var full_call: String
+var text_display_time
 @export var label_call: RichTextLabel
 @export var label_caller_name: RichTextLabel
 @export var label_called_name: RichTextLabel
@@ -18,7 +19,7 @@ var  in_progress := false
 
 func _ready() -> void:
 	calls_dict = load_call_text()
-	_on_display_call("character","phoneCalls", 0)
+	_on_display_call("character", "phoneCalls", 0)
 
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept"):
@@ -26,6 +27,7 @@ func _process(delta: float) -> void:
 	else:
 		pass
 
+# call this function to start displaying the call
 func _on_display_call(character_key, phonecalls_key, index_key):
 	if in_progress:
 		next_line()
@@ -56,12 +58,13 @@ func load_call_text():
 		return test_json_conv.get_data()
 
 func next_line():
-	if index < call_text.size() - 1:
-		index += 1
-		display_call()
-	else:
-		index = 0
-		finish()
+	if call_text != null:
+		if index < call_text.size() - 1:
+			index += 1
+			display_call()
+		else:
+			index = 0
+			finish()
 
 func finish():
 	label_call.text =""
@@ -69,9 +72,12 @@ func finish():
 
 func display_call():
 	if label_call != null:
+		var tween = get_tree().create_tween()
 		full_call += call_text[index]
-		print(full_call)
+		label_call.visible_characters = full_call.length() - call_text[index].length()
+		text_display_time = 0.1 * (full_call.length() - (full_call.length() - call_text[index].length()))
 		label_call.text = full_call
+		tween.tween_property(label_call, "visible_characters", full_call.length(), text_display_time)
 
 func display_caller_name():
 	if label_caller_name != null:
