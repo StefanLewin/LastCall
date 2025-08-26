@@ -15,7 +15,7 @@ _Datum: [TT/MM/JJJJ]_
     
 - **Alter:** 23 Jahre
     
-- **Fundort:** Uferbereich unterhalb der Waldbrücke, Bay-District
+- **Fundort:** Ufereich unterhalb der Waldbrücke, Bay-District
     
 - **Todeszeitpunkt:** geschätzt zwischen 22:15 Uhr und 00:00 Uhr
     
