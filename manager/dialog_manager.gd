@@ -1,7 +1,8 @@
 class_name DialogManagerComponent
 extends Node
 
-@export_file("*json") var calls_text_file: String
+#@export_file("*json") var calls_text_file: String
+var calls_text_file = "res://Doc/Story/json/Dialogs.json"
 var calls_dict := {}
 var call_text
 var caller_text
@@ -20,7 +21,7 @@ var typing := false
 
 func _ready() -> void:
 	calls_dict = load_call_text()
-	_on_display_call("character", "phoneCalls", 0)
+	_on_display_call("Sorgentelefon", "phoneCalls", 0)
 	pass
 func _process(delta: float) -> void:
 	if !typing:
@@ -36,14 +37,16 @@ func _on_display_call(character_key, phonecalls_key, index_key):
 	else:
 		var character
 		var phonecalls
-		var index
+		var indey
 		
+		index = 0
+		label_call.text = ""
 		character = calls_dict[character_key].duplicate()
 		phonecalls = character[phonecalls_key].duplicate()
-		index = phonecalls[index_key].duplicate()
-		call_text = index["transcript"]
-		called_text = index["from"]
-		time_text = index["time"]
+		indey = phonecalls[index_key].duplicate()
+		call_text = indey["transcript"]
+		called_text = indey["from"]
+		time_text = indey["time"]
 		caller_text = character["name"]
 		
 		in_progress = true
@@ -72,16 +75,19 @@ func next_line():
 			finish()
 
 func finish():
-	#label_call.text =""
+	label_call.clear()
+	full_call = ""
+	index = 0
 	in_progress = false
 
 func display_call():
 	if label_call != null:
+		label_call.clear()
 		typing = true
 		var tween = get_tree().create_tween()
 		full_call += call_text[index]
 		label_call.visible_characters = full_call.length() - call_text[index].length()
-		text_display_time = 0.1 * (full_call.length() - (full_call.length() - call_text[index].length()))
+		text_display_time = 0.01 * (full_call.length() - (full_call.length() - call_text[index].length()))
 		label_call.text = full_call
 		tween.tween_property(label_call, "visible_characters", full_call.length(), text_display_time)
 		await tween.finished

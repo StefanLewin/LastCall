@@ -21,6 +21,7 @@ GameManager="*res://manager/game_manager.gd"
 Globals="*res://types/globals.gd"
 DB="*res://manager/database_access_manager.gd"
 AudioManager="*res://manager/audio_manager.tscn"
+Transcript="*res://scenes/transcript.tscn"
 
 [display]
 
@@ -35,6 +36,7 @@ project/assembly_name="Last Call"
 [global_group]
 
 Notepad=""
+Transcript=""
 
 [rendering]
 

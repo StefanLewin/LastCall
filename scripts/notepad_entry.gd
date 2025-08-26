@@ -2,6 +2,7 @@ extends Control
 
 @onready var label: Label = $Label
 @onready var notepad: Control = get_tree().get_first_node_in_group("Notepad")
+@onready var transcript: Control = get_tree().get_first_node_in_group("Transcript")
 
 var entryInfo 
 var _is_selected = false
@@ -21,6 +22,9 @@ func _on_panel_gui_input(event: InputEvent) -> void:
 		notepad.deselectPersonNodes()
 		_is_selected = true
 		print("selecting: " + str(entryInfo.ID))
-
+		match entryInfo.ID:
+			102:
+				transcript.get_child(0).finish()
+				transcript.get_child(0)._on_display_call("Lara Hickens","phoneCalls", 0)
 func deselectItem():
 	_is_selected = false;
