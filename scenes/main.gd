@@ -5,8 +5,8 @@ extends Node2D
 
 
 func _ready() -> void:
-	AudioManager.get_child(0).stream = preload("res://assets/sounds/phone_ring.ogg")
-	AudioManager.get_child(0).fade_in()
+	#AudioManager.get_child(0).stream = preload("res://assets/sounds/phone_ring.ogg")
+	#AudioManager.get_child(0).fade_in()
 	pass
 
 func _on_area_paper_mouse_entered() -> void:
