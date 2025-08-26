@@ -1,117 +1,116 @@
 {
-	"character": [
-		{
-			"id": 1,
-			"name": "Sorgentelefon",
-			"phoneCalls": [
-				{
-					"callId": 101,
-					"from": "Nora Hickens",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Telefonseelsorger: [color=#1e81b0]Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich?[/color]\n",
-						"Nora: [color=#5831c2]Nora. Ich… ich weiß nicht, wie lange ich sprechen darf.[/color]\n",
-						"Telefonseelsorger: [color=#1e81b0]Sie dürfen so lange reden, wie Sie möchten. Was bedrückt Sie?[/color]\n",
-						"Nora: [color=#5831c2]Es fühlt sich an, als… als wäre alles schon entschieden. Jemand hat die Worte für mich aufgeschrieben. Ich soll sie einfach nur hinterlassen. Aber sie… sie gehören nicht mir.[/color]\n",
-						"Telefonseelsorger: [color=#1e81b0]Sie meinen… einen Brief?[/color]\n",
-						"Nora: [color=#5831c2]Ja. Er liegt zu Hause, auf meinem Schreibtisch. Sehr ordentlich. Zu ordentlich. So rede ich nicht. Wenn jemand ihn liest… er wird denken, es war meine Entscheidung.[/color]\n",
-						"Telefonseelsorger: [color=#1e81b0]Aber Sie klingen, als wollten Sie das nicht.[/color]\n",
-						"Nora: [color=#5831c2]Ich wollte nie gehen. Ich wollte nach Hause… zu meiner [url=102]Mutter[/url]. Stattdessen stehe ich jetzt … … an einem Ort, den ich mir nicht ausgesucht habe.[/color]",
-						"Telefonseelsorger: [color=#1e81b0]Wo sind Sie, Nora?[/color]\n",
-						"Nora: [color=#5831c2]Ich sehe das Wasser. Und die alten Kräne der Werft, sie sind von hier aus ganz nah. Es ist kalt… und laut.[/color]\n",
-						"Telefonseelsorger: [color=#1e81b0]Gibt es jemanden, dem Sie das erzählen könnten damit er Ihnen helfen kann?[/color]\n",
-						"Nora: [color=#5831c2]Wenn… wenn jemand wissen will, was wirklich passiert ist… dann sollte er nicht den Brief lesen. Sondern dort nachsehen, wo Spuren sich nicht so leicht verwischen lassen. In dem Gerät, das wir alle ständig in der Hand haben.[/color]\n",
-						"Telefonseelsorger: [color=#1e81b0]Sie meinen Ihr Telefon?[/color]\n",
-						"Nora: [color=#5831c2]Bitte… ich kann nicht lauter. Ich wollte nur, dass jemand zuhört. Damit… damit es nicht aussieht, als hätte ich einfach aufgegeben.[/color]\n",
-						"Nora: [color=#5831c2]Ich… ich muss jetzt auflegen.[/color]"
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"name": "Lara Hickens",
-			"phoneCalls": [
-				{
-					"callId": 201,
-					"from": "Clarkson",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Detective Clark: [color=#327e44]Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.[/color]\n",
-						"Detective Clark: [color=#327e44]Haben Sie sie gefragt, was los sei?[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es jemanden, mit dem sie vertrauter sprach?[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?[/color]\n",
-						"Detective Clark: [color=#327e44]Können Sie sich noch an den genauen Wortlaut erinnern?[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.[/color]\n",
-						"Detective Clark: [color=#327e44]Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.[/color]\n",
-						"Miss Hittgens: [color=#ba60a9]Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt.[/color]\n"
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"name": "Kim Brick",
-			"phoneCalls": [
-				{
-					"callId": 301,
-					"from": "Clarkson",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Detective Clark: [color=#327e44]Danke, dass Sie sich die Zeit nehmen. Können Sie mir etwas mehr erzählen über die Tage vor Noras… Tod?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Sie war… anders. Still, sehr still. Und ständig am Handy. Sie wirkte oft abwesend, als würde sie… auf etwas warten. Ich habe sie gefragt, was los sei - aber sie hat mir keine Antwort gegeben.[/color]\n",
-						"Detective Clark: [color=#327e44]Hat sie Ihnen denn gar nichts anvertraut? Oder gab es vielleicht andere Personen in ihrem Umfeld, mit denen sie darüber gesprochen haben könnte?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Sie… hat manchmal gesagt, dass sie sich beobachtet fühlt. Wortwörtlich: „Die Augen hören nicht auf, mich anzusehen.“ Ich habe sie ausgelacht - naja, vielleicht nicht ausgelacht, aber ich habe gesagt, dass sie sich das nur einbildet. Sie… war da schon sehr empfindlich.[/color]\n",
-						"Detective Clark: [color=#327e44]Ihre Mutter erwähnte, dass Nora Angst hatte - nicht nur um sich, sondern auch um Sie. Erkennen Sie sich darin wieder?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Nein… also… vielleicht. Sie sagte einmal: „Wenn mir nichts passiert, dann vielleicht dir.“ - Ich habe das nicht ernst genommen. Ich meine, wer sollte mir schon etwas tun? Aber… Nora konnte in den letzten Wochen ziemlich… dramatisch sein.[/color]\n",
-						"Detective Clark: [color=#327e44]Dramatisch?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Sie hat über einen Brief gesprochen, der auf ihrem Schreibtisch lag, „der nicht von ihr sei“. Ich habe sie gefragt, was das bedeutet, aber sie wollte es mir nicht zeigen. Vielleicht war da gar nichts. Vielleicht wollte sie nur Aufmerksamkeit.[/color]\n",
-						"Detective Clark: [color=#327e44]Sind Sie sicher, dass es nur das war?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Ich weiß nicht, Detective. Vielleicht hat sie auch einfach… Dinge gesehen, die nicht da waren. Ich wollte helfen. Wirklich. Aber sie hat mir nicht vertraut.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es sonst jemanden, mit dem Nora in letzter Zeit Schwierigkeiten hatte?[/color]\\n",
-						"Kim Bricks: [color=#c6a13e]Ihren Exfreund. Brian Hopkins. Sie hat seinen Namen ein paar Mal erwähnt, aber nie direkt gesagt, was los war. Nur, dass sie Angst hatte, er würde nicht loslassen. Ob sie ihn noch getroffen hat, weiß ich nicht. Aber… wenn Sie Antworten suchen, sollten Sie mit ihm reden.[/color]\\n"
-					]
-				},
-				{
-					"callId": 302,
-					"from": "Clarkson",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Detective Clark: [color=#327e44]Danke, dass Sie erneut Zeit für uns haben, Kim. Ich möchte noch einmal über die Nacht von Noras Tod sprechen. Können Sie mir sagen, wo Sie zur Tatzeit gewesen sind?[/color]\n",
-						"Kim Bricks: [color=#c6a13e]Ich war zu Hause. Ich habe den ganzen Abend dort verbracht, Serien geschaut, Nachrichten gecheckt… allein. Niemand kann mir das widerlegen, aber mein Handy zeigt es. Ich habe keine Ahnung, was mit Nora passiert ist, als sie unter der Brücke war.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es irgendeine Begegnung oder etwas Auffälliges an diesem Tag?[/color]\n",
-						"Kim Bricks: [color=#c6a13e]Nein, ehrlich nicht. Ich habe mich nicht mit ihr getroffen. Ich habe sie nur ein paar Stunden vorher kurz angerufen, aber sie hat nicht abgenommen.[/color]\n",
-						"Detective Clark: [color=#327e44]Haben Sie jemals bemerkt, dass [url=106]Neil Hopkins[/url] besonders auf Noras Verhalten reagiert hat?[/color]\n",
-						"Kim Bricks: [color=#c6a13e]Ja. Er ist extrem auf die [url=301]„Familienehre“[/url] bedacht, wie er es nennt. Ich meine… wirklich extrem. Er hat immer betont, wie wichtig es ist, dass alles in der [url=301]Familie „sauber“[/url] aussieht. Ich habe nie verstanden, warum [url=106]er[/url] sich so auf Nora fixiert hat.[/color]\n",
-						"Detective Clark: [color=#327e44]Hat er Ihnen gegenüber jemals Andeutungen gemacht, wie er wollte, dass Nora sich verhält?[/color]\n",
-						"Kim Bricks: [color=#c6a13e]Ja, er hat öfter kommentiert, dass sie „sich zusammenreißen“ soll oder „die Dinge richtig stellen“ müsse, weil sonst alles schlecht für die Familie aussieht. Ich dachte damals, er übertreibt… aber vielleicht war es mehr, als nur Kontrolle.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es sonst jemanden, der Druck auf Nora ausgeübt hat?[/color]\n",
-						"Kim Bricks: [color=#c6a13e]Brian, ja… er war ihr [url=105]Ex[/url]. Aber [url=106]Neil…[/url] er war immer da, hat jede ihrer Entscheidungen irgendwie bewertet. Ich habe sie nie so gesehen, als hätte sie sich freiwillig bedroht gefühlt - außer vielleicht durch seinen ständigen Druck.[/color]\n",
-						"Detective Clark: [color=#327e44]Danke, Kim. Ihre Angaben helfen uns, die Umstände besser zu verstehen.[/color]\n"
-					]
-				}
-			]
-		},
-		{
-			"id": 4,
-			"name": "James Miller",
-			"phoneCalls": [
-				{
-					"callId": 401,
-					"from": "Clarkson",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"James Miller: [color=#eb8844]Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der [url=401]Brücke im Wald[/url]. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert - ich werde später mit Frau Zelmer Rücksprache halten.[/color]\n",
-						"Clarkson: [color=#327e44]Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?[/color]\n",
-						"James Miller: [color=#eb8844]Ja, ein [url=201]Messer[/url] - etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben.[/color]\n",
-						"Clarkson: [color=#327e44]Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch.[/color]\n",
-						"James Miller: [color=#eb8844]Verstanden. Ich warte hier auf Sie.[/color]\n"
-					]
-				},
-				{
+	"Sorgentelefon": {
+		"id": 1,
+		"name": "Sorgentelefon",
+		"phoneCalls": [
+			{
+				"callId": 101,
+				"from": "Nora Hickens",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Telefonseelsorger: [color=#1e81b0]Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich?[/color]\n",
+					"Nora: [color=#5831c2]Nora. Ich… ich weiß nicht, wie lange ich sprechen darf.[/color]\n",
+					"Telefonseelsorger: [color=#1e81b0]Sie dürfen so lange reden, wie Sie möchten. Was bedrückt Sie?[/color]\n",
+					"Nora: [color=#5831c2]Es fühlt sich an, als… als wäre alles schon entschieden. Jemand hat die Worte für mich aufgeschrieben. Ich soll sie einfach nur hinterlassen. Aber sie… sie gehören nicht mir.[/color]\n",
+					"Telefonseelsorger: [color=#1e81b0]Sie meinen… einen Brief?[/color]\n",
+					"Nora: [color=#5831c2]Ja. Er liegt zu Hause, auf meinem Schreibtisch. Sehr ordentlich. Zu ordentlich. So rede ich nicht. Wenn jemand ihn liest… er wird denken, es war meine Entscheidung.[/color]\n",
+					"Telefonseelsorger: [color=#1e81b0]Aber Sie klingen, als wollten Sie das nicht.[/color]\n",
+					"Nora: [color=#5831c2]Ich wollte nie gehen. Ich wollte nach Hause… zu meiner [url=102]Mutter[/url]. Stattdessen stehe ich jetzt … … an einem Ort, den ich mir nicht ausgesucht habe.[/color]",
+					"Telefonseelsorger: [color=#1e81b0]Wo sind Sie, Nora?[/color]\n",
+					"Nora: [color=#5831c2]Ich sehe das Wasser. Und die alten Kräne der Werft, sie sind von hier aus ganz nah. Es ist kalt… und laut.[/color]\n",
+					"Telefonseelsorger: [color=#1e81b0]Gibt es jemanden, dem Sie das erzählen könnten damit er Ihnen helfen kann?[/color]\n",
+					"Nora: [color=#5831c2]Wenn… wenn jemand wissen will, was wirklich passiert ist… dann sollte er nicht den Brief lesen. Sondern dort nachsehen, wo Spuren sich nicht so leicht verwischen lassen. In dem Gerät, das wir alle ständig in der Hand haben.[/color]\n",
+					"Telefonseelsorger: [color=#1e81b0]Sie meinen Ihr Telefon?[/color]\n",
+					"Nora: [color=#5831c2]Bitte… ich kann nicht lauter. Ich wollte nur, dass jemand zuhört. Damit… damit es nicht aussieht, als hätte ich einfach aufgegeben.[/color]\n",
+					"Nora: [color=#5831c2]Ich… ich muss jetzt auflegen.[/color]"
+				]
+			}
+		]
+	},
+	"Lara Hickens": {
+		"id": 2,
+		"name": "Lara Hickens",
+		"phoneCalls": [
+			{
+				"callId": 201,
+				"from": "Clarkson",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Detective Clark: [color=#327e44]Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen.[/color]\n",
+					"Detective Clark: [color=#327e44]Haben Sie sie gefragt, was los sei?[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Natürlich. Aber sie wich mir immer aus, sie sagte: \"Alles in Ordnung, Mama.\" So kannte ich meine Tochter nicht.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es jemanden, mit dem sie vertrauter sprach?[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \"Ich habe das Gefühl, dass mich die Augen immer beobachten.\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?[/color]\n",
+					"Detective Clark: [color=#327e44]Können Sie sich noch an den genauen Wortlaut erinnern?[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte.[/color]\n",
+					"Detective Clark: [color=#327e44]Hat Nora Ihnen jemals von einem Brief oder Unterlagen erzählt?[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen.[/color]\n",
+					"Miss Hittgens: [color=#ba60a9]Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt.[/color]\n"
+				]
+			}
+		]
+	},
+	"Kim Brick": {
+		"id": 3,
+		"name": "Kim Brick",
+		"phoneCalls": [
+			{
+				"callId": 301,
+				"from": "Clarkson",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Detective Clark: [color=#327e44]Danke, dass Sie sich die Zeit nehmen. Können Sie mir etwas mehr erzählen über die Tage vor Noras… Tod?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Sie war… anders. Still, sehr still. Und ständig am Handy. Sie wirkte oft abwesend, als würde sie… auf etwas warten. Ich habe sie gefragt, was los sei - aber sie hat mir keine Antwort gegeben.[/color]\n",
+					"Detective Clark: [color=#327e44]Hat sie Ihnen denn gar nichts anvertraut? Oder gab es vielleicht andere Personen in ihrem Umfeld, mit denen sie darüber gesprochen haben könnte?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Sie… hat manchmal gesagt, dass sie sich beobachtet fühlt. Wortwörtlich: „Die Augen hören nicht auf, mich anzusehen.“ Ich habe sie ausgelacht - naja, vielleicht nicht ausgelacht, aber ich habe gesagt, dass sie sich das nur einbildet. Sie… war da schon sehr empfindlich.[/color]\n",
+					"Detective Clark: [color=#327e44]Ihre Mutter erwähnte, dass Nora Angst hatte - nicht nur um sich, sondern auch um Sie. Erkennen Sie sich darin wieder?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Nein… also… vielleicht. Sie sagte einmal: „Wenn mir nichts passiert, dann vielleicht dir.“ - Ich habe das nicht ernst genommen. Ich meine, wer sollte mir schon etwas tun? Aber… Nora konnte in den letzten Wochen ziemlich… dramatisch sein.[/color]\n",
+					"Detective Clark: [color=#327e44]Dramatisch?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Sie hat über einen Brief gesprochen, der auf ihrem Schreibtisch lag, „der nicht von ihr sei“. Ich habe sie gefragt, was das bedeutet, aber sie wollte es mir nicht zeigen. Vielleicht war da gar nichts. Vielleicht wollte sie nur Aufmerksamkeit.[/color]\n",
+					"Detective Clark: [color=#327e44]Sind Sie sicher, dass es nur das war?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Ich weiß nicht, Detective. Vielleicht hat sie auch einfach… Dinge gesehen, die nicht da waren. Ich wollte helfen. Wirklich. Aber sie hat mir nicht vertraut.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es sonst jemanden, mit dem Nora in letzter Zeit Schwierigkeiten hatte?[/color]\\n",
+					"Kim Bricks: [color=#c6a13e]Ihren Exfreund. Brian Hopkins. Sie hat seinen Namen ein paar Mal erwähnt, aber nie direkt gesagt, was los war. Nur, dass sie Angst hatte, er würde nicht loslassen. Ob sie ihn noch getroffen hat, weiß ich nicht. Aber… wenn Sie Antworten suchen, sollten Sie mit ihm reden.[/color]\\n"
+				]
+			},
+			{
+				"callId": 302,
+				"from": "Clarkson",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Detective Clark: [color=#327e44]Danke, dass Sie erneut Zeit für uns haben, Kim. Ich möchte noch einmal über die Nacht von Noras Tod sprechen. Können Sie mir sagen, wo Sie zur Tatzeit gewesen sind?[/color]\n",
+					"Kim Bricks: [color=#c6a13e]Ich war zu Hause. Ich habe den ganzen Abend dort verbracht, Serien geschaut, Nachrichten gecheckt… allein. Niemand kann mir das widerlegen, aber mein Handy zeigt es. Ich habe keine Ahnung, was mit Nora passiert ist, als sie unter der Brücke war.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es irgendeine Begegnung oder etwas Auffälliges an diesem Tag?[/color]\n",
+					"Kim Bricks: [color=#c6a13e]Nein, ehrlich nicht. Ich habe mich nicht mit ihr getroffen. Ich habe sie nur ein paar Stunden vorher kurz angerufen, aber sie hat nicht abgenommen.[/color]\n",
+					"Detective Clark: [color=#327e44]Haben Sie jemals bemerkt, dass [url=106]Neil Hopkins[/url] besonders auf Noras Verhalten reagiert hat?[/color]\n",
+					"Kim Bricks: [color=#c6a13e]Ja. Er ist extrem auf die [url=301]„Familienehre“[/url] bedacht, wie er es nennt. Ich meine… wirklich extrem. Er hat immer betont, wie wichtig es ist, dass alles in der [url=301]Familie „sauber“[/url] aussieht. Ich habe nie verstanden, warum [url=106]er[/url] sich so auf Nora fixiert hat.[/color]\n",
+					"Detective Clark: [color=#327e44]Hat er Ihnen gegenüber jemals Andeutungen gemacht, wie er wollte, dass Nora sich verhält?[/color]\n",
+					"Kim Bricks: [color=#c6a13e]Ja, er hat öfter kommentiert, dass sie „sich zusammenreißen“ soll oder „die Dinge richtig stellen“ müsse, weil sonst alles schlecht für die Familie aussieht. Ich dachte damals, er übertreibt… aber vielleicht war es mehr, als nur Kontrolle.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es sonst jemanden, der Druck auf Nora ausgeübt hat?[/color]\n",
+					"Kim Bricks: [color=#c6a13e]Brian, ja… er war ihr [url=105]Ex[/url]. Aber [url=106]Neil…[/url] er war immer da, hat jede ihrer Entscheidungen irgendwie bewertet. Ich habe sie nie so gesehen, als hätte sie sich freiwillig bedroht gefühlt - außer vielleicht durch seinen ständigen Druck.[/color]\n",
+					"Detective Clark: [color=#327e44]Danke, Kim. Ihre Angaben helfen uns, die Umstände besser zu verstehen.[/color]\n"
+				]
+			}
+		]
+	},
+	"James Miller": {
+		"id": 4,
+		"name": "James Miller",
+		"phoneCalls": [
+			{
+				"callId": 401,
+				"from": "Clarkson",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"James Miller: [color=#eb8844]Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der [url=401]Brücke im Wald[/url]. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert - ich werde später mit Frau Zelmer Rücksprache halten.[/color]\n",
+					"Clarkson: [color=#327e44]Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?[/color]\n",
+					"James Miller: [color=#eb8844]Ja, ein [url=201]Messer[/url] - etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben.[/color]\n",
+					"Clarkson: [color=#327e44]Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch.[/color]\n",
+					"James Miller: [color=#eb8844]Verstanden. Ich warte hier auf Sie.[/color]\n"
+				]
+			},
+			{
 				"callId": 402,
 				"from": "Anita Zelmer",
 				"time": "2025-08-24T15:30:00Z",
@@ -128,55 +127,54 @@
 					"Anita Zelmer: [color=#F46666]Kann sein. Aber für Mutmaßungen bin ich nicht zuständig. Es war zumindest [url=202]fragwürdige physische Kraft[/url] sim Spiel, die den starken Aufprall unterstützt hat.[/color]\n",
 					"James Miller: [color=#eb8844]Danke für die Zeit. Und noch einen schönen Tag.[/color]\n",
 					"Anita Zelmer: [color=#F46666]Danke, gleichfalls.[/color]"
-					]
-				}
-			]
-		},
-		{
-			"id": 5,
-			"name": "Brian Hopkins",
-			"phoneCalls": [
-				{
-					"callId": 501,
-					"from": "Sarah",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Detective Clark: [color=#327e44]Danke, dass Sie sich die Zeit nehmen, Brian. Können Sie mir sagen, wann Sie das letzte Mal Kontakt zu Nora hatten?.[/color]\n",
-						"Brian Hopkins: [color=#3F9494]Es war ein paar Wochen her. Wir haben telefoniert, das war alles. [url=302]Ich habe Abstand gehalten[/url], weil… nun ja, weil sie sich verändert hat..[/color]\n",
-						"Detective Clark: [color=#327e44]Inwiefern?.[/color]\n",
-						"Brian Hopkins: [color=#3F9494]Sie wurde immer stiller, zurückgezogener. Manchmal wirkte sie… überängstlich. Sie hat ständig über Dinge gesprochen, die ich nie wirklich nachvollziehen konnte. Über Briefe, Nachrichten… sie meinte immer, jemand würde sie beobachten. Ich habe versucht, sie zu beruhigen, aber sie hat alles überdramatisiert..[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es zwischen Ihnen Streit?.[/color]\n",
-						"Brian Hopkins:  [color=#3F9494]Natürlich, wir hatten unsere Probleme. Aber ich habe nie wirklich etwas falsch gemacht. Nora war… kompliziert, ich weiß nicht, wie ich es anders sagen soll. Sie hat oft Dinge angestellt, die ich nicht verstand..[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es sonst jemanden, der Einfluss auf sie hatte?.[/color]\n",
-						"Brian Hopkins: [color=#3F9494]Neil… mein [url=106]Bruder[/url]. Sie hat ihn ab und zu erwähnt. Ich weiß nicht genau, warum sie so reagierte, aber sie wirkte nervös, wenn sein Name fiel. Vielleicht hat sie sich Dinge eingebildet - das kann ich nicht sagen..[/color]\n",
-						"Detective Clark: [color=#327e44]Also glauben Sie, dass jemand Druck auf sie ausgeübt haben könnte?.[/color]\n",
-						"Brian Hopkins: [color=#3F9494]Ich weiß nicht. Sie hat selbst oft alles dramatisiert. Ich meine… wer weiß schon, was in ihrem Kopf vorging. Wenn Sie Antworten suchen, sollten Sie vielleicht trotzdem mit [url=106]Neil Hopkins[/url] sprechen..[/color]"
-					]
-				}
-			]
-		},
-		{
-			"id": 6,
-			"name": "Neil Hopkins",
-			"phoneCalls": [
-				{
-					"callId": 601,
-					"from": "Clarkson",
-					"time": "2025-08-24T15:30:00Z",
-					"transcript": [
-						"Detective Clark: [color=#327e44]Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?[/color]\n",
-						"Neil Hopkins: [color=#B35366]Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?[/color]\n",
-						"Neil Hopkins:  [color=#B35366]Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional.[/color]\n",
-						"Detective Clark: [color=#327e44]Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?[/color]\n",
-						"Neil Hopkins:  [color=#B35366]Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist.[/color]\n",
-						"Detective Clark: [color=#327e44]Wie war Ihr Verhältnis zu Nora?[/color]\n",
-						"Neil Hopkins:  [color=#B35366]Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld.[/color]\n",
-						"Detective Clark:[color=#327e44]** Was könnte das Umfeld damit zu tun haben?[/color]\n",
-						"Neil Hopkins:  [color=#B35366]Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht.[/color]\n"
-					]
-				}
-			]
-		}
-	]
+				]
+			}
+		]
+	},
+	"Brian Hopkins": {
+		"id": 5,
+		"name": "Brian Hopkins",
+		"phoneCalls": [
+			{
+				"callId": 501,
+				"from": "Sarah",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Detective Clark: [color=#327e44]Danke, dass Sie sich die Zeit nehmen, Brian. Können Sie mir sagen, wann Sie das letzte Mal Kontakt zu Nora hatten?.[/color]\n",
+					"Brian Hopkins: [color=#3F9494]Es war ein paar Wochen her. Wir haben telefoniert, das war alles. [url=302]Ich habe Abstand gehalten[/url], weil… nun ja, weil sie sich verändert hat..[/color]\n",
+					"Detective Clark: [color=#327e44]Inwiefern?.[/color]\n",
+					"Brian Hopkins: [color=#3F9494]Sie wurde immer stiller, zurückgezogener. Manchmal wirkte sie… überängstlich. Sie hat ständig über Dinge gesprochen, die ich nie wirklich nachvollziehen konnte. Über Briefe, Nachrichten… sie meinte immer, jemand würde sie beobachten. Ich habe versucht, sie zu beruhigen, aber sie hat alles überdramatisiert..[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es zwischen Ihnen Streit?.[/color]\n",
+					"Brian Hopkins:  [color=#3F9494]Natürlich, wir hatten unsere Probleme. Aber ich habe nie wirklich etwas falsch gemacht. Nora war… kompliziert, ich weiß nicht, wie ich es anders sagen soll. Sie hat oft Dinge angestellt, die ich nicht verstand..[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es sonst jemanden, der Einfluss auf sie hatte?.[/color]\n",
+					"Brian Hopkins: [color=#3F9494]Neil… mein [url=106]Bruder[/url]. Sie hat ihn ab und zu erwähnt. Ich weiß nicht genau, warum sie so reagierte, aber sie wirkte nervös, wenn sein Name fiel. Vielleicht hat sie sich Dinge eingebildet - das kann ich nicht sagen..[/color]\n",
+					"Detective Clark: [color=#327e44]Also glauben Sie, dass jemand Druck auf sie ausgeübt haben könnte?.[/color]\n",
+					"Brian Hopkins: [color=#3F9494]Ich weiß nicht. Sie hat selbst oft alles dramatisiert. Ich meine… wer weiß schon, was in ihrem Kopf vorging. Wenn Sie Antworten suchen, sollten Sie vielleicht trotzdem mit [url=106]Neil Hopkins[/url] sprechen..[/color]"
+				]
+			}
+		]
+	},
+	"Neil Hopkins": {
+		"id": 6,
+		"name": "Neil Hopkins",
+		"phoneCalls": [
+			{
+				"callId": 601,
+				"from": "Clarkson",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Detective Clark: [color=#327e44]Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?[/color]\n",
+					"Neil Hopkins: [color=#B35366]Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?[/color]\n",
+					"Neil Hopkins:  [color=#B35366]Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional.[/color]\n",
+					"Detective Clark: [color=#327e44]Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?[/color]\n",
+					"Neil Hopkins:  [color=#B35366]Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist.[/color]\n",
+					"Detective Clark: [color=#327e44]Wie war Ihr Verhältnis zu Nora?[/color]\n",
+					"Neil Hopkins:  [color=#B35366]Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld.[/color]\n",
+					"Detective Clark:[color=#327e44]** Was könnte das Umfeld damit zu tun haben?[/color]\n",
+					"Neil Hopkins:  [color=#B35366]Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht.[/color]\n"
+				]
+			}
+		]
+	}
 }
