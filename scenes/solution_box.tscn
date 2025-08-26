@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://cgfnl2y603km"]
+[gd_scene load_steps=2 format=3 uid="uid://dscc6ba27o7k"]
+
+[ext_resource type="Script" uid="uid://dj5lld7xxg2tt" path="res://scripts/solution_box.gd" id="1_nlqxk"]
 
 [node name="SolutionBox" type="Control"]
 layout_mode = 3
