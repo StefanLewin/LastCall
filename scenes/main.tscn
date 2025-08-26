@@ -1,16 +1,19 @@
-[gd_scene load_steps=6 format=3 uid="uid://dlav4dnhlxjwh"]
+[gd_scene load_steps=9 format=3 uid="uid://dlav4dnhlxjwh"]
 
-[ext_resource type="Texture2D" uid="uid://cto405k1l1wmn" path="res://assets/graphics/desk_lowres.webp" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
-[ext_resource type="Texture2D" uid="uid://c04lbl61akrjt" path="res://assets/graphics/paper_highlight_lowres.png" id="3_tefeu"]
-[ext_resource type="Texture2D" uid="uid://cu1meytvf08w5" path="res://assets/graphics/notes_highlight_lowres.webp" id="4_o6xl0"]
-[ext_resource type="Texture2D" uid="uid://dd7t16djviumx" path="res://assets/graphics/archive_highlight_lowres.webp" id="5_tipki"]
+[ext_resource type="Texture2D" uid="uid://cos4nyfxpuh0o" path="res://assets/graphics/full_resolution/desk.png" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://07v6xbmydnwl" path="res://assets/graphics/full_resolution/paper_highlight.png" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://dx0lnkmsybeer" path="res://assets/graphics/full_resolution/notes_highlight.jpg" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://cjbmy8i1bmwrm" path="res://assets/graphics/full_resolution/archive_highlight.png" id="5_tipki"]
+[ext_resource type="Texture2D" uid="uid://dwnvyq7rg7j5l" path="res://assets/graphics/full_resolution/phone_highlight.png" id="6_tefeu"]
+[ext_resource type="Texture2D" uid="uid://boqjbr5ai6b7t" path="res://assets/graphics/full_resolution/Mug_Highlight.png" id="7_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://cb04t4ifjb3pa" path="res://scenes/pause.tscn" id="8_tipki"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_tbgi4")
 
 [node name="background" type="Sprite2D" parent="."]
-texture = ExtResource("1_o5qli")
+texture = ExtResource("2_tbgi4")
 offset = Vector2(960, 540)
 
 [node name="AreaPaper" type="Area2D" parent="."]
@@ -34,7 +37,6 @@ polygon = PackedVector2Array(0, 656, 287, 647, 396, 650, 447, 707, 468, 912, 484
 polygon = PackedVector2Array(252, 27, 374, 59, 429, 113, 473, 296, 417, 383, 305, 494, 263, 497, 86, 396, 49, 229, 93, 158, 214, 41)
 
 [node name="AreaMug" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaMug"]
 polygon = PackedVector2Array(977, 0, 951, 32, 952, 75, 977, 133, 1034, 158, 1087, 146, 1106, 128, 1149, 139, 1174, 132, 1162, 111, 1130, 82, 1129, 47, 1120, 9, 1112, 0)
@@ -54,14 +56,20 @@ visible = false
 texture = ExtResource("5_tipki")
 offset = Vector2(960, 540)
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="PhoneHighlights" type="Sprite2D" parent="."]
 visible = false
-offset_left = 676.0
-offset_top = 402.0
-offset_right = 1070.0
-offset_bottom = 948.0
-rotation = -0.0558505
-text = "hallo  ich habe nora ermordet ich mag die farbe rot einfach viel  zu sehr. im rau gab es kein rot das war UNACCAPTABLE also musste nora fuer die farbe geopfert werden MUAHAHAHHAHAHAHAHAHAH"
+modulate = Color(0.81, 0.81, 0.81, 0.752941)
+texture = ExtResource("6_tefeu")
+offset = Vector2(960, 560.86)
+
+[node name="MugHighlights" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1069, 124)
+scale = Vector2(0.465, 0.465)
+texture = ExtResource("7_o6xl0")
+
+[node name="Pause" parent="." instance=ExtResource("8_tipki")]
+visible = false
 
 [connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
 [connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]
@@ -69,3 +77,9 @@ text = "hallo  ich habe nora ermordet ich mag die farbe rot einfach viel  zu seh
 [connection signal="mouse_exited" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_exited"]
 [connection signal="mouse_entered" from="AreaArchive" to="." method="_on_area_archive_mouse_entered"]
 [connection signal="mouse_exited" from="AreaArchive" to="." method="_on_area_archive_mouse_exited"]
+[connection signal="input_event" from="AreaPhone" to="." method="_on_area_phone_input_event"]
+[connection signal="mouse_entered" from="AreaPhone" to="." method="_on_area_phone_mouse_entered"]
+[connection signal="mouse_exited" from="AreaPhone" to="." method="_on_area_phone_mouse_exited"]
+[connection signal="input_event" from="AreaMug" to="." method="_on_area_mug_input_event"]
+[connection signal="mouse_entered" from="AreaMug" to="." method="_on_area_mug_mouse_entered"]
+[connection signal="mouse_exited" from="AreaMug" to="." method="_on_area_mug_mouse_exited"]
