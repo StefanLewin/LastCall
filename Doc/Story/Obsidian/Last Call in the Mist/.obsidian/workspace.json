@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/Calls/Neil Hopkins/1. Interview.md",
+                "file": "Story/Calls/Noras Mutter/1. Interview.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 319.5
   },
   "right": {
     "id": "487c128316185ab1",
@@ -169,23 +169,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba2aea45c9f5b84c",
+  "active": "a5e45d3a83a59764",
   "lastOpenFiles": [
-    "Story/Calls/James Miller/James Miller Autopsie.md",
-    "Story/Calls/Brian Hopkins/1. Interview.md",
+    "Notizen/Übersicht.md",
     "Story/Calls/Neil Hopkins/1. Interview.md",
-    "Story/Calls/Neil Hopkins",
-    "Story/Calls/Autopsie/Autopsiebericht.md",
-    "Story/Calls/James Miller/James Miller Tatort Polizeianruf.md",
-    "Story/Calls/Kim Brick/1. Interview.md",
     "Story/Calls/Noras Mutter/1. Interview.md",
+    "Story/Calls/Autopsie/Autopsiebericht.md",
+    "Story/Calls/James Miller/James Miller Autopsie.md",
+    "Story/Calls/Kim Brick/1. Interview.md",
+    "Story/Calls/Brian Hopkins/1. Interview.md",
     "Story/Calls/Sorgentelefon/Anfangsaufnahme.md",
+    "Story/Calls/Brian Hopkins/Untitled.md",
+    "Story/Calls/James Miller/James Miller Tatort Polizeianruf.md",
+    "Story/Grundlegende Story/Grundlegende Story.md",
+    "Story/Calls/Neil Hopkins",
     "Story/Calls/Brian Hopkins",
     "Story/Calls/Noras Mutter/Noras Mutter; Anruf zur Oma.md",
     "Story/Calls/James Miller",
     "Charaktere/Neil Hopkins.md",
     "Charaktere/Lara Hittgens.md",
-    "Story/Grundlegende Story/Grundlegende Story.md",
     "Story/Calls/Noras Mutter/Noras Mutter.md",
     "Story/Calls/Kim Brick/Kim Brick; Diner Bestellung.md",
     "Story/Calls/Sorgentelefon/Sorgentelefon; Katzenlady.md",
@@ -198,8 +200,6 @@
     "Charakter/John Smith.md",
     "Charaktere/Nora Hittgens.md",
     "Notizen/Ideen/Story Auflösung.md",
-    "Notizen/Ideen/Ideen weil ich kein Plan habe.md",
-    "Story/Calls/John Smith/John Smith; Essenbestellung.md",
     "Story/Calls/Kim Brick",
     "Story/Calls/Noras Mutter",
     "Story/Sorgentelefon",
