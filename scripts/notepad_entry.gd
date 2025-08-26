@@ -21,6 +21,8 @@ func _on_panel_gui_input(event: InputEvent) -> void:
 		notepad.deselectPersonNodes()
 		_is_selected = true
 		print("selecting: " + str(entryInfo.ID))
-
+		match entryInfo.ID:
+			102:
+				DialogManager._on_display_call("Lara Hittgens","phoneCalls", 0)
 func deselectItem():
 	_is_selected = false;
