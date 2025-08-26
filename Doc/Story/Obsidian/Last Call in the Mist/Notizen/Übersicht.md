@@ -12,7 +12,7 @@
 402. Anita
 # Einträge
 Für das Lösen des Falles.
-## Charakter
+## Charakter(Täter)
 - Lara Hickens
 - James Miller
 - Kim Brick
@@ -20,12 +20,12 @@ Für das Lösen des Falles.
 - Neil Hopkins (Täter)
 ## Waffe 
 - Messer
-- physische Gewalt (Täter)
+- physische Gewalt (Waffe)
 ## Motiv
-- Familien Ehre (Täter)
+- Familien Ehre (Motiv)
 - Getränkt Männlichkeit
 - Eifersucht
 ## Orte
-- Brücke
+- Brücke (Tatort)
 - Autopsie
 - Hopkins Anwesen
