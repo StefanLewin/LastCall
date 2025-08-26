@@ -21,12 +21,12 @@ Anita Zelmer:"Ich starte jetzt die Aufnahem für den Bericht. (Piep) Hier ist Dr
 
 James Miller (erhäblich unangenehm): "Das hört sich sehr ungehnem an."
 
-Anita Zelmer: "Am ganzen Körper sind starke Prällungen zu erkennen, die wahrscheinlich durch einen möglichen Sturz hekommen könnten. Am Köpf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlaven eingenistet haben. Es sieht nach einem. Ja es ist ein Schädelbruch. Sehr wahrscheinlich ist sie an diesen Blutverlust gestorben. Aufnahme beenden. Zufd
+Anita Zelmer: "Am ganzen Körper sind starke Prällungen zu erkennen, die wahrscheinlich durch einen möglichen Sturz hekommen könnten. Am Köpf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlaven eingenistet haben. Es sieht nach einem. Ja es ist ein Schädelbruch. Sehr wahrscheinlich ist sie an diesen Blutverlust gestorben. Aufnahme beenden. Hat es dir weiter geholfen?"
 
-Nach dem Verwesungsprozess müsste sie schon seit 10 Stunden tot sein. Anhand der Prellungen und Brüchen kann man sehen, dass sie rückwärts auf den Rücken aufgekommen ist. Gestorben ist sie aber durch den Blutverlust."
+James Miller: "Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein Selbstmord wenn man den Abschiedbrief beachtet."
 
-James Miller: "Also wie bei einem Selbstmord oder?"
-
-Anita Zelmer: "Kann sein."
+Anita Zelmer: "Kann sein. Aber so welche Mutmaßungen bin ich nicht zuständig."
 
 James Miller: "Danke für die Zeit. Und noch ein schönen Tag."
+
+Anita Zelmer: "Danke dir auch."
