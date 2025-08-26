@@ -1,11 +1,11 @@
 {
 	"character": {
-	  "id": 1,
-	  "name": "Marcus Steel",
+	  "id": 2,
+	  "name": "Noras Mutter",
 	  "phoneCalls": [
 		{
-		  "callId": 101,
-		  "from": "Sarah",
+		  "callId": 201,
+		  "from": "Oma",
 		  "time": "2025-08-24T15:30:00Z",
 		  "transcript": [
 			"Ich habe heute mit [url=Maria] Maria [/url]  gesprochen. ",
@@ -14,18 +14,11 @@
 			]
 		},
 		{
-			"callId": 102,
-			"from": "Paul",
+			"callId": 202,
+			"from": "carke",
 			"time": "2025-08-24T15:30:00Z",
 			"transcript": "Lorem ipsum..."
-		  },
-		  {
-			"callId": 103,
-			"from": "Jessica",
-			"time": "2025-08-24T15:30:00Z",
-			"transcript": "Lorem ipsum..."
-		  }
-
+		}
 	  ]
 	}
   }
