@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://chfmlilx0wsix"
+path="res://.godot/imported/Mutter Interview Mutter spricht 1.ogg-2582ab236b6f3f5c8404a954e48678eb.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Mutter Interview/Mutter Interview Mutter spricht 1.ogg"
+dest_files=["res://.godot/imported/Mutter Interview Mutter spricht 1.ogg-2582ab236b6f3f5c8404a954e48678eb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

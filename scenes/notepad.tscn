@@ -16,7 +16,7 @@ offset_bottom = 360.0
 script = ExtResource("1_nkxj1")
 item_scene = ExtResource("2_fhm5p")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="ScrollContainer" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,14 +24,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_vobun")
+horizontal_scroll_mode = 0
 
 [node name="TabContainer" type="TabContainer" parent="Panel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
 mouse_filter = 2
 theme_override_font_sizes/font_size = 8
 theme_override_styles/panel = SubResource("StyleBoxEmpty_pq6gc")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dks2mt34frpq3"
+path="res://.godot/imported/Miller Anruf Miller spricht 1.ogg-d7eeeaf82a1421b0cb7136ccc881044d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/James Miller/Tatort Anruf/Miller Anruf Miller spricht 1.ogg"
+dest_files=["res://.godot/imported/Miller Anruf Miller spricht 1.ogg-d7eeeaf82a1421b0cb7136ccc881044d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

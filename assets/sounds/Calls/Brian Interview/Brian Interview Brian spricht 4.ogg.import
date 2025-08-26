@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://eigf0qtvf1kb"
+path="res://.godot/imported/Brian Interview Brian spricht 4.ogg-7152a4a1f5a138e48322711be74bfbd6.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Brian Interview/Brian Interview Brian spricht 4.ogg"
+dest_files=["res://.godot/imported/Brian Interview Brian spricht 4.ogg-7152a4a1f5a138e48322711be74bfbd6.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

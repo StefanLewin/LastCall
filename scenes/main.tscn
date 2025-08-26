@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dlav4dnhlxjwh"]
+[gd_scene load_steps=12 format=3 uid="uid://dlav4dnhlxjwh"]
 
 [ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://cos4nyfxpuh0o" path="res://assets/graphics/full_resolution/desk.png" id="2_tbgi4"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://boqjbr5ai6b7t" path="res://assets/graphics/full_resolution/Mug_Highlight.png" id="7_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://cb04t4ifjb3pa" path="res://scenes/pause.tscn" id="8_tipki"]
 [ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="10_choun"]
+[ext_resource type="PackedScene" uid="uid://dscc6ba27o7k" path="res://scenes/solution_box.tscn" id="10_eb6dy"]
 [ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="10_ya4ey"]
 
 [node name="Main" type="Node2D"]
@@ -75,6 +76,14 @@ texture = ExtResource("7_o6xl0")
 visible = false
 
 [node name="Transcript" parent="." groups=["Transcript"] instance=ExtResource("10_ya4ey")]
+offset_left = 674.0
+offset_top = 397.0
+offset_right = 1074.0
+offset_bottom = 947.0
+rotation = -0.0680678
+
+[node name="SolutionBox" parent="." instance=ExtResource("10_eb6dy")]
+visible = false
 offset_left = 674.0
 offset_top = 397.0
 offset_right = 1074.0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://uwe6vvykydr3"
+path="res://.godot/imported/Mutter Interview Clark spricht 4.ogg-d7088cbd29b9e177f78a650738034d3d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Mutter Interview/Mutter Interview Clark spricht 4.ogg"
+dest_files=["res://.godot/imported/Mutter Interview Clark spricht 4.ogg-d7088cbd29b9e177f78a650738034d3d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cbalwilwtoel2"
+path="res://.godot/imported/Nora spricht 6.ogg-47dabaa147c4bf8c4b16874be4dc773f.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Telefonseelsorge/Nora spricht 6.ogg"
+dest_files=["res://.godot/imported/Nora spricht 6.ogg-47dabaa147c4bf8c4b16874be4dc773f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

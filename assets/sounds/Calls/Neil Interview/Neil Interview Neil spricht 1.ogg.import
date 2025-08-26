@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://wly4dsclfsyk"
+path="res://.godot/imported/Neil Interview Neil spricht 1.ogg-6205b095772838ba6e20a1b571861495.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Neil Interview/Neil Interview Neil spricht 1.ogg"
+dest_files=["res://.godot/imported/Neil Interview Neil spricht 1.ogg-6205b095772838ba6e20a1b571861495.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

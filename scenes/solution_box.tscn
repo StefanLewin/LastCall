@@ -1,9 +1,141 @@
-[gd_scene format=3 uid="uid://cgfnl2y603km"]
+[gd_scene load_steps=2 format=3 uid="uid://dscc6ba27o7k"]
+
+[ext_resource type="Script" uid="uid://dj5lld7xxg2tt" path="res://scripts/solution_box.gd" id="1_nlqxk"]
 
 [node name="SolutionBox" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = -1520.0
+offset_bottom = -530.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_nlqxk")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 20
+text = "Lösung des Falles um Nora Hickens"
+fit_content = true
+horizontal_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="Murderer-Label" type="RichTextLabel" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+theme_override_font_sizes/normal_font_size = 15
+text = "Täter"
+fit_content = true
+
+[node name="Murderer-Text" type="TextEdit" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Bitte ausfüllen"
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+scroll_fit_content_height = true
+
+[node name="Weapon-Label" type="RichTextLabel" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+theme_override_font_sizes/normal_font_size = 15
+text = "Mordwaffe"
+fit_content = true
+
+[node name="Weapon-Text" type="TextEdit" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+placeholder_text = "Bitte ausfüllen"
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+scroll_fit_content_height = true
+
+[node name="Motive-Label" type="RichTextLabel" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+theme_override_font_sizes/normal_font_size = 15
+text = "Mordmotiv"
+fit_content = true
+
+[node name="Motive-Text" type="TextEdit" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+placeholder_text = "Bitte ausfüllen"
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+scroll_fit_content_height = true
+
+[node name="Place-Label" type="RichTextLabel" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.5
+theme_override_font_sizes/normal_font_size = 15
+text = "Tatort"
+fit_content = true
+
+[node name="Place-Text" type="TextEdit" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+placeholder_text = "Bitte ausfüllen"
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+scroll_fit_content_height = true
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+text = "Absenden"
+
+[node name="SolutionFeedback" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 15
+bbcode_enabled = true
+text = "[color=#5e1717]Das klingt nicht logisch, Detective![/color]"
+fit_content = true
+
+[connection signal="focus_entered" from="MarginContainer/VBoxContainer/GridContainer/Murderer-Text" to="." method="_on_murderer_text_focus_entered"]
+[connection signal="focus_entered" from="MarginContainer/VBoxContainer/GridContainer/Weapon-Text" to="." method="_on_weapon_text_focus_entered"]
+[connection signal="focus_entered" from="MarginContainer/VBoxContainer/GridContainer/Motive-Text" to="." method="_on_motive_text_focus_entered"]
+[connection signal="focus_entered" from="MarginContainer/VBoxContainer/GridContainer/Place-Text" to="." method="_on_place_text_focus_entered"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
