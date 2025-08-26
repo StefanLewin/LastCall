@@ -11,8 +11,8 @@
 [node name="Notepad" type="Control" groups=["Notepad"]]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1500.0
-offset_bottom = 2000.0
+offset_right = 250.0
+offset_bottom = 360.0
 script = ExtResource("1_nkxj1")
 item_scene = ExtResource("2_fhm5p")
 
@@ -33,7 +33,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-theme_override_font_sizes/font_size = 40
+theme_override_font_sizes/font_size = 8
 theme_override_styles/panel = SubResource("StyleBoxEmpty_pq6gc")
 tab_alignment = 2
 current_tab = 0

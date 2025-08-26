@@ -8,8 +8,8 @@
 [node name="Transcript" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1500.0
-offset_bottom = 2000.0
+offset_right = 400.0
+offset_bottom = 550.0
 script = ExtResource("1_yaytj")
 
 [node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_caller_name", "label_called_name", "label_time")]
@@ -46,22 +46,26 @@ layout_mode = 2
 
 [node name="GridContainer" type="GridContainer" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 4
 columns = 4
 
 [node name="_Caller" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.25
 theme_override_colors/default_color = Color(1, 1, 1, 1)
 text = "Caller:"
 
 [node name="CallerValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.25
 text = "Stefan
 "
 
 [node name="_Time" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.25
 theme_override_colors/default_color = Color(1, 1, 1, 1)
 text = "Time:"
 fit_content = true
@@ -70,6 +74,8 @@ vertical_alignment = 1
 
 [node name="TimeValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.25
 text = "12:00"
 
 [node name="_Called" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
@@ -87,7 +93,7 @@ text = "Maria"
 [node name="Call Transcript" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/normal_font_size = 64
+theme_override_font_sizes/normal_font_size = 20
 bbcode_enabled = true
 text = "Click [url=this part]this part[/url] to trigger something.
 "
