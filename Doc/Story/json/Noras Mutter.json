@@ -8,16 +8,25 @@
 		  "from": "Oma",
 		  "time": "2025-08-24T15:30:00Z",
 		  "transcript": [
-			"Ich habe heute mit [url=Maria] Maria [/url]  gesprochen. ",
-			"ladidadida",
-			"das ist die dritte zeile"
+			
 			]
 		},
 		{
 			"callId": 202,
 			"from": "carke",
 			"time": "2025-08-24T15:30:00Z",
-			"transcript": "Lorem ipsum..."
+			"transcript": ["Miss Hittgens können Sie mir sagen ob in den letzten Tagen etwas bei Ihrer Tochter aufgefallen ist?",
+			"Nora hat sich sehr stark zurück gezogen. Sie war oft in ihrem Zimmer aber ich hörte sie manchmal reden. Wenn ich nachsah hat sie hastig das Handy weg gezogen.",
+			"Haben Sie gefragt was los ist?",
+			"Natürlich, aber sie war immer ausweichend. So kannte ich meine Tochter gar nicht.",
+			"Gab es jemanden den sie sich anvertraut hat?",
+			"Ihre beste Freundin, Kim Bricks, hat sie noch in ihr Zimmer gelassen. Wenn Nora lachte, dann mit ihr - aber auch da wirkte es gezwungen. Einmal habe ich Nora zu Kim sagen hören: \"Du darfst nicht hingehen. Du darfst es niemanden verraten.\" Ich weiß nicht was sie damit sagen wollte.",
+			"Können Sie sich noch an den genauen Wortlaut erinnern?",
+			"Leider nein, aber es klang so als hätte sie wirklich Angst um Kim gehabt.",
+			"Hat Nora Ihnen gegenüber von einen Brief oder Papieren geredet?",
+			"Nur darüber, dass was auf Ihren Schreibtisch liegen würde *das nicht von ihr sei*. Mehr wollte sie nicht sagen.",
+			"Herr Kommissar, egal was dieser Brief sagt, es war nicht meine Tochter."
+			]
 		}
 	  ]
 	}
