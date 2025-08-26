@@ -1,0 +1,3 @@
+Ich habe eine Idee für die Story Auflösung.
+Kay Bricks war der Ex vom Opfer. In Gespräch mit einem Freund stellt sich heraus das er nicht gut zu ihr war, aber trotzdem dem Fehler bei ihr sah. Er wird ein leicht als Täter dargestellt. Sein älterer Bruder Karl Bricks ist konservativer sehr auf dem Ruf beachte Person.
+Die Auflösung ist so das Karl das Opfer zu folgen, um sie zur Rede zu stellen, um sie zu überzeugen da sie wieder mit Kay wieder zusammen kommt. Er macht das alles, weil über Kay dadurch schlecht geredet wird in der Öffentlichkeit. Ihm waren die Gefühle vom Opfer egal gewesen. Als er erkannt hat das es sie und Kay wieder zusammen kommt nicht wird. Schubst Karl das Opfer von der Brücke, um ihr Tod die Trennung zu überschatten.

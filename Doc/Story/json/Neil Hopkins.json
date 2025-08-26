@@ -1,0 +1,27 @@
+{
+	"character": {
+	  "id": 6,
+	  "name": "Neil Hopkins",
+	  "phoneCalls": [
+		{
+		  "callId": 601,
+		  "from": "Clarkson",
+		  "time": "2025-08-24T15:30:00Z",
+		  "transcript": [
+			"Detective Clark: Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?",
+			"Neil Hopkins: Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen.",
+			"Detective Clark: Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?",
+			"Neil Hopkins: Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional.",
+			"Detective Clark: Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?",
+			"Neil Hopkins: Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist.",
+			"Detective Clark: Wie war Ihr Verhältnis zu Nora?",
+			"Neil Hopkins: Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld.",
+			"Detective Clark:** Was könnte das Umfeld damit zu tun haben?",
+			"Neil Hopkins: Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht."
+			]
+		}
+
+	  ]
+	}
+  }
+  
