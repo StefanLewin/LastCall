@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://co6ga8o57gbpp"]
+
+[ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://05i7xii1pmlj" path="res://scripts/game_manager.gd" id="1_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="2_yqjtg"]
+
+[node name="Game" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_lnu2h")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.3, 0.3)
+
+[node name="Transcript" parent="." instance=ExtResource("1_80nbo")]
+offset_left = -1694.0
+offset_top = -1004.0
+offset_right = -194.0
+offset_bottom = 996.0
+
+[node name="Notepad" parent="." instance=ExtResource("2_yqjtg")]
+offset_left = 184.0
+offset_top = -1019.0
+offset_right = 1684.0
+offset_bottom = 981.0
