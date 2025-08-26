@@ -7,12 +7,12 @@ const notepad_entry = preload("res://scenes/notepad_entry.tscn")
 
 @export var item_scene: PackedScene
 
+var personNodes: Array[Node]
+
 func _on_panel_gui_input(event: InputEvent) -> void:
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and event.is_pressed():
 		if GameManager.is_text_selected:
-			#var block_instance = item_scene.instantiate()
-			#text_container.add_child(block_instance)
-			print("Füging hinzu")
+			pass
 
 func addInfo():
 	var info = GameManager.releaseInfo()
@@ -43,24 +43,12 @@ func addNote(note):
 				return
 
 func addPerson(person):
-	
-	if person.Relation == Globals.Relationship.FRIEND:
-		for node in persons.get_children():
-			if node.relationship == Globals.Relationship.FRIEND:
-				node.addItem(person)
-				return
-	if person.Relation == Globals.Relationship.FAMILY:
-		for node in persons.get_children():
-			if node.relationship == Globals.Relationship.FAMILY:
-				node.addItem(person)
-				return
-	if person.Relation == Globals.Relationship.OFFICIAL:
-		for node in persons.get_children():
-			if node.relationship == Globals.Relationship.OFFICIAL:
-				node.addItem(person)
-				return
-	if person.Relation == Globals.Relationship.MISC:
-		for node in persons.get_children():
-			if node.relationship == Globals.Relationship.MISC:
-				node.addItem(person)
-				return
+	for node in persons.get_children():
+		if node.relationship == person.Relation:
+			personNodes.append(node.addItem(person))
+			return
+
+func deselectPersonNodes():
+	for personNode in personNodes:
+		personNode.deselectItem()
+		print("deselecting: " + str(personNode.entryInfo.ID))

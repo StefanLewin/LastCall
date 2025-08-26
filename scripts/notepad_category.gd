@@ -18,10 +18,16 @@ func _ready() -> void:
 		items.add_child(notepad_empty.instantiate())
 		isEmpty = true
 
-func addItem(item) -> void:
+func addItem(item) -> Node:
 	if(isEmpty):
 		items.remove_child(items.get_child(0))
 		isEmpty = false
+	
+	for existingItem in items.get_children():
+		if existingItem.entryInfo.ID == item.ID:
+			return
+	
 	var entry = notepad_entry.instantiate()
 	entry.setup(item)
 	items.add_child(entry)
+	return entry
