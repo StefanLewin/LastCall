@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Seite-1" id="e8pxk-Sx8KkQyPLP6KwD">
-    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="548" dy="979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,10 @@
         <mxCell id="MVpUlsHbnZ6lfmsMkLoA-10" value="James Miller (Polizei)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OhZUVuU56-m4VcxkEXev-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MVpUlsHbnZ6lfmsMkLoA-12" target="OhZUVuU56-m4VcxkEXev-1">
+        <mxCell id="OhZUVuU56-m4VcxkEXev-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MVpUlsHbnZ6lfmsMkLoA-12" target="OhZUVuU56-m4VcxkEXev-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvl42gqtenbdASwZHA2H-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVpUlsHbnZ6lfmsMkLoA-12" target="OhZUVuU56-m4VcxkEXev-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MVpUlsHbnZ6lfmsMkLoA-12" value="Kim Brick" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -45,14 +48,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OhZUVuU56-m4VcxkEXev-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OhZUVuU56-m4VcxkEXev-1" target="OhZUVuU56-m4VcxkEXev-4">
+        <mxCell id="OhZUVuU56-m4VcxkEXev-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OhZUVuU56-m4VcxkEXev-1" target="OhZUVuU56-m4VcxkEXev-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OhZUVuU56-m4VcxkEXev-1" value="Bryan Hopkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="OhZUVuU56-m4VcxkEXev-1" value="Bryan Hopkins" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OhZUVuU56-m4VcxkEXev-4" value="Neil Hopkins" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="OhZUVuU56-m4VcxkEXev-4" value="Neil Hopkins" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
