@@ -1,5 +1,5 @@
 {
-	"character": [
+	"Sorgentelefon": 
 		{
 			"id": 1,
 			"name": "Sorgentelefon",
@@ -28,6 +28,7 @@
 				}
 			]
 		},
+		"Lara Hickens": 
 		{
 			"id": 2,
 			"name": "Lara Hickens",
@@ -52,6 +53,7 @@
 				}
 			]
 		},
+		"Kim Brick": 
 		{
 			"id": 3,
 			"name": "Kim Brick",
@@ -95,6 +97,7 @@
 				}
 			]
 		},
+		"James Miller": 
 		{
 			"id": 4,
 			"name": "James Miller",
@@ -132,6 +135,7 @@
 				}
 			]
 		},
+		"Brian Hopkins": 
 		{
 			"id": 5,
 			"name": "Brian Hopkins",
@@ -155,6 +159,7 @@
 				}
 			]
 		},
+		"Neil Hopkins": 
 		{
 			"id": 6,
 			"name": "Neil Hopkins",
@@ -178,5 +183,5 @@
 				}
 			]
 		}
-	]
+	
 }
