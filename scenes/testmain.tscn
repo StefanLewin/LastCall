@@ -6,10 +6,9 @@
 layout_mode = 3
 anchors_preset = 0
 
-[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call", "label_called_name", "label_time")]
+[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_called_name", "label_time")]
 script = ExtResource("1_fny4c")
 calls_text_file = "res://assets/json/example.json"
-label_call = NodePath("../LabelCall")
 label_called_name = NodePath("../LabelCalled")
 label_time = NodePath("../LabelTime")
 metadata/_custom_type_script = "uid://drprf1ww1026r"
