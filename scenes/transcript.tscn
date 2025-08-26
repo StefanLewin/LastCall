@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://capa8f5hs0iv7"]
+[gd_scene load_steps=4 format=3 uid="uid://capa8f5hs0iv7"]
 
 [ext_resource type="Script" uid="uid://o66t8umuh1x8" path="res://scripts/transcript.gd" id="1_yaytj"]
 [ext_resource type="Script" uid="uid://drprf1ww1026r" path="res://manager/dialog_manager.gd" id="2_yaytj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yaytj"]
 
 [node name="Notepad" type="Control"]
 custom_minimum_size = Vector2(1500, 2000)
@@ -14,10 +16,10 @@ script = ExtResource("1_yaytj")
 [node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call", "label_caller_name", "label_called_name", "label_time")]
 script = ExtResource("2_yaytj")
 calls_text_file = "res://assets/json/example.json"
-label_call = NodePath("../Panel/VBoxContainer/Call Transcript")
-label_caller_name = NodePath("../Panel/VBoxContainer/Caller/Value")
-label_called_name = NodePath("../Panel/VBoxContainer/Called/Value")
-label_time = NodePath("../Panel/VBoxContainer/Time/Value")
+label_call = NodePath("../Panel/MarginContainer/VBoxContainer/Call Transcript")
+label_caller_name = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/CallerValue")
+label_called_name = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/CalledValue")
+label_time = NodePath("../Panel/MarginContainer/VBoxContainer/GridContainer/TimeValue")
 metadata/_custom_type_script = "uid://drprf1ww1026r"
 
 [node name="Panel" type="Panel" parent="."]
@@ -27,21 +29,29 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_yaytj")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/MarginContainer"]
+layout_mode = 2
 theme_override_constants/separation = 20
 
-[node name="Caller" type="HBoxContainer" parent="Panel/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
+[node name="GridContainer" type="GridContainer" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
+columns = 4
 
-[node name="Label" type="RichTextLabel" parent="Panel/VBoxContainer/Caller"]
+[node name="_Caller" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 custom_minimum_size = Vector2(150, 50)
 layout_mode = 2
 theme_override_colors/default_color = Color(1, 1, 1, 1)
@@ -50,17 +60,31 @@ text = "Caller:"
 fit_content = true
 vertical_alignment = 1
 
-[node name="Value" type="RichTextLabel" parent="Panel/VBoxContainer/Caller"]
+[node name="CallerValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_font_sizes/normal_font_size = 40
-text = "Stefan"
+text = "Stefan
+"
 
-[node name="Called" type="HBoxContainer" parent="Panel/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
+[node name="_Time" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(150, 50)
 layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/normal_font_size = 40
+text = "Time:"
+fit_content = true
+horizontal_alignment = 2
+vertical_alignment = 1
 
-[node name="Label" type="RichTextLabel" parent="Panel/VBoxContainer/Called"]
+[node name="TimeValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "12:00"
+horizontal_alignment = 2
+
+[node name="_Called" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 custom_minimum_size = Vector2(150, 50)
 layout_mode = 2
 theme_override_colors/default_color = Color(1, 1, 1, 1)
@@ -69,34 +93,13 @@ text = "Called:"
 fit_content = true
 vertical_alignment = 1
 
-[node name="Value" type="RichTextLabel" parent="Panel/VBoxContainer/Called"]
+[node name="CalledValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_font_sizes/normal_font_size = 40
 text = "Maria"
 
-[node name="Time" type="HBoxContainer" parent="Panel/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
-layout_mode = 2
-alignment = 2
-
-[node name="Label" type="RichTextLabel" parent="Panel/VBoxContainer/Time"]
-custom_minimum_size = Vector2(150, 50)
-layout_mode = 2
-theme_override_colors/default_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/normal_font_size = 40
-text = "Time:"
-fit_content = true
-vertical_alignment = 1
-
-[node name="Value" type="RichTextLabel" parent="Panel/VBoxContainer/Time"]
-custom_minimum_size = Vector2(500, 0)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 40
-text = "Maria"
-horizontal_alignment = 2
-
-[node name="Call Transcript" type="RichTextLabel" parent="Panel/VBoxContainer"]
+[node name="Call Transcript" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/normal_font_size = 64
