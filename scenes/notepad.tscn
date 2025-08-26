@@ -29,9 +29,10 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 40
 tab_alignment = 2
-current_tab = 0
+current_tab = 1
 
 [node name="Personen" type="VBoxContainer" parent="Panel/TabContainer"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -116,7 +117,6 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Notizen" type="VBoxContainer" parent="Panel/TabContainer"]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 

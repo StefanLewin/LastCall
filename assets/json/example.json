@@ -1,32 +1,30 @@
 {
 	"character": {
-	  "id": 1,
-	  "name": "Marcus Steel",
-	  "phoneCalls": [
-		{
-		  "callId": 101,
-		  "from": "Sarah",
-		  "time": "2025-08-24T15:30:00Z",
-		  "transcript": [
-			"Ich habe heute mit [url=Maria] Maria [/url]  gesprochen. ",
-			"ladidadida",
-			"das ist die dritte zeile"
-			]
-		},
-		{
-			"callId": 102,
-			"from": "Paul",
-			"time": "2025-08-24T15:30:00Z",
-			"transcript": "Lorem ipsum..."
-		  },
-		  {
-			"callId": 103,
-			"from": "Jessica",
-			"time": "2025-08-24T15:30:00Z",
-			"transcript": "Lorem ipsum..."
-		  }
-
-	  ]
+		"id": 1.0,
+		"name": "Marcus Steel",
+		"phoneCalls": [
+			{
+				"callId": 101.0,
+				"from": "Sarah",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": [
+					"Ich habe heute mit [url=Maria] Maria [/url]  gesprochen. ",
+					"ladidadida",
+					"das ist die dritte zeile"
+				]
+			},
+			{
+				"callId": 102.0,
+				"from": "Paul",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": "Lorem ipsum..."
+			},
+			{
+				"callId": 103.0,
+				"from": "Jessica",
+				"time": "2025-08-24T15:30:00Z",
+				"transcript": "Lorem ipsum..."
+			}
+		]
 	}
-  }
-  
+}

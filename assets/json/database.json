@@ -1,0 +1,44 @@
+{
+	"characters": [
+		{
+			"id": 101,
+			"name": "Stefan",
+			"relation": "0"
+		},
+		{
+			"id": 102,
+			"name": "Maria",
+			"relation": "1"
+		},
+	],
+	"weapons": [
+		{
+			"id": 201,
+			"name": "knife"
+		},
+		{
+			"id": 202,
+			"name": "pistol"
+		}
+	],
+	"motives": [
+		{
+			"id": 301,
+			"name": "jealousy"
+		},
+		{
+			"id": 302,
+			"name": "money"
+		}
+	],
+	"places": [
+		{
+			"id": 401,
+			"name": "park"
+		},
+		{
+			"id": 402,
+			"name": "suburbs"
+		}
+	]
+}
