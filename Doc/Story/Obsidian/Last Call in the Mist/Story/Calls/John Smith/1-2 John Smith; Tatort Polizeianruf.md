@@ -6,8 +6,12 @@ tags:
 Ein Polizist ruft den Dektiv Clarkson an
 Von Polizist [[James Miller]]
 # Dialog
-James Miller: "Detektiv Clarkson. 
-Ich melde mich gerade vom Tatort unter der Brücke im Wald. Wir haben schon den Tatort abgesichert und der Suchtrupp sucht gerade die Umgebung ab. Die Leute von der Autopsie haben schon die Leiche abgeholt, da werde ich auch mal bei [[Anita Zelmer]] anrufen."
-Clarkson: "Gut, ich werde später bei ihr noch anrufen. Hat der Suchtrupp schon was gefunden?"
-James Miller: "Ja, ein Messer am Flussende zum Meer. Aber ich bezweifle leider stark, ob man irgendwelche Fingerabdrücke oder geschweige denn Teilabdrücke finden werden kann."
-Clarkson: "Alles klar, dann werden wir uns später wiedersehen. Bis gleich"
+**James Miller:** „Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der Brücke im Wald. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert – ich werde später mit Frau Zelmer Rücksprache halten.“
+
+**Clarkson:** „Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?“
+
+**James Miller:** „Ja, ein Messer – etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben.“
+
+**Clarkson:** „Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch.“
+
+**James Miller:** „Verstanden. Ich warte hier auf Sie.“
