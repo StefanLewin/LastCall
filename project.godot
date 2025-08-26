@@ -13,7 +13,7 @@ config_version=5
 config/name="Last Call"
 run/main_scene="uid://co6ga8o57gbpp"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://btypux25xl0tv"
 
 [autoload]
 
@@ -27,6 +27,10 @@ AudioManager="*res://manager/audio_manager.tscn"
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="Last Call"
 
 [global_group]
 

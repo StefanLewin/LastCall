@@ -44,6 +44,7 @@ func addNote(note):
 
 func addPerson(person):
 	for node in persons.get_children():
+
 		if node.relationship == person.Relation:
 			var newNode = node.addItem(person)
 			if newNode != null:

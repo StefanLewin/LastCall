@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bhkgw574y0fud"
+path="res://.godot/imported/Kim Interview Clark spricht 4.ogg-4feef6d39db080cb2e007e54b6d993fd.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Kim Interview/Interview 1/Kim Interview Clark spricht 4.ogg"
+dest_files=["res://.godot/imported/Kim Interview Clark spricht 4.ogg-4feef6d39db080cb2e007e54b6d993fd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

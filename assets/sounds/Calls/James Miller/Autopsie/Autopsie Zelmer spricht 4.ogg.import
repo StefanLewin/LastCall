@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://r7jk8w6s12t7"
+path="res://.godot/imported/Autopsie Zelmer spricht 4.ogg-daf4d20a87c40244ee9695fb13eace7c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/James Miller/Autopsie/Autopsie Zelmer spricht 4.ogg"
+dest_files=["res://.godot/imported/Autopsie Zelmer spricht 4.ogg-daf4d20a87c40244ee9695fb13eace7c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
