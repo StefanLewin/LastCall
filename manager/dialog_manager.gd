@@ -21,7 +21,7 @@ var typing := false
 
 func _ready() -> void:
 	calls_dict = load_call_text()
-	_on_display_call("Sorgentelefon", "phoneCalls", 0)
+	#_on_display_call("Sorgentelefon", "phoneCalls", 0)
 	pass
 func _process(delta: float) -> void:
 	if !typing:
