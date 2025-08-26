@@ -10,6 +10,10 @@
 ### 4.James Miller
 401. Clarkson
 402. Anita
+### 5.Bryan Hopkins
+
+### 6.Neil Hopkins
+
 # Einträge
 Für das Lösen des Falles.
 ## Charakter(Täter)
