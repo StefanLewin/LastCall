@@ -6,11 +6,10 @@
 layout_mode = 3
 anchors_preset = 0
 
-[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call", "label_caller_name", "label_called_name", "label_time")]
+[node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_call", "label_called_name", "label_time")]
 script = ExtResource("1_fny4c")
 calls_text_file = "res://assets/json/example.json"
 label_call = NodePath("../LabelCall")
-label_caller_name = NodePath("../LabelCaller")
 label_called_name = NodePath("../LabelCalled")
 label_time = NodePath("../LabelTime")
 metadata/_custom_type_script = "uid://drprf1ww1026r"
@@ -21,7 +20,7 @@ offset_left = 158.0
 offset_top = 148.0
 offset_right = 727.0
 offset_bottom = 391.0
-meta_underlined = false
+bbcode_enabled = true
 
 [node name="LabelCaller" type="RichTextLabel" parent="."]
 layout_mode = 0
@@ -29,6 +28,8 @@ offset_left = 850.0
 offset_top = 11.0
 offset_right = 1148.0
 offset_bottom = 154.0
+bbcode_enabled = true
+text = "[url]hallo[/url]"
 
 [node name="LabelCalled" type="RichTextLabel" parent="."]
 layout_mode = 0

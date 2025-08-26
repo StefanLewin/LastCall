@@ -8,9 +8,10 @@
 		  "from": "Sarah",
 		  "time": "2025-08-24T15:30:00Z",
 		  "transcript": [
-			"Ich habe heute mit [url=Maria] Maria [/url]  gesprochen. ",
-			"ladidadida",
-			"das ist die dritte zeile"
+
+			"Lorem \nipsum...\n",
+			"ladiladida\n",
+			"das ist die [url] dritte [/url] zeile"
 			]
 		},
 		{

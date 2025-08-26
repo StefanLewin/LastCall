@@ -1,0 +1,71 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlav4dnhlxjwh"]
+
+[ext_resource type="Texture2D" uid="uid://cto405k1l1wmn" path="res://assets/graphics/desk_lowres.webp" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://c04lbl61akrjt" path="res://assets/graphics/paper_highlight_lowres.png" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://cu1meytvf08w5" path="res://assets/graphics/notes_highlight_lowres.webp" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://dd7t16djviumx" path="res://assets/graphics/archive_highlight_lowres.webp" id="5_tipki"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_tbgi4")
+
+[node name="background" type="Sprite2D" parent="."]
+texture = ExtResource("1_o5qli")
+offset = Vector2(960, 540)
+
+[node name="AreaPaper" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaPaper"]
+polygon = PackedVector2Array(1132, 330, 1110, 456, 1103, 564, 1117, 728, 1133, 876, 1110, 904, 1116, 949, 709, 957, 686, 865, 638, 663, 625, 554, 629, 495, 621, 368, 651, 365, 649, 332, 855, 318, 1036, 314)
+
+[node name="AreaNoteblock" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaNoteblock"]
+polygon = PackedVector2Array(1311, 524, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
+
+[node name="AreaArchive" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaArchive"]
+polygon = PackedVector2Array(0, 656, 287, 647, 396, 650, 447, 707, 468, 912, 484, 1080, 1, 1079)
+
+[node name="AreaPhone" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaPhone"]
+polygon = PackedVector2Array(252, 27, 374, 59, 429, 113, 473, 296, 417, 383, 305, 494, 263, 497, 86, 396, 49, 229, 93, 158, 214, 41)
+
+[node name="AreaMug" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaMug"]
+polygon = PackedVector2Array(977, 0, 951, 32, 952, 75, 977, 133, 1034, 158, 1087, 146, 1106, 128, 1149, 139, 1174, 132, 1162, 111, 1130, 82, 1129, 47, 1120, 9, 1112, 0)
+
+[node name="PaperHighlights" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_tefeu")
+offset = Vector2(960, 540)
+
+[node name="NotesHighlights" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("4_o6xl0")
+offset = Vector2(960, 540)
+
+[node name="ArchiveHighlights" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("5_tipki")
+offset = Vector2(960, 540)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+offset_left = 676.0
+offset_top = 402.0
+offset_right = 1070.0
+offset_bottom = 948.0
+rotation = -0.0558505
+text = "hallo  ich habe nora ermordet ich mag die farbe rot einfach viel  zu sehr. im rau gab es kein rot das war UNACCAPTABLE also musste nora fuer die farbe geopfert werden MUAHAHAHHAHAHAHAHAHAH"
+
+[connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
+[connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]
+[connection signal="mouse_entered" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_entered"]
+[connection signal="mouse_exited" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_exited"]
+[connection signal="mouse_entered" from="AreaArchive" to="." method="_on_area_archive_mouse_entered"]
+[connection signal="mouse_exited" from="AreaArchive" to="." method="_on_area_archive_mouse_exited"]
