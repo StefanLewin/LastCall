@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dkuuk14at3gm0"
+path="res://.godot/imported/Autopsie Miller spricht 3.ogg-dc01e14fd31957835e8921a7eeb8a8ab.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/James Miller/Autopsie/Autopsie Miller spricht 3.ogg"
+dest_files=["res://.godot/imported/Autopsie Miller spricht 3.ogg-dc01e14fd31957835e8921a7eeb8a8ab.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

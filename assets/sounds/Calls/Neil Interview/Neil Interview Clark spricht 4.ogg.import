@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bty436tydsyub"
+path="res://.godot/imported/Neil Interview Clark spricht 4.ogg-3d96aa8e16261bec84c243ef46a658d7.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Neil Interview/Neil Interview Clark spricht 4.ogg"
+dest_files=["res://.godot/imported/Neil Interview Clark spricht 4.ogg-3d96aa8e16261bec84c243ef46a658d7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

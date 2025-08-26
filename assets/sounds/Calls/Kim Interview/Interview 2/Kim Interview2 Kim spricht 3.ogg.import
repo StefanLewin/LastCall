@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cun0pucnyp1on"
+path="res://.godot/imported/Kim Interview2 Kim spricht 3.ogg-a7e944bf560465becddee12fafbb46ef.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/Calls/Kim Interview/Interview 2/Kim Interview2 Kim spricht 3.ogg"
+dest_files=["res://.godot/imported/Kim Interview2 Kim spricht 3.ogg-a7e944bf560465becddee12fafbb46ef.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
