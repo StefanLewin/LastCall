@@ -20,6 +20,7 @@ offset_right = -194.0
 offset_bottom = 996.0
 
 [node name="Notepad" parent="." instance=ExtResource("2_yqjtg")]
+unique_name_in_owner = true
 offset_left = 184.0
 offset_top = -1019.0
 offset_right = 1684.0

@@ -1,6 +1,5 @@
 extends Node
 
-
 var selected_info
 var is_text_selected = false
 
@@ -15,8 +14,8 @@ func getText() -> String:
 	else: 
 		return selected_info.NoteName
 
-func releaseText() -> String:
-	var text = getText()
+func releaseInfo():
+	var info = selected_info
 	selected_info = null
 	is_text_selected = false
-	return text
+	return info

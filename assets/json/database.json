@@ -5,8 +5,18 @@
 			"name": "Stefan",
 			"relation": "0"
 		},
-		{
+				{
 			"id": 102,
+			"name": "Tom",
+			"relation": "0"
+		},
+				{
+			"id": 103,
+			"name": "Nadja",
+			"relation": "0"
+		},
+		{
+			"id": 104,
 			"name": "Maria",
 			"relation": "1"
 		},
