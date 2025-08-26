@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://631ypswv5fj"]
+
+[ext_resource type="Script" uid="uid://lbsu1wdc5iy5" path="res://scripts/AudioCall.gd" id="1_m88jo"]
+
+[node name="AudiocallManager" type="Node"]
+script = ExtResource("1_m88jo")
+
+[node name="AudioStreamPlayerCALLER" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
