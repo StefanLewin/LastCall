@@ -25,7 +25,7 @@ Anita Zelmer: "Am ganzen Körper sind starke Prellungen zu erkennen, die wahrsch
 
 James Miller: "Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein Selbstmord, wenn man den Abschiedsbrief beachtet."
 
-Anita Zelmer: "Kann sein. Aber für Mutmaßungen bin ich nicht zuständig!"
+Anita Zelmer: "Kann sein. Aber für Mutmaßungen bin ich nicht zuständig! Es könnte auch so gut wie ein Selbstmord sein, auch dass jemand mit psychischer Kraft sie von der Brücke geschubst hat."
 
 James Miller: "Danke für die Zeit. Und noch einen schönen Tag."
 
