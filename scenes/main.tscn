@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dlav4dnhlxjwh"]
+[gd_scene load_steps=11 format=3 uid="uid://dlav4dnhlxjwh"]
 
 [ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://cos4nyfxpuh0o" path="res://assets/graphics/full_resolution/desk.png" id="2_tbgi4"]
@@ -8,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://dwnvyq7rg7j5l" path="res://assets/graphics/full_resolution/phone_highlight.png" id="6_tefeu"]
 [ext_resource type="Texture2D" uid="uid://boqjbr5ai6b7t" path="res://assets/graphics/full_resolution/Mug_Highlight.png" id="7_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://cb04t4ifjb3pa" path="res://scenes/pause.tscn" id="8_tipki"]
+[ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="10_choun"]
+[ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="10_ya4ey"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_tbgi4")
@@ -27,6 +29,7 @@ polygon = PackedVector2Array(1132, 330, 1110, 456, 1103, 564, 1117, 728, 1133, 8
 polygon = PackedVector2Array(1311, 524, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
 
 [node name="AreaArchive" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaArchive"]
 polygon = PackedVector2Array(0, 656, 287, 647, 396, 650, 447, 707, 468, 912, 484, 1080, 1, 1079)
@@ -70,6 +73,19 @@ texture = ExtResource("7_o6xl0")
 
 [node name="Pause" parent="." instance=ExtResource("8_tipki")]
 visible = false
+
+[node name="Transcript" parent="." instance=ExtResource("10_ya4ey")]
+offset_left = 674.0
+offset_top = 397.0
+offset_right = 1073.0
+offset_bottom = 950.0
+rotation = -0.0680678
+
+[node name="Notepad" parent="." instance=ExtResource("10_choun")]
+offset_left = 1323.0
+offset_top = 570.0
+offset_right = 1576.0
+offset_bottom = 934.0
 
 [connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
 [connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]

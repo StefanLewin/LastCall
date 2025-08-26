@@ -2,7 +2,7 @@ class_name DialogManagerComponent
 extends Node
 
 @export_file("*json") var calls_text_file: String
-@export var calls_dict := {}
+var calls_dict := {}
 var call_text
 var caller_text
 var called_text
@@ -15,6 +15,7 @@ var text_display_time
 @export var label_called_name: RichTextLabel
 @export var label_time: RichTextLabel
 var  in_progress := false
+var typing := false
 
 
 func _ready() -> void:
@@ -22,10 +23,11 @@ func _ready() -> void:
 	_on_display_call("character", "phoneCalls", 0)
 	pass
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("ui_accept"):
-		next_line()
-	else:
-		pass
+	if !typing:
+		if Input.is_action_just_pressed("ui_accept"):
+			next_line()
+		else:
+			pass
 
 # call this function to start displaying the call
 func _on_display_call(character_key, phonecalls_key, index_key):
@@ -50,6 +52,7 @@ func _on_display_call(character_key, phonecalls_key, index_key):
 		display_caller_name()
 		display_call_time()
 
+#Loads the json file
 func load_call_text():
 	if FileAccess.file_exists(calls_text_file):
 		var file = FileAccess.open(calls_text_file, FileAccess.READ)
@@ -67,17 +70,20 @@ func next_line():
 			finish()
 
 func finish():
-	label_call.text =""
+	#label_call.text =""
 	in_progress = false
 
 func display_call():
 	if label_call != null:
+		typing = true
 		var tween = get_tree().create_tween()
 		full_call += call_text[index]
 		label_call.visible_characters = full_call.length() - call_text[index].length()
 		text_display_time = 0.1 * (full_call.length() - (full_call.length() - call_text[index].length()))
 		label_call.text = full_call
 		tween.tween_property(label_call, "visible_characters", full_call.length(), text_display_time)
+		await tween.finished
+		typing = false
 
 func display_caller_name():
 	if label_caller_name != null:

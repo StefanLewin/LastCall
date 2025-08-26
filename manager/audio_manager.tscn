@@ -10,3 +10,5 @@ script = ExtResource("1_lfock")
 
 [node name="musik" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("2_6xg7e")
+
+[connection signal="finished" from="musik" to="musik" method="_on_finished"]
