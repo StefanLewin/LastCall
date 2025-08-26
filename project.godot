@@ -19,14 +19,13 @@ config/icon="res://icon.svg"
 
 GameManager="*res://manager/game_manager.gd"
 Globals="*res://types/globals.gd"
+DB="*res://manager/database_access_manager.gd"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-
 window/stretch/aspect="expand"
-
 
 [rendering]
 

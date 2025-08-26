@@ -1,7 +1,7 @@
-class_name DatabaseAccessManager
 extends Node
-@export_file("*json") var database_file: String
+#@export_file("*json") var database_file: String
 @export var db_dict := {}
+var database_file = "res://assets/json/database.json"
 
 var characters : Array[Person]:
 	get: return characters
@@ -19,6 +19,7 @@ func _ready() -> void:
 	getWeapons()
 	getMotives()
 	getPlaces()
+	print("DB Ready")
 
 func load_call_text():
 	if FileAccess.file_exists(database_file):
@@ -58,3 +59,16 @@ func getPlaces():
 		temp = Note.new(int(p["id"]), p["name"])
 		places.append(temp)
 	print(places)
+
+func getInfo(id: int):
+	if(id < 200):
+		print(str(id-100))
+		return characters[id-101]
+	elif(id < 300):
+		return weapons[id - 201]
+	elif(id < 400):
+		return motives[id - 301]
+	elif(id < 500):
+		return places[id - 401]
+	
+	return -1

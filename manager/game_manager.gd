@@ -1,17 +1,22 @@
 extends Node
 
-var selected_text = ""
+
+var selected_info
 var is_text_selected = false
 
-func setText(text:String) -> void:
+func setInfo(id:int) -> void:
 	is_text_selected = true
-	selected_text = text
+	selected_info = DB.getInfo(id)
+
 
 func getText() -> String:
-	return selected_text
+	if(selected_info.ID < 200):
+		return selected_info.PersonName
+	else: 
+		return selected_info.NoteName
 
 func releaseText() -> String:
-	var text = selected_text
-	selected_text = ""
+	var text = getText()
+	selected_info = null
 	is_text_selected = false
 	return text

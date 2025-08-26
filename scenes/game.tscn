@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://co6ga8o57gbpp"]
+[gd_scene load_steps=4 format=3 uid="uid://co6ga8o57gbpp"]
 
 [ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="1_80nbo"]
 [ext_resource type="Script" uid="uid://05i7xii1pmlj" path="res://manager/game_manager.gd" id="1_lnu2h"]
-[ext_resource type="Script" uid="uid://djqfpvxfrs6p3" path="res://manager/database_access_manager.gd" id="2_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="2_yqjtg"]
 
 [node name="Game" type="Node2D"]
@@ -10,11 +9,6 @@
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_lnu2h")
-
-[node name="DatabaseAccessManager" type="Node" parent="."]
-script = ExtResource("2_lbhrr")
-database_file = "res://assets/json/database.json"
-metadata/_custom_type_script = "uid://djqfpvxfrs6p3"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.3, 0.3)

@@ -11,7 +11,7 @@ func _ready():
 
 func _on_meta_clicked(meta):
 	print("You clicked the link: " + meta + "!")
-	GameManager.setText(meta)
+	GameManager.setInfo(int(meta))
 	
 	# Remove any existing popup first
 	if active_popup:

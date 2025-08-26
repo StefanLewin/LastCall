@@ -9,9 +9,10 @@
 		  "time": "2025-08-24T15:30:00Z",
 		  "transcript": [
 
-			"Lorem \nipsum...\n",
-			"ladiladida\n",
-			"das ist die [url] dritte [/url] zeile"
+			"Person: [url=101] Stefan [/url]\n",
+			"Waffe: [url=201] Messer [/url]\n",
+			"Motiv: [url=301] Eifersucht [/url]\n",
+			"Ort: [url=401] Park [/url]\n",
 			]
 		},
 		{

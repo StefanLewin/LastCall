@@ -13,7 +13,7 @@ func _process(delta):
 
 
 func _on_gui_input(event: InputEvent) -> void:
-	print("y")
+	#print("y")
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and event.is_pressed(): # 1 = left mouse button
 		picked_up = !picked_up
-		print("x")
+		#print("x")

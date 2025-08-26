@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dtygpitmw4tm8"]
+[gd_scene load_steps=6 format=3 uid="uid://dtygpitmw4tm8"]
 
 [ext_resource type="Script" uid="uid://bx2sd4v8yilwc" path="res://scripts/notepad.gd" id="1_nkxj1"]
-[ext_resource type="PackedScene" uid="uid://c5brqahg1khus" path="res://scenes/notepad_entry.tscn" id="2_fhm5p"]
+[ext_resource type="PackedScene" uid="uid://c5brqahg1khus" path="res://scenes/notepad_entry_emtpy.tscn" id="2_fhm5p"]
+[ext_resource type="PackedScene" uid="uid://b5qhs4bpw1u0t" path="res://scenes/notepad_category.tscn" id="3_pq6gc"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fhm5p"]
 
@@ -42,149 +43,37 @@ visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="Verwandte" type="VBoxContainer" parent="Panel/TabContainer/Personen"]
+[node name="Family" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
+_category_name = "Familie"
 
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Personen/Verwandte"]
-custom_minimum_size = Vector2(0, 60)
+[node name="Friends" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Verwandte"
-fit_content = true
+_category_name = "Freunde"
 
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Personen/Verwandte"]
+[node name="Officials" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
-theme_override_constants/separation = 30
+_category_name = "Beamte"
 
-[node name="TextBlock" parent="Panel/TabContainer/Personen/Verwandte/Items" instance=ExtResource("2_fhm5p")]
+[node name="Misc" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Personen/Verwandte/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="Freunde" type="VBoxContainer" parent="Panel/TabContainer/Personen"]
-layout_mode = 2
-
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Personen/Freunde"]
-custom_minimum_size = Vector2(0, 60)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Freunde"
-fit_content = true
-
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Personen/Freunde"]
-layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Personen/Freunde/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Personen/Freunde/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="Beamte" type="VBoxContainer" parent="Panel/TabContainer/Personen"]
-layout_mode = 2
-
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Personen/Beamte"]
-custom_minimum_size = Vector2(0, 60)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Beamte"
-fit_content = true
-
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Personen/Beamte"]
-layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Personen/Beamte/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Personen/Beamte/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="Sonstige" type="VBoxContainer" parent="Panel/TabContainer/Personen"]
-layout_mode = 2
-
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Personen/Sonstige"]
-custom_minimum_size = Vector2(0, 60)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Sonstige"
-fit_content = true
-
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Personen/Sonstige"]
-layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Personen/Sonstige/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Personen/Sonstige/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
+_category_name = "Sonstige"
 
 [node name="Notizen" type="VBoxContainer" parent="Panel/TabContainer"]
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="Orte" type="VBoxContainer" parent="Panel/TabContainer/Notizen"]
+[node name="Weapons" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
+_category_name = "Waffen"
 
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Notizen/Orte"]
-custom_minimum_size = Vector2(0, 60)
+[node name="Motives" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Wichtige Orte"
-fit_content = true
+_category_name = "Motive"
 
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Notizen/Orte"]
+[node name="Places" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Notizen/Orte/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Notizen/Orte/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="Motive" type="VBoxContainer" parent="Panel/TabContainer/Notizen"]
-layout_mode = 2
-
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Notizen/Motive"]
-custom_minimum_size = Vector2(0, 60)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Mögliche Motive"
-fit_content = true
-
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Notizen/Motive"]
-layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Notizen/Motive/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Notizen/Motive/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="Waffen" type="VBoxContainer" parent="Panel/TabContainer/Notizen"]
-layout_mode = 2
-
-[node name="Title" type="RichTextLabel" parent="Panel/TabContainer/Notizen/Waffen"]
-custom_minimum_size = Vector2(0, 60)
-layout_mode = 2
-theme_override_font_sizes/normal_font_size = 60
-text = "Mordwaffen"
-fit_content = true
-
-[node name="Items" type="VBoxContainer" parent="Panel/TabContainer/Notizen/Waffen"]
-layout_mode = 2
-theme_override_constants/separation = 30
-
-[node name="TextBlock" parent="Panel/TabContainer/Notizen/Waffen/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
-
-[node name="TextBlock2" parent="Panel/TabContainer/Notizen/Waffen/Items" instance=ExtResource("2_fhm5p")]
-layout_mode = 2
+_category_name = "Orte"
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]

@@ -14,31 +14,31 @@
 	"weapons": [
 		{
 			"id": 201,
-			"name": "knife"
+			"name": "Messer"
 		},
 		{
 			"id": 202,
-			"name": "pistol"
+			"name": "Pistole"
 		}
 	],
 	"motives": [
 		{
 			"id": 301,
-			"name": "jealousy"
+			"name": "Eifersucht"
 		},
 		{
 			"id": 302,
-			"name": "money"
+			"name": "Geld"
 		}
 	],
 	"places": [
 		{
 			"id": 401,
-			"name": "park"
+			"name": "Park"
 		},
 		{
 			"id": 402,
-			"name": "suburbs"
+			"name": "Vorstadt"
 		}
 	]
 }
