@@ -2,7 +2,7 @@
 tags:
   - Story
 ---
-Erste Aufnahme – [[Nora Hickens]] Stimme, Telefonseelsorger 
+Erste Aufnahme – [[Nora Hittgens]] Stimme, Telefonseelsorger 
 
 [Telefonseelsorger]: Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich? 
 
