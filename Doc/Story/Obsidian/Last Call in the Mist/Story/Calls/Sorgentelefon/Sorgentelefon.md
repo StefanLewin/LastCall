@@ -18,7 +18,7 @@ Erste Aufnahme – [[Nora Hickens]] Stimme, Telefonseelsorger 
 
 [Telefonseelsorger]: Aber Sie klingen, als wollten Sie das nicht 
 
-[Nora, mit belegter Stimme]: Ich wollte nie gehen. Ich wollte nach Hause… zu meiner Familie. Stattdessen stehe ich jetzt… [zögert] … an einem Ort, den ich mir nicht ausgesucht habe. 
+[Nora, mit belegter Stimme]: Ich wollte nie gehen. Ich wollte nach Hause… zu meiner Mutter. Stattdessen stehe ich jetzt… [zögert] … an einem Ort, den ich mir nicht ausgesucht habe. 
 
 [Telefonseelsorger]: Wo sind Sie, Nora? 
 
