@@ -11,14 +11,14 @@ func _ready():
 
 func _on_meta_clicked(meta):
 	print("You clicked the link: " + meta + "!")
+	GameManager.setInfo(int(meta))
 	AudioManager.get_child(0).stream = preload("res://assets/sounds/info_notif.wav")
 	AudioManager.get_child(0).play()
-	GameManager.setText(meta)
 	
 	# Remove any existing popup first
 	if active_popup:
 		active_popup.queue_free()
-		active_popup = null
+		#active_popup = null
 
 	# Create new popup
 	active_popup = popup_scene.instantiate()

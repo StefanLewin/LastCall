@@ -32,6 +32,8 @@ func _on_area_phone_mouse_exited() -> void:
 func _on_area_phone_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if InputEventMouseButton and event.is_pressed():
 		AudioManager.get_child(0).playing = false
+		AudioManager.get_child(1).stream = preload("res://assets/sounds/CommitAndCry_v1.wav")
+		AudioManager.get_child(1).fade_in()
 
 func _on_area_mug_mouse_entered() -> void:
 	$MugHighlights.visible = true

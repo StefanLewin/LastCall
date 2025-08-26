@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://c5brqahg1khus"]
+[gd_scene load_steps=3 format=3 uid="uid://cnj5jn1owcyyk"]
 
 [ext_resource type="Script" uid="uid://tfs52oux3inn" path="res://scripts/notepad_entry.gd" id="1_nyu7k"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eeilq"]
 bg_color = Color(0.139212, 0.330467, 0.284179, 1)
 
-[node name="TextBlock" type="Control"]
+[node name="Note Entry" type="Control"]
 custom_minimum_size = Vector2(400, 100)
 layout_mode = 3
 anchors_preset = 8
@@ -28,6 +28,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 theme_override_styles/panel = SubResource("StyleBoxFlat_eeilq")
 
 [node name="Label" type="Label" parent="."]
@@ -42,3 +43,5 @@ theme_override_font_sizes/font_size = 40
 text = "Example Text"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]
