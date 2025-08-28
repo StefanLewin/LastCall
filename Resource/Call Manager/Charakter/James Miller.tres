@@ -1,0 +1,201 @@
+[gd_resource type="Resource" script_class="CharakterCallManager" load_steps=23 format=3 uid="uid://c6m7bd6qvriug"]
+
+[ext_resource type="Script" uid="uid://bmxfs2x784mm7" path="res://src/Logik/CallManager/CallLine.cs" id="1_8y6ul"]
+[ext_resource type="Script" uid="uid://cxy3yj77kqj2t" path="res://src/Logik/CallManager/CharakterCallManager.cs" id="1_mpc21"]
+[ext_resource type="Script" uid="uid://qrdo8v4yxxeu" path="res://src/Logik/CallManager/CallItem.cs" id="2_gyy1y"]
+
+[sub_resource type="Resource" id="Resource_hjlpj"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://br0pmvhvr23gp"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Detective Clarkson, hier spricht Miller. Ich melde mich direkt vom Tatort unterhalb der [url=401]Brücke im Wald[/url]. Der Bereich ist mittlerweile abgesperrt, die Spurensicherung arbeitet, und der Suchtrupp durchkämmt gerade die Umgebung. Die Rechtsmedizin hat die Leiche bereits abtransportiert - ich werde später mit Frau Zelmer Rücksprache halten."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wtbem"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://br0pmvhvr23gp"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Verstanden. Ich werde ebenfalls mit ihr sprechen, sobald die ersten Ergebnisse vorliegen. Hat der Suchtrupp schon etwas Sicheres gefunden?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_p718g"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://cxlaqirq8toq1"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Ja, ein [url=201]Messer[/url] - etwa hundert Meter flussabwärts, fast schon an der Mündung zum Meer. Aber ehrlich gesagt: die Chancen auf verwertbare Fingerabdrücke stehen schlecht. Das Wasser dürfte alles abgewaschen haben."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_gl2pt"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://st0e458on3ff"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Notieren Sie es trotzdem als Beweisstück und lassen Sie es ins Labor geben. Wir dürfen nichts ausschließen. Ich komme gleich runter zum Tatort, dann sprechen wir alles Weitere durch."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_7c848"]
+script = ExtResource("1_8y6ul")
+AudioPath = ""
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Verstanden. Ich warte hier auf Sie."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wcqdu"]
+script = ExtResource("2_gyy1y")
+Title = "Tatort Polizeianruf"
+arrayCallLine = Array[Object]([SubResource("Resource_hjlpj"), SubResource("Resource_wtbem"), SubResource("Resource_p718g"), SubResource("Resource_gl2pt"), SubResource("Resource_7c848")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Detective Clark"
+Id = 401
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[sub_resource type="Resource" id="Resource_vnur3"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://ccsq0w651dm6t"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Kommissar Miller hier. Ich wollte mich über die Autopsie von Nora Hickens erkundigen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_46yyi"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bdctris82tjon"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Schön, dass Sie gerade anrufen. Ich wollte gerade mit ihr anfangen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_uyvb5"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://cxmuyybuqj5jy"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Soll ich sie lieber später zurückrufen?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_30iiq"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://d3alqengxwlc0"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Nicht nötig, ich habe sowieso ein Headset für die Berichte."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_d55oi"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://yylfeak2ykc2"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Gut"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_yspfh"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://clm6riuxnop76"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Ich starte jetzt die Aufnahme für den Bericht. (Piep) Hier ist Dr. Anita Zelmler, die leitende Pathologin der städtischen Autopsie. Die Autopsie wird bei Nora Hickens durchgeführt. Sie ist 23 Jahre alt und wurde um 10 Uhr unter der [url=401]Waldbrücke im Flussbett im Bay-Distrikt[/url] gefunden. Nach grober äußerlicher Sichtung kann man erkennen, dass die Obduzierte durch die noch anhaltende Totenstarre noch innerhalb der letzten 24 bis 48 Stunden gestorben sein müsste. Durch die Totenflecken kann man das ganze auf 8 bis 10 Stunden eingrenzen. An Fingerkuppen und Ohrläppchen erkennt man bereits Verwesung."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_7iqah"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bw7jco0oiw426"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Das hört sich sehr unangenehm an."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_7fh1q"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://r7jk8w6s12t7"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Am ganzen Körper sind starke Prellungen zu erkennen, die wahrscheinlich von einem Sturz kommen könnten. Am Kopf ist eine starke Kopfverletzung zu sehen, wo sich schon Käferlarven eingenistet haben. Es sieht nach einem... Ja. es ist ein Schädelbruch. Hohe Wahrscheinlichkeit, dass sie an diesem Blutverlust gestorben ist. Aufnahme beenden. (Piep) Hat es dir weitergeholfen?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_6f1pg"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bngd61c7fxeug"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "James Miller"
+Text = "Es hat mir sehr weitergeholfen. Also für mich wirkt es wie ein [url=203]Selbstmord[/url], wenn man den Abschiedsbrief beachtet."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_e0nsl"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bx238musu4gi7"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Unknown"
+Text = ""
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_b7o3d"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bbgk3duhi2gsh"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Kann sein. Aber für Mutmaßungen bin ich nicht zuständig. Es war zumindest [url=202]fragwürdige physische Kraft[/url] sim Spiel, die den starken Aufprall unterstützt hat."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_p6cv6"]
+script = ExtResource("1_8y6ul")
+AudioPath = "uid://bbgk3duhi2gsh"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Anita Zelmer"
+Text = "Danke, gleichfalls."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ys7ws"]
+script = ExtResource("2_gyy1y")
+Title = "Autopsie"
+arrayCallLine = Array[Object]([SubResource("Resource_vnur3"), SubResource("Resource_46yyi"), SubResource("Resource_uyvb5"), SubResource("Resource_30iiq"), SubResource("Resource_d55oi"), SubResource("Resource_yspfh"), SubResource("Resource_7iqah"), SubResource("Resource_7fh1q"), SubResource("Resource_6f1pg"), SubResource("Resource_e0nsl"), SubResource("Resource_b7o3d"), SubResource("Resource_p6cv6")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Anita Zelmer"
+Id = 402
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[resource]
+script = ExtResource("1_mpc21")
+Name = "James Miller"
+TextFarbe = Color(0, 0, 0, 1)
+arrayCallItem = [SubResource("Resource_wcqdu"), SubResource("Resource_ys7ws")]
+Id = 104
+metadata/_custom_type_script = "uid://cxy3yj77kqj2t"

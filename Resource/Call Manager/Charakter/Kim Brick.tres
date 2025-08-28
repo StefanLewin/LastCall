@@ -1,0 +1,261 @@
+[gd_resource type="Resource" script_class="CharakterCallManager" load_steps=29 format=3 uid="uid://847n4mqcs5xf"]
+
+[ext_resource type="Script" uid="uid://bmxfs2x784mm7" path="res://src/Logik/CallManager/CallLine.cs" id="1_4p4ur"]
+[ext_resource type="Script" uid="uid://cxy3yj77kqj2t" path="res://src/Logik/CallManager/CharakterCallManager.cs" id="1_b4te1"]
+[ext_resource type="Script" uid="uid://qrdo8v4yxxeu" path="res://src/Logik/CallManager/CallItem.cs" id="2_oavjr"]
+
+[sub_resource type="Resource" id="Resource_lyjul"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://b1n2bqj437ct6"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Danke, dass Sie sich die Zeit nehmen. Können Sie mir etwas mehr erzählen über die Tage vor Noras… Tod?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_4p4ur"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://b1n2bqj437ct6"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Sie war… anders. Still, sehr still. Und ständig am Handy. Sie wirkte oft abwesend, als würde sie… auf etwas warten. Ich habe sie gefragt, was los sei - aber sie hat mir keine Antwort gegeben."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_oavjr"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://ktikamxaxs5m"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Hat sie Ihnen denn gar nichts anvertraut? Oder gab es vielleicht andere Personen in ihrem Umfeld, mit denen sie darüber gesprochen haben könnte?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_45b17"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://c0m8j6jvhim8i"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Sie… hat manchmal gesagt, dass sie sich beobachtet fühlt. Wortwörtlich: „Die Augen hören nicht auf, mich anzusehen.“ Ich habe sie ausgelacht - naja, vielleicht nicht ausgelacht, aber ich habe gesagt, dass sie sich das nur einbildet. Sie… war da schon sehr empfindlich."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_7shvl"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://cpj03kvqsxu78"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Ihre Mutter erwähnte, dass Nora Angst hatte - nicht nur um sich, sondern auch um Sie. Erkennen Sie sich darin wieder?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_fmtwy"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://bhsro4ryqnyxg"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Nein… also… vielleicht. Sie sagte einmal: „Wenn mir nichts passiert, dann vielleicht dir.“ - Ich habe das nicht ernst genommen. Ich meine, wer sollte mir schon etwas tun? Aber… Nora konnte in den letzten Wochen ziemlich… dramatisch sein."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_k0d2j"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://bhkgw574y0fud"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Dramatisch?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wldyw"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://dhdpbp4t6hxv8"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Sie hat über einen Brief gesprochen, der auf ihrem Schreibtisch lag, „der nicht von ihr sei“. Ich habe sie gefragt, was das bedeutet, aber sie wollte es mir nicht zeigen. Vielleicht war da gar nichts. Vielleicht wollte sie nur Aufmerksamkeit."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_i6ou0"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://cxogdslbd33tx"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Sind Sie sicher, dass es nur das war?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ftn3q"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://b3j3ihtb341dv"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Ich weiß nicht, Detective. Vielleicht hat sie auch einfach… Dinge gesehen, die nicht da waren. Ich wollte helfen. Wirklich. Aber sie hat mir nicht vertraut."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_qsnxd"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://cxogdslbd33tx"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Gab es sonst jemanden, mit dem Nora in letzter Zeit Schwierigkeiten hatte?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_86n6t"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://ckbmwe5fthvpx"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Ihren Exfreund. [url=105]Brian Hopkins[/url]. Sie hat seinen Namen ein paar Mal erwähnt, aber nie direkt gesagt, was los war. Nur, dass sie Angst hatte, er würde nicht loslassen. Ob sie ihn noch getroffen hat, weiß ich nicht. Aber… wenn Sie Antworten suchen, sollten Sie mit ihm reden."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_qehn2"]
+script = ExtResource("2_oavjr")
+Title = "Interview 1"
+arrayCallLine = Array[Object]([SubResource("Resource_lyjul"), SubResource("Resource_4p4ur"), SubResource("Resource_oavjr"), SubResource("Resource_45b17"), SubResource("Resource_7shvl"), SubResource("Resource_fmtwy"), SubResource("Resource_k0d2j"), SubResource("Resource_wldyw"), SubResource("Resource_i6ou0"), SubResource("Resource_ftn3q"), SubResource("Resource_qsnxd"), SubResource("Resource_86n6t")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Detective Clark"
+Id = 301
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[sub_resource type="Resource" id="Resource_k2qk1"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://b4ry86ejtoiwn"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Danke, dass Sie erneut Zeit für uns haben, Kim. Ich möchte noch einmal über die Nacht von Noras Tod sprechen. Können Sie mir sagen, wo Sie zur Tatzeit gewesen sind?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_6shmu"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://bridekel2rp01"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Ich war zu Hause. Ich habe den ganzen Abend dort verbracht, Serien geschaut, Nachrichten gecheckt… allein. Niemand kann mir das widerlegen, aber mein Handy zeigt es. Ich habe keine Ahnung, was mit Nora passiert ist, als sie unter der Brücke war."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_g65g2"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://c4rk5kt11pn8q"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Gab es irgendeine Begegnung oder etwas Auffälliges an diesem Tag?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_0jxdt"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://clg4yn1kxru1r"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Nein, ehrlich nicht. Ich habe mich nicht mit ihr getroffen. Ich habe sie nur ein paar Stunden vorher kurz angerufen, aber sie hat nicht abgenommen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_d7jvw"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://bxe1382u1u5ny"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Haben Sie jemals bemerkt, dass [url=106]Neil Hopkins[/url] besonders auf Noras Verhalten reagiert hat?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_og45o"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://cki3t4f30gkkw"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Ja. Er ist extrem auf die [url=301]„Familienehre“[/url] bedacht, wie er es nennt. Ich meine… wirklich extrem. Er hat immer betont, wie wichtig es ist, dass alles in der [url=301]Familie „sauber“[/url] aussieht. Ich habe nie verstanden, warum [url=106]er[/url] sich so auf Nora fixiert hat."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_hl4a0"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://uq1m2moh2pb1"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Hat er Ihnen gegenüber jemals Andeutungen gemacht, wie er wollte, dass Nora sich verhält?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_oig4w"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://6x4m3k7lkm5n"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Ja, er hat öfter kommentiert, dass sie „sich zusammenreißen“ soll oder „die Dinge richtig stellen“ müsse, weil sonst alles schlecht für die Familie aussieht. Ich dachte damals, er übertreibt… aber vielleicht war es mehr, als nur Kontrolle."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_kf0sm"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://dim66rjg23pme"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Gab es sonst jemanden, der Druck auf Nora ausgeübt hat?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_bx2kq"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://c8wgfa2htp63a"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Kim Bricks"
+Text = "Brian, ja… er war ihr [url=105]Ex[/url]. Aber [url=106]Neil…[/url] er war immer da, hat jede ihrer Entscheidungen irgendwie bewertet. Ich habe sie nie so gesehen, als hätte sie sich freiwillig bedroht gefühlt - außer vielleicht durch seinen ständigen Druck."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_y4hbw"]
+script = ExtResource("1_4p4ur")
+AudioPath = "uid://df2h28fyk1a63"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Danke, Kim. Ihre Angaben helfen uns, die Umstände besser zu verstehen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_fmyk8"]
+script = ExtResource("2_oavjr")
+Title = "Interview 2"
+arrayCallLine = Array[Object]([SubResource("Resource_k2qk1"), SubResource("Resource_6shmu"), SubResource("Resource_g65g2"), SubResource("Resource_0jxdt"), SubResource("Resource_d7jvw"), SubResource("Resource_og45o"), SubResource("Resource_hl4a0"), SubResource("Resource_oig4w"), SubResource("Resource_kf0sm"), SubResource("Resource_bx2kq"), SubResource("Resource_y4hbw")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Detective Clark"
+Id = 302
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[resource]
+script = ExtResource("1_b4te1")
+Name = "Kim Brick"
+TextFarbe = Color(0, 0, 0, 1)
+arrayCallItem = Array[Object]([SubResource("Resource_qehn2"), SubResource("Resource_fmyk8")])
+Id = 0
+metadata/_custom_type_script = "uid://cxy3yj77kqj2t"

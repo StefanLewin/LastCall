@@ -1,0 +1,131 @@
+[gd_resource type="Resource" script_class="CharakterCallManager" load_steps=16 format=3 uid="uid://cwobhxj3bt2os"]
+
+[ext_resource type="Script" uid="uid://cxy3yj77kqj2t" path="res://src/Logik/CallManager/CharakterCallManager.cs" id="1_mcgu2"]
+[ext_resource type="Script" uid="uid://bmxfs2x784mm7" path="res://src/Logik/CallManager/CallLine.cs" id="1_u1gqe"]
+[ext_resource type="Script" uid="uid://qrdo8v4yxxeu" path="res://src/Logik/CallManager/CallItem.cs" id="2_i65pl"]
+
+[sub_resource type="Resource" id="Resource_mgod0"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://cdnhovcoicnu4"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Miss Hittgens, können Sie mir sagen, ob Ihnen in den letzten Tagen bei Ihrer Tochter etwas Besonderes aufgefallen ist?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wxgwm"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://cqcmbcxl2de2e"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Nora hat sich sehr stark zurückgezogen. Sie verbrachte fast jede freie Minute in ihrem Zimmer. Manchmal hörte ich, wie sie sprach - doch wenn ich die Tür öffnete, zog sie hastig ihr Handy weg oder tat so, als sei nichts gewesen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_nftf3"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://b23kbydfvy0j6"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Haben Sie sie gefragt, was los sei?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_5l6mi"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://divyb6w507dog"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Natürlich. Aber sie wich mir immer aus, sie sagte: \\\"Alles in Ordnung, Mama.\\\" So kannte ich meine Tochter nicht."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_u1gqe"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://r4h8ssgquqmj"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Gab es jemanden, mit dem sie vertrauter sprach?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_i65pl"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://c56ejwfmc0lh0"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Ihre beste Freundin, [url=103]Kim Bricks[/url]. Kim durfte noch in ihr Zimmer. Wenn Nora lachte, dann mit ihr - aber auch dieses Lachen klang gezwungen, fremd. Einmal hörte ich, wie sie zu Kim sagte: \\\"Ich habe das Gefühl, dass mich die Augen immer beobachten.\\\" Ich weiß bis heute nicht, was sie damit meinte. Wurde sie verfolgt? Bedroht? Aber… warum hat sie uns nichts davon erzählt?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_6esc7"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://bobt8dyy0rxc3"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Können Sie sich noch an den genauen Wortlaut erinnern?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_b3nxg"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://dcqwg2i3l10it"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Nicht vollständig. Aber es klang, als hätte sie nicht nur Angst um sich, sondern auch um Kim. Als ob jemand ihnen beiden etwas antun könnte."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_6332w"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://b188i0gso0q1i"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "etective Clark"
+Text = ""
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_6umyv"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://bc5d88jsyo8ym"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Einmal. Sie sagte, dass auf ihrem Schreibtisch etwas liege, _das nicht von ihr sei_. Ich wollte nachhaken, aber sie blockte sofort ab. Es war, als hätte sie Angst, überhaupt darüber zu sprechen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_q76ha"]
+script = ExtResource("1_u1gqe")
+AudioPath = "uid://dfqaccnkxrsli"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Lara Hickens"
+Text = "Herr Kommissar… egal, was dieser Brief sagt, es war nicht meine Tochter. Sie war nicht bereit, zu gehen. Da bin ich mir sicher. Ich habe dies schon [url=104]Officer Miller[/url] gesagt."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_kqb04"]
+script = ExtResource("2_i65pl")
+Title = "Interview 1"
+arrayCallLine = Array[Object]([SubResource("Resource_mgod0"), SubResource("Resource_wxgwm"), SubResource("Resource_nftf3"), SubResource("Resource_5l6mi"), SubResource("Resource_u1gqe"), SubResource("Resource_i65pl"), SubResource("Resource_6esc7"), SubResource("Resource_b3nxg"), SubResource("Resource_6332w"), SubResource("Resource_6umyv"), SubResource("Resource_q76ha")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Detective Clark"
+Id = 201
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[resource]
+script = ExtResource("1_mcgu2")
+Name = "Lara Hickens"
+TextFarbe = Color(0, 0, 0, 1)
+arrayCallItem = Array[Object]([SubResource("Resource_kqb04")])
+Id = 102

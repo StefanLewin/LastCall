@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://bowknxoqymi0w"]
+
+[ext_resource type="Script" uid="uid://dfwayyqvuvlas" path="res://src/GUI/Game/Notizblock/TabContainerNotizblock.cs" id="1_uqjoi"]
+[ext_resource type="PackedScene" uid="uid://c7wv8e1tfrolw" path="res://Scene/Game/Notizblock/Charakter/scroll_container_notizblock_charakter.tscn" id="2_82m3s"]
+
+[node name="TabContainerNotizblock" type="TabContainer"]
+custom_minimum_size = Vector2(256, 360)
+offset_right = 256.0
+offset_bottom = 360.0
+current_tab = 0
+script = ExtResource("1_uqjoi")
+
+[node name="Charakter" type="TabBar" parent="."]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="ScrollContainerNotizblockCharakter" parent="Charakter" instance=ExtResource("2_82m3s")]
+layout_mode = 0
+offset_right = 256.0
+offset_bottom = 300.0
+
+[node name="Motiv" type="TabBar" parent="."]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Ort" type="TabBar" parent="."]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2

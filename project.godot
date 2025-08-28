@@ -10,35 +10,39 @@ config_version=5
 
 [application]
 
-config/name="Last Call"
-run/main_scene="uid://dlav4dnhlxjwh"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/name="Last Call under the Bridge"
+run/main_scene="uid://cxkb5rvo3ulbe"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+boot_splash/bg_color=Color(0.243137, 0.188235, 0.364706, 1)
+boot_splash/image="uid://c1q36vm13dugu"
 config/icon="uid://btypux25xl0tv"
+
+[audio]
+
+buses/default_bus_layout="res://Resource/Bus Layout/default_bus_layout.tres"
 
 [autoload]
 
-GameManager="*res://manager/game_manager.gd"
-Globals="*res://types/globals.gd"
-DB="*res://manager/database_access_manager.gd"
-AudioManager="*res://manager/audio_manager.tscn"
-Transcript="*res://scenes/transcript.tscn"
+AutoloadCallManager="*res://src/Autoload/AutoloadCallManager.cs"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/stretch/aspect="expand"
+window/size/window_width_override=1152
+window/size/window_height_override=648
+window/stretch/mode="viewport"
 
 [dotnet]
 
-project/assembly_name="Last Call"
+project/assembly_name="Last Call under the Bridge"
 
-[global_group]
+[file_customization]
 
-Notepad=""
-Transcript=""
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+folder_colors={
+"res://Doc/": "orange",
+"res://Resource/": "teal",
+"res://Scene/": "green",
+"res://assets/": "red",
+"res://src/": "yellow"
+}

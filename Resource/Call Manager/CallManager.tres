@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CallManager" load_steps=8 format=3 uid="uid://dug6tno1jpjlf"]
+
+[ext_resource type="Resource" uid="uid://dpao1kl7i3lgn" path="res://Resource/Call Manager/Charakter/Sorgentelefon.tres" id="1_3hrgg"]
+[ext_resource type="Script" uid="uid://c6r5hbf1j3rgu" path="res://src/Logik/CallManager/CallManager.cs" id="1_sou8r"]
+[ext_resource type="Resource" uid="uid://cwobhxj3bt2os" path="res://Resource/Call Manager/Charakter/Lara Hickens.tres" id="2_0i62h"]
+[ext_resource type="Resource" uid="uid://847n4mqcs5xf" path="res://Resource/Call Manager/Charakter/Kim Brick.tres" id="3_64cod"]
+[ext_resource type="Resource" uid="uid://c6m7bd6qvriug" path="res://Resource/Call Manager/Charakter/James Miller.tres" id="4_yjfy4"]
+[ext_resource type="Resource" uid="uid://dvmf7pdcas0t7" path="res://Resource/Call Manager/Charakter/Brian Hopkins.tres" id="5_1jcfa"]
+[ext_resource type="Resource" uid="uid://ceekq76ub4bts" path="res://Resource/Call Manager/Charakter/Neil Hopkins.tres" id="6_6qcif"]
+
+[resource]
+script = ExtResource("1_sou8r")
+arrayBaseCallManagerItem = [ExtResource("1_3hrgg"), ExtResource("2_0i62h"), ExtResource("3_64cod"), ExtResource("4_yjfy4"), ExtResource("5_1jcfa"), ExtResource("6_6qcif")]
+metadata/_custom_type_script = "uid://c6r5hbf1j3rgu"

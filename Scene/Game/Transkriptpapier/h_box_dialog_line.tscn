@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://ci05753jlupds"]
+
+[ext_resource type="Script" uid="uid://cdkho3x1gpxqw" path="res://src/GUI/Game/Transkriptpapier/HBoxDialogLine.cs" id="1_c565k"]
+
+[node name="HBoxDialogLine" type="HBoxContainer"]
+custom_minimum_size = Vector2(368, 0)
+offset_right = 368.0
+offset_bottom = 23.0
+size_flags_horizontal = 3
+script = ExtResource("1_c565k")
+
+[node name="LabelName" type="Label" parent="."]
+custom_minimum_size = Vector2(111, 0)
+layout_mode = 2
+size_flags_vertical = 1
+text = "Von Null:"
+
+[node name="RichTextLabelDialog" type="RichTextLabel" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+fit_content = true
+scroll_active = false
+
+[connection signal="meta_clicked" from="RichTextLabelDialog" to="." method="RichTextLabelDialogMetaClicked"]

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://cs6t8cmnv7a2f"]
+
+[ext_resource type="Script" uid="uid://785kamikpj4m" path="res://src/GUI/Game/TelefonButton.cs" id="1_dsy4n"]
+[ext_resource type="Texture2D" uid="uid://dg0xoffk8yyrv" path="res://assets/graphics/full_resolution/penup_20250825_223935.png" id="2_ssixs"]
+[ext_resource type="Texture2D" uid="uid://d004bndgdswx6" path="res://assets/graphics/full_resolution/penup_20250825_223940(1).png" id="3_h7jse"]
+
+[node name="TelefonButton" type="Button"]
+offset_left = -8.0
+offset_right = 490.0
+offset_bottom = 510.0
+flat = true
+script = ExtResource("1_dsy4n")
+
+[node name="TextureRectTelefonNormal" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_right = 498.0
+offset_bottom = 502.0
+texture = ExtResource("2_ssixs")
+
+[node name="TextureRectTelefonWithGlow" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 8.0
+offset_right = 714.215
+offset_bottom = 735.0
+scale = Vector2(0.766904, 0.766904)
+texture = ExtResource("3_h7jse")
+stretch_mode = 6
+
+[connection signal="mouse_entered" from="." to="." method="TelefonButtonMouseEntered"]
+[connection signal="mouse_exited" from="." to="." method="TelefonButtonMouseExited"]

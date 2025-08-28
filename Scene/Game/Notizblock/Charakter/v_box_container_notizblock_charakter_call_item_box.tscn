@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://boep0dl6i54cu"]
+
+[ext_resource type="Script" uid="uid://bybu1cogjghct" path="res://src/GUI/Game/Notizblock/Charakter/VBoxContainerNotizblockCharakterCallItemBox.cs" id="1_vilsw"]
+
+[node name="VBoxContainerNotizblockCharakterCallItemBox" type="VBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_vilsw")
+
+[node name="GridContainerHeader" type="GridContainer" parent="."]
+layout_mode = 2
+columns = 2
+
+[node name="LabelEmpfängerTitle" type="Label" parent="GridContainerHeader"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_vertical = 3
+text = "Empfänger: "
+
+[node name="LabelEmpfängerWert" type="Label" parent="GridContainerHeader"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "null"
+
+[node name="LabelTitleTitle" type="Label" parent="GridContainerHeader"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_vertical = 3
+text = "Title:"
+
+[node name="LabelTitleWert" type="Label" parent="GridContainerHeader"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "null"
+
+[node name="ButtonAbspielen" type="Button" parent="."]
+layout_mode = 2
+text = "Abspielen"
+
+[connection signal="pressed" from="ButtonAbspielen" to="." method="ButtonAbspielenPressed"]

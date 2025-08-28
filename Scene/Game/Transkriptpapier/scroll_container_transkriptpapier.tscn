@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvmlwuvu2a6il"]
+
+[ext_resource type="Script" uid="uid://2v2872d6hme5" path="res://src/GUI/Game/Transkriptpapier/ScrollContainerTranskriptpapier.cs" id="1_ih6bk"]
+
+[node name="HBoxContainerTranskriptpapier" type="VBoxContainer"]
+custom_minimum_size = Vector2(368, 536)
+anchors_preset = -1
+anchor_right = 0.192
+anchor_bottom = 0.496
+offset_right = -0.640015
+offset_bottom = 0.319946
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ih6bk")
+
+[node name="HBoxContainerHeader" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainerVON" type="HBoxContainer" parent="HBoxContainerHeader"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LabelTitleVon" type="Label" parent="HBoxContainerHeader/HBoxContainerVON"]
+layout_mode = 2
+text = "Von:"
+
+[node name="LabelVonInhalt" type="Label" parent="HBoxContainerHeader/HBoxContainerVON"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "NULL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainerZU" type="HBoxContainer" parent="HBoxContainerHeader"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LabelTitleZu" type="Label" parent="HBoxContainerHeader/HBoxContainerZU"]
+layout_mode = 2
+text = "Zu:"
+
+[node name="LabelZuInhalt" type="Label" parent="HBoxContainerHeader/HBoxContainerZU"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "NULL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollContainerDialog" type="ScrollContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainerDialog"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3

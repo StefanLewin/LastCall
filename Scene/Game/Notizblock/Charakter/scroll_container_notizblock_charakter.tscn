@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7wv8e1tfrolw"]
+
+[ext_resource type="Script" uid="uid://ciefdeabqqwxq" path="res://src/GUI/Game/Notizblock/Charakter/ScrollContainerNotizblockCharakter.cs" id="1_d5e32"]
+
+[node name="ScrollContainerNotizblockCharakter" type="ScrollContainer"]
+custom_minimum_size = Vector2(256, 300)
+offset_right = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_d5e32")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3

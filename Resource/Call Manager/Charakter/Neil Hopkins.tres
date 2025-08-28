@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="CharakterCallManager" load_steps=15 format=3 uid="uid://ceekq76ub4bts"]
+
+[ext_resource type="Script" uid="uid://cxy3yj77kqj2t" path="res://src/Logik/CallManager/CharakterCallManager.cs" id="1_kegbj"]
+[ext_resource type="Script" uid="uid://bmxfs2x784mm7" path="res://src/Logik/CallManager/CallLine.cs" id="1_siens"]
+[ext_resource type="Script" uid="uid://qrdo8v4yxxeu" path="res://src/Logik/CallManager/CallItem.cs" id="2_rh6pj"]
+
+[sub_resource type="Resource" id="Resource_umlwn"]
+script = ExtResource("1_siens")
+AudioPath = "uid://cfrbcai2gdy7h"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Danke, dass Sie sich Zeit nehmen, Herr Hopkins. Können Sie mir sagen, wann Sie zuletzt Kontakt zu Nora hatten?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_gywrx"]
+script = ExtResource("1_siens")
+AudioPath = "uid://iyruiqtoiank"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Neil Hopkins"
+Text = "Ich habe sie gelegentlich gesehen. Nicht oft. Nach der Trennung zog sie sich zurück. Ich wollte nicht aufdringlich sein. Sie wissen ja… für mich ist es immer wichtig, dass [url=301]die Familie in Ordnung dasteht[/url], dass keine Dinge öffentlich aus dem Ruder laufen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wfnxk"]
+script = ExtResource("1_siens")
+AudioPath = "uid://uu58xpdem5kc"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Unknown"
+Text = "Gab es Situationen, in denen Nora nervös oder verängstigt wirkte?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_4drim"]
+script = ExtResource("1_siens")
+AudioPath = "uid://52p8ribqwe1u"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Neil Hopkins"
+Text = "Sie war eigenwillig, ja. Sie machte sich Sorgen über Dinge, die ich nicht nachvollziehen konnte - Briefe, Nachrichten, so etwas. Ich habe sie nicht bedroht. Sie war manchmal sehr emotional."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_4l4px"]
+script = ExtResource("1_siens")
+AudioPath = "uid://bmbrwenyjdlpp"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Gab es jemanden, von dem Sie wissen, dass er Druck auf sie ausgeübt haben könnte?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_bdugr"]
+script = ExtResource("1_siens")
+AudioPath = "uid://dm5t7g1l5qu68"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Neil Hopkins"
+Text = "Ich kenne meinen Bruder Brian. Er war in der Beziehung mit ihr involviert. Aber ich habe nie in ihre Entscheidungen eingegriffen und weiß auch nicht, was außerhalb meines Wissens passiert ist."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_8pv3v"]
+script = ExtResource("1_siens")
+AudioPath = "uid://d0nocvy8hxlit"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Wie war Ihr Verhältnis zu Nora?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_dvhnv"]
+script = ExtResource("1_siens")
+AudioPath = "uid://c66h6pw24ncyq"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Neil Hopkins"
+Text = "Neutral. Wir kannten uns, ja. Ich habe sie respektiert. Konflikte? Gab es nicht direkt zwischen uns. Wenn Spannungen entstanden sind, dann eher durch Missverständnisse oder das Umfeld."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ops7h"]
+script = ExtResource("1_siens")
+AudioPath = "uid://b203wqtgvrwxa"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Detective Clark"
+Text = "Was könnte das Umfeld damit zu tun haben?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ejmbf"]
+script = ExtResource("1_siens")
+AudioPath = "uid://df8d4c350lo3a"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Neil Hopkins"
+Text = "Haben Sie mit [url=103]Kim[/url] nicht bereits schon gesprochen? Sie war eifersüchtig auf Nora, wegen der Beziehung zu meinen Bruder. Wenn das kein Motiv für einen Mord ist weiß ich auch nicht."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_x1w4w"]
+script = ExtResource("2_rh6pj")
+Title = "Interview 1"
+arrayCallLine = Array[Object]([SubResource("Resource_umlwn"), SubResource("Resource_gywrx"), SubResource("Resource_wfnxk"), SubResource("Resource_4drim"), SubResource("Resource_4l4px"), SubResource("Resource_bdugr"), SubResource("Resource_8pv3v"), SubResource("Resource_dvhnv"), SubResource("Resource_ops7h"), SubResource("Resource_ejmbf")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Detective Clark"
+Id = 0
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[resource]
+script = ExtResource("1_kegbj")
+Name = "Neil Hopkins"
+TextFarbe = Color(0, 0, 0, 1)
+arrayCallItem = Array[Object]([SubResource("Resource_x1w4w")])
+Id = 0
+metadata/_custom_type_script = "uid://cxy3yj77kqj2t"

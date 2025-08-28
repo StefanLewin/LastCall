@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj4m5xmh26uby"]
+
+[ext_resource type="Script" uid="uid://da77t8abwm0ip" path="res://src/GUI/Game/Notizblock/Charakter/VBoxContainerNotizblockCharakterBox.cs" id="1_l52vh"]
+
+[node name="VBoxContainerNotizblockCharakterBox" type="VBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+offset_right = 123.0
+offset_bottom = 40.0
+size_flags_horizontal = 3
+script = ExtResource("1_l52vh")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="LabelNameTitle" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Name: "
+
+[node name="LabelNameInhalt" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "null"
+
+[node name="ColorRectSeparatorHeaderzuCallItems" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(0.773598, 0, 0.188497, 1)
+
+[node name="VBoxContainerCallItems" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(0, 4)
+layout_mode = 2
+color = Color(0, 0, 0, 1)

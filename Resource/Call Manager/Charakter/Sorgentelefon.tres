@@ -1,0 +1,171 @@
+[gd_resource type="Resource" script_class="CharakterCallManager" load_steps=20 format=3 uid="uid://dpao1kl7i3lgn"]
+
+[ext_resource type="Script" uid="uid://cxy3yj77kqj2t" path="res://src/Logik/CallManager/CharakterCallManager.cs" id="1_e7vlv"]
+[ext_resource type="Script" uid="uid://bmxfs2x784mm7" path="res://src/Logik/CallManager/CallLine.cs" id="1_mixd6"]
+[ext_resource type="Script" uid="uid://qrdo8v4yxxeu" path="res://src/Logik/CallManager/CallItem.cs" id="1_ppjge"]
+
+[sub_resource type="Resource" id="Resource_rv8j4"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://4fyeki6phy5i"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Guten Abend, hier ist die Telefonseelsorge. Mit wem spreche ich?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_mixd6"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://duyopnqbfy0rv"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Nora. Ich… ich weiß nicht, wie lange ich sprechen darf."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ikuw8"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://hthspmiijms5"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Sie dürfen so lange reden, wie Sie möchten. Was bedrückt Sie?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_d8t7q"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://l8i25k1reida"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Es fühlt sich an, als… als wäre alles schon entschieden. Jemand hat die Worte für mich aufgeschrieben. Ich soll sie einfach nur hinterlassen. Aber sie… sie gehören nicht mir."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_kantr"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://cwb01y7s3g6y2"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Sie meinen… einen Brief?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_wcw02"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://f28uxkmg8ty0"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Ja. Er liegt zu Hause, auf meinem Schreibtisch. Sehr ordentlich. Zu ordentlich. So rede ich nicht. Wenn jemand ihn liest… er wird denken, es war meine Entscheidung."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_tv4kl"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://d0hfry4s46kjn"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Aber Sie klingen, als wollten Sie das nicht."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_qd7gw"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://d4lb0qic4qs6j"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Ich wollte nie gehen. Ich wollte nach Hause… zu meiner [url=102]Mutter[/url]. Stattdessen stehe ich jetzt … … an einem Ort, den ich mir nicht ausgesucht habe."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_jo1ht"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://nco1mj53n38x"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Wo sind Sie, Nora?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_rqo6g"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://d6qhfsj4ialg"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Ich sehe das Wasser. Und die alten Kräne der Werft, sie sind von hier aus ganz nah. Es ist kalt… und laut."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_pwbpi"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://cdauvrkey3qlp"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Gibt es jemanden, dem Sie das erzählen könnten damit er Ihnen helfen kann?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ghfdq"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://cqs6tpdkso0p"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Wenn… wenn jemand wissen will, was wirklich passiert ist… dann sollte er nicht den Brief lesen. Sondern dort nachsehen, wo Spuren sich nicht so leicht verwischen lassen. In dem Gerät, das wir alle ständig in der Hand haben."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_j0quu"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://c2mwd3jmy2cla"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Sorgentelefon"
+Text = "Sie meinen Ihr Telefon?"
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_ngunt"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://dwagawrr68pij"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Bitte… ich kann nicht lauter. Ich wollte nur, dass jemand zuhört. Damit… damit es nicht aussieht, als hätte ich einfach aufgegeben."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_a6ikq"]
+script = ExtResource("1_mixd6")
+AudioPath = "uid://cyfdjso5h882o"
+AudioDelay = 0.0
+IsPlayerLine = false
+SpeakerName = "Nora"
+Text = "Ich… ich muss jetzt auflegen."
+Id = 0
+metadata/_custom_type_script = "uid://bmxfs2x784mm7"
+
+[sub_resource type="Resource" id="Resource_se1m5"]
+script = ExtResource("1_ppjge")
+Title = "Anruf von Nora"
+arrayCallLine = Array[Object]([SubResource("Resource_rv8j4"), SubResource("Resource_mixd6"), SubResource("Resource_ikuw8"), SubResource("Resource_d8t7q"), SubResource("Resource_kantr"), SubResource("Resource_wcw02"), SubResource("Resource_tv4kl"), SubResource("Resource_qd7gw"), SubResource("Resource_jo1ht"), SubResource("Resource_rqo6g"), SubResource("Resource_pwbpi"), SubResource("Resource_ghfdq"), SubResource("Resource_j0quu"), SubResource("Resource_ngunt"), SubResource("Resource_a6ikq")])
+"EmpfängerId" = 0
+"EmpfängerName" = "Nora Hickens"
+Id = 101
+metadata/_custom_type_script = "uid://qrdo8v4yxxeu"
+
+[resource]
+script = ExtResource("1_e7vlv")
+Name = "Sorgentelefon"
+TextFarbe = Color(0, 0, 0, 1)
+arrayCallItem = [SubResource("Resource_se1m5")]
+Id = 101

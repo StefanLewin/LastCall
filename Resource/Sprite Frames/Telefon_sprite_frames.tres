@@ -1,0 +1,31 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://1p2nycoqlxtq"]
+
+[ext_resource type="Texture2D" uid="uid://d004bndgdswx6" path="res://assets/graphics/full_resolution/penup_20250825_223940(1).png" id="1_ok2pb"]
+[ext_resource type="Texture2D" uid="uid://dg0xoffk8yyrv" path="res://assets/graphics/full_resolution/penup_20250825_223935.png" id="2_vsld4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rg7c4"]
+atlas = ExtResource("1_ok2pb")
+region = Rect2(0, 0, 706, 735)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fu3b"]
+atlas = ExtResource("2_vsld4")
+region = Rect2(0, 0, 490, 502)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rg7c4")
+}],
+"loop": true,
+"name": &"Glow",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fu3b")
+}],
+"loop": false,
+"name": &"Normal",
+"speed": 5.0
+}]
