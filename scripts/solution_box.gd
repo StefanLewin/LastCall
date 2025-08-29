@@ -18,15 +18,21 @@ func _on_button_pressed() -> void:
 	
 	print(murderer + " | " + weapon + " | " + motive + " | " + place)
 	if(
-		murderer == "neil" or murderer == "neilhopkins"
-		and weapon == "physischegewalt" or weapon == "gewalt"
-		and motive == "familienehre" or motive == "ehre" or motive == "familie"
-		and place == "waldbrückeimbay-distrikt" or place == "waldbrücke" or place == "brücke" or place == "bruecke"
+		(murderer == "neil" or murderer == "neilhopkins")
+		and (weapon == "physischegewalt" or weapon == "gewalt")
+		and (motive == "familienehre" or motive == "ehre" or motive == "familie")
+		and (place == "waldbrückeimbay-distrikt" or place == "waldbrücke" or place == "brücke" or place == "bruecke")
 	):
 		solution_feedback.visible = true
 		print("RICHTIGE Lösung")
 		solution_feedback.clear()
-		solution_feedback.append_text("[color=#175e38]Sie sind da etwas auf der Spur, Detective![/color]")
+		solution_feedback.append_text("[color=#175e38]Sie haben den Fall gelöst, Detective![/color]")
+		AudioManager.get_child(1).stop()
+		AudioManager.get_child(0).volume_db = 10
+		AudioManager.get_child(0).stream = preload("res://assets/sounds/endingjingle_v2.wav")
+
+		AudioManager.get_child(0).fade_in()
+		
 	else:
 		solution_feedback.visible = true
 		print("FALSCH Lösung")

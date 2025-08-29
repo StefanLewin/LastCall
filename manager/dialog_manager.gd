@@ -2,7 +2,7 @@ class_name DialogManagerComponent
 extends Node
 
 #@export_file("*json") var calls_text_file: String
-var calls_text_file = "res://Doc/Story/json/Dialogs.json"
+var calls_text_file = "res://assets/json/Dialogs.json"
 var calls_dict := {}
 var call_text
 var caller_text
@@ -15,6 +15,7 @@ var text_display_time
 @export var label_caller_name: RichTextLabel
 @export var label_called_name: RichTextLabel
 @export var label_time: RichTextLabel
+
 var  in_progress := false
 var typing := false
 
@@ -104,3 +105,8 @@ func display_called_name():
 func display_call_time():
 	if label_time != null:
 		label_time.text = time_text
+		
+func get_number_calls(name) -> int:
+	var character = calls_dict[name].duplicate()
+	return character["phoneCalls"].size()
+	

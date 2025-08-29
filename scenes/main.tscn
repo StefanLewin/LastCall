@@ -1,112 +1,153 @@
-[gd_scene load_steps=12 format=3 uid="uid://dlav4dnhlxjwh"]
+[gd_scene load_steps=19 format=3 uid="uid://dlav4dnhlxjwh"]
 
 [ext_resource type="Script" uid="uid://bj7iy7b2kbssv" path="res://scenes/main.gd" id="1_tbgi4"]
-[ext_resource type="Texture2D" uid="uid://cos4nyfxpuh0o" path="res://assets/graphics/full_resolution/desk.png" id="2_tbgi4"]
-[ext_resource type="Texture2D" uid="uid://07v6xbmydnwl" path="res://assets/graphics/full_resolution/paper_highlight.png" id="3_tefeu"]
-[ext_resource type="Texture2D" uid="uid://dx0lnkmsybeer" path="res://assets/graphics/full_resolution/notes_highlight.jpg" id="4_o6xl0"]
-[ext_resource type="Texture2D" uid="uid://cjbmy8i1bmwrm" path="res://assets/graphics/full_resolution/archive_highlight.png" id="5_tipki"]
-[ext_resource type="Texture2D" uid="uid://dwnvyq7rg7j5l" path="res://assets/graphics/full_resolution/phone_highlight.png" id="6_tefeu"]
-[ext_resource type="Texture2D" uid="uid://boqjbr5ai6b7t" path="res://assets/graphics/full_resolution/Mug_Highlight.png" id="7_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://do3k1ne8i7eo7" path="res://assets/graphics/New Sprites/Background.png" id="2_jkv2x"]
+[ext_resource type="Texture2D" uid="uid://d1pa74ocotdb" path="res://assets/graphics/New Sprites/Archive.png" id="3_jbj1t"]
+[ext_resource type="Script" uid="uid://campxdrafpvbu" path="res://scripts/background.gd" id="3_muem4"]
+[ext_resource type="Texture2D" uid="uid://cc1pfv6dtraoa" path="res://assets/graphics/New Sprites/Cup.png" id="4_muem4"]
+[ext_resource type="Texture2D" uid="uid://dd7en2adtbpct" path="res://assets/graphics/New Sprites/Highlighted/Archive.png" id="5_0ld40"]
+[ext_resource type="Texture2D" uid="uid://b234x5o8u0s84" path="res://assets/graphics/New Sprites/Lamp.png" id="5_dp3eg"]
+[ext_resource type="Texture2D" uid="uid://bd3d7h4yti5de" path="res://assets/graphics/New Sprites/Highlighted/Cup.png" id="5_yc10j"]
+[ext_resource type="Texture2D" uid="uid://11a8ivlupr1u" path="res://assets/graphics/New Sprites/NotePad.png" id="6_0ld40"]
+[ext_resource type="Texture2D" uid="uid://tpr1owr2ht5n" path="res://assets/graphics/New Sprites/Highlighted/NotePad.png" id="8_jscy8"]
 [ext_resource type="PackedScene" uid="uid://cb04t4ifjb3pa" path="res://scenes/pause.tscn" id="8_tipki"]
+[ext_resource type="Texture2D" uid="uid://d1iw1ck1n6c3p" path="res://assets/graphics/New Sprites/Paper.png" id="9_pm3ni"]
 [ext_resource type="PackedScene" uid="uid://dtygpitmw4tm8" path="res://scenes/notepad.tscn" id="10_choun"]
 [ext_resource type="PackedScene" uid="uid://dscc6ba27o7k" path="res://scenes/solution_box.tscn" id="10_eb6dy"]
+[ext_resource type="Texture2D" uid="uid://c7hewqrnv1phn" path="res://assets/graphics/New Sprites/Highlighted/Paper.png" id="10_y6deb"]
 [ext_resource type="PackedScene" uid="uid://capa8f5hs0iv7" path="res://scenes/transcript.tscn" id="10_ya4ey"]
+[ext_resource type="Texture2D" uid="uid://1xykxnhadd" path="res://assets/graphics/New Sprites/Phone.png" id="11_og1vs"]
+[ext_resource type="Texture2D" uid="uid://frc5msuhnap3" path="res://assets/graphics/New Sprites/Highlighted/Phone.png" id="12_2wyq8"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_tbgi4")
 
 [node name="background" type="Sprite2D" parent="."]
-texture = ExtResource("2_tbgi4")
-offset = Vector2(960, 540)
+position = Vector2(965, 541)
+texture = ExtResource("2_jkv2x")
+script = ExtResource("3_muem4")
 
-[node name="AreaPaper" type="Area2D" parent="."]
+[node name="Archive" type="Sprite2D" parent="background"]
+position = Vector2(-692, 305)
+texture = ExtResource("3_jbj1t")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaPaper"]
-polygon = PackedVector2Array(1132, 330, 1110, 456, 1103, 564, 1117, 728, 1133, 876, 1110, 904, 1116, 949, 709, 957, 686, 865, 638, 663, 625, 554, 629, 495, 621, 368, 651, 365, 649, 332, 855, 318, 1036, 314)
-
-[node name="AreaNoteblock" type="Area2D" parent="."]
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaNoteblock"]
-polygon = PackedVector2Array(1311, 524, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
-
-[node name="AreaArchive" type="Area2D" parent="."]
+[node name="Highlight" type="Sprite2D" parent="background/Archive"]
 visible = false
+texture = ExtResource("5_0ld40")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaArchive"]
+[node name="AreaArchive" type="Area2D" parent="background/Archive"]
+position = Vector2(-273, -846)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="background/Archive/AreaArchive"]
+visible = false
 polygon = PackedVector2Array(0, 656, 287, 647, 396, 650, 447, 707, 468, 912, 484, 1080, 1, 1079)
 
-[node name="AreaPhone" type="Area2D" parent="."]
+[node name="Mug" type="Sprite2D" parent="background"]
+position = Vector2(96, -458)
+texture = ExtResource("4_muem4")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaPhone"]
-polygon = PackedVector2Array(252, 27, 374, 59, 429, 113, 473, 296, 417, 383, 305, 494, 263, 497, 86, 396, 49, 229, 93, 158, 214, 41)
+[node name="Highlight" type="Sprite2D" parent="background/Mug"]
+visible = false
+texture = ExtResource("5_yc10j")
 
-[node name="AreaMug" type="Area2D" parent="."]
+[node name="AreaMug" type="Area2D" parent="background/Mug"]
+position = Vector2(-1061, -83)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AreaMug"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="background/Mug/AreaMug"]
+visible = false
 polygon = PackedVector2Array(977, 0, 951, 32, 952, 75, 977, 133, 1034, 158, 1087, 146, 1106, 128, 1149, 139, 1174, 132, 1162, 111, 1130, 82, 1129, 47, 1120, 9, 1112, 0)
 
-[node name="PaperHighlights" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("3_tefeu")
-offset = Vector2(960, 540)
+[node name="Lamp" type="Sprite2D" parent="background"]
+position = Vector2(633, -327)
+texture = ExtResource("5_dp3eg")
 
-[node name="NotesHighlights" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("4_o6xl0")
-offset = Vector2(960, 540)
+[node name="Notepad" type="Sprite2D" parent="background"]
+position = Vector2(522, 166)
+texture = ExtResource("6_0ld40")
 
-[node name="ArchiveHighlights" type="Sprite2D" parent="."]
+[node name="Highlight" type="Sprite2D" parent="background/Notepad"]
 visible = false
-texture = ExtResource("5_tipki")
-offset = Vector2(960, 540)
+texture = ExtResource("8_jscy8")
 
-[node name="PhoneHighlights" type="Sprite2D" parent="."]
-visible = false
-modulate = Color(0.81, 0.81, 0.81, 0.752941)
-texture = ExtResource("6_tefeu")
-offset = Vector2(960, 560.86)
+[node name="Notepad" parent="background/Notepad" instance=ExtResource("10_choun")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -377.0
+offset_top = -419.0
+offset_right = -127.0
+offset_bottom = -59.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="MugHighlights" type="Sprite2D" parent="."]
+[node name="AreaNoteblock" type="Area2D" parent="background/Notepad"]
+position = Vector2(-1487, -707)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="background/Notepad/AreaNoteblock"]
 visible = false
-position = Vector2(1069, 124)
-scale = Vector2(0.465, 0.465)
-texture = ExtResource("7_o6xl0")
+polygon = PackedVector2Array(1311, 524, 1336, 500, 1551, 491, 1597, 512, 1597, 552, 1658, 891, 1622, 935, 1313, 955, 1303, 725)
+
+[node name="Paper" type="Sprite2D" parent="background"]
+position = Vector2(-58, 104)
+texture = ExtResource("9_pm3ni")
+
+[node name="Highlight" type="Sprite2D" parent="background/Paper"]
+visible = false
+texture = ExtResource("10_y6deb")
+
+[node name="Transcript" parent="background/Paper" instance=ExtResource("10_ya4ey")]
+offset_left = -549.5
+offset_top = -620.0
+offset_right = -149.5
+offset_bottom = -70.0
+rotation = -0.0680678
+
+[node name="SolutionBox" parent="background/Paper" instance=ExtResource("10_eb6dy")]
+visible = false
+offset_left = -233.0
+offset_top = -248.0
+offset_right = -470.0
+offset_bottom = -428.0
+rotation = -0.0680678
+
+[node name="AreaPaper" type="Area2D" parent="background/Paper"]
+position = Vector2(-907, -645)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="background/Paper/AreaPaper"]
+visible = false
+polygon = PackedVector2Array(1132, 330, 1110, 456, 1103, 564, 1117, 728, 1133, 876, 1110, 904, 1116, 949, 709, 957, 686, 865, 638, 663, 625, 554, 629, 495, 621, 368, 651, 365, 649, 332, 855, 318, 1036, 314)
+
+[node name="Phone" type="Sprite2D" parent="background"]
+position = Vector2(-704, -274)
+texture = ExtResource("11_og1vs")
+
+[node name="Highlight" type="Sprite2D" parent="background/Phone"]
+visible = false
+texture = ExtResource("12_2wyq8")
+
+[node name="AreaPhone" type="Area2D" parent="background/Phone"]
+position = Vector2(-261, -267)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="background/Phone/AreaPhone"]
+visible = false
+polygon = PackedVector2Array(304, 492, 447, 343, 471, 294, 463, 257, 403, 189, 432, 154, 428, 114, 382, 62, 352, 53, 302, 65, 262, 31, 242, 25, 74, 184, 59, 210, 55, 246, 90, 299, 75, 337, 75, 366, 81, 390, 115, 410, 157, 427, 186, 426, 249, 487, 276, 495)
 
 [node name="Pause" parent="." instance=ExtResource("8_tipki")]
 visible = false
 
-[node name="Transcript" parent="." groups=["Transcript"] instance=ExtResource("10_ya4ey")]
-offset_left = 674.0
-offset_top = 397.0
-offset_right = 1074.0
-offset_bottom = 947.0
-rotation = -0.0680678
-
-[node name="SolutionBox" parent="." instance=ExtResource("10_eb6dy")]
-visible = false
-offset_left = 674.0
-offset_top = 397.0
-offset_right = 1074.0
-offset_bottom = 947.0
-rotation = -0.0680678
-
-[node name="Notepad" parent="." instance=ExtResource("10_choun")]
-offset_left = 1309.0
-offset_top = 580.0
-offset_right = 1559.0
-offset_bottom = 940.0
-rotation = -0.0698132
-
-[connection signal="input_event" from="AreaPaper" to="." method="_on_area_paper_input_event"]
-[connection signal="mouse_entered" from="AreaPaper" to="." method="_on_area_paper_mouse_entered"]
-[connection signal="mouse_exited" from="AreaPaper" to="." method="_on_area_paper_mouse_exited"]
-[connection signal="mouse_entered" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_entered"]
-[connection signal="mouse_exited" from="AreaNoteblock" to="." method="_on_area_noteblock_mouse_exited"]
-[connection signal="mouse_entered" from="AreaArchive" to="." method="_on_area_archive_mouse_entered"]
-[connection signal="mouse_exited" from="AreaArchive" to="." method="_on_area_archive_mouse_exited"]
-[connection signal="input_event" from="AreaPhone" to="." method="_on_area_phone_input_event"]
-[connection signal="mouse_entered" from="AreaPhone" to="." method="_on_area_phone_mouse_entered"]
-[connection signal="mouse_exited" from="AreaPhone" to="." method="_on_area_phone_mouse_exited"]
-[connection signal="input_event" from="AreaMug" to="." method="_on_area_mug_input_event"]
-[connection signal="mouse_entered" from="AreaMug" to="." method="_on_area_mug_mouse_entered"]
-[connection signal="mouse_exited" from="AreaMug" to="." method="_on_area_mug_mouse_exited"]
+[connection signal="input_event" from="background/Archive/AreaArchive" to="." method="_on_area_archive_input_event"]
+[connection signal="mouse_entered" from="background/Archive/AreaArchive" to="." method="_on_area_archive_mouse_entered"]
+[connection signal="mouse_exited" from="background/Archive/AreaArchive" to="." method="_on_area_archive_mouse_exited"]
+[connection signal="input_event" from="background/Mug/AreaMug" to="." method="_on_area_mug_input_event"]
+[connection signal="mouse_entered" from="background/Mug/AreaMug" to="." method="_on_area_mug_mouse_entered"]
+[connection signal="mouse_exited" from="background/Mug/AreaMug" to="." method="_on_area_mug_mouse_exited"]
+[connection signal="mouse_entered" from="background/Notepad/AreaNoteblock" to="." method="_on_area_noteblock_mouse_entered"]
+[connection signal="mouse_exited" from="background/Notepad/AreaNoteblock" to="." method="_on_area_noteblock_mouse_exited"]
+[connection signal="input_event" from="background/Paper/AreaPaper" to="." method="_on_area_paper_input_event"]
+[connection signal="mouse_entered" from="background/Paper/AreaPaper" to="." method="_on_area_paper_mouse_entered"]
+[connection signal="mouse_exited" from="background/Paper/AreaPaper" to="." method="_on_area_paper_mouse_exited"]
+[connection signal="input_event" from="background/Phone/AreaPhone" to="." method="_on_area_phone_input_event"]
+[connection signal="mouse_entered" from="background/Phone/AreaPhone" to="." method="_on_area_phone_mouse_entered"]
+[connection signal="mouse_exited" from="background/Phone/AreaPhone" to="." method="_on_area_phone_mouse_exited"]

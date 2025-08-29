@@ -1,8 +1,9 @@
 extends Control
 
-@onready var tab_container: TabContainer = $Panel/TabContainer
-@onready var persons: VBoxContainer = $Panel/TabContainer/Personen
-@onready var notes: VBoxContainer = $Panel/TabContainer/Notizen
+@onready var tab_container: TabContainer = $TabContainer
+@onready var persons: VBoxContainer = $TabContainer/Verdächtige/Personen
+@onready var notes: VBoxContainer = $TabContainer/Notizen/Notizen
+
 const notepad_entry = preload("res://scenes/notepad_entry.tscn")
 
 @export var item_scene: PackedScene

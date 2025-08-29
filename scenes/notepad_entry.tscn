@@ -1,9 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://cnj5jn1owcyyk"]
+[gd_scene load_steps=5 format=3 uid="uid://cnj5jn1owcyyk"]
 
 [ext_resource type="Script" uid="uid://tfs52oux3inn" path="res://scripts/notepad_entry.gd" id="1_nyu7k"]
+[ext_resource type="Script" uid="uid://dn7snl7ipd7ns" path="res://scripts/panel.gd" id="2_opabg"]
+[ext_resource type="FontFile" uid="uid://hbli1eds8no4" path="res://assets/fonts/Caveat/static/Caveat-Regular.ttf" id="2_rck1f"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eeilq"]
-bg_color = Color(0.139212, 0.330467, 0.284179, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_opabg"]
+bg_color = Color(0.37, 0.37, 0.37, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
 
 [node name="Note Entry" type="Control"]
 custom_minimum_size = Vector2(250, 30)
@@ -29,7 +40,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
-theme_override_styles/panel = SubResource("StyleBoxFlat_eeilq")
+theme_override_styles/panel = SubResource("StyleBoxFlat_opabg")
+script = ExtResource("2_opabg")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 1
@@ -38,10 +50,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_rck1f")
+theme_override_font_sizes/font_size = 20
 text = "Example Text"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]
+[connection signal="mouse_entered" from="Panel" to="Panel" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Panel" to="Panel" method="_on_mouse_exited"]

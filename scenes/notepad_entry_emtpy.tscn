@@ -1,7 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5brqahg1khus"]
+[gd_scene load_steps=3 format=3 uid="uid://c5brqahg1khus"]
+
+[ext_resource type="FontFile" uid="uid://hbli1eds8no4" path="res://assets/fonts/Caveat/static/Caveat-Regular.ttf" id="1_jrm02"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eeilq"]
-bg_color = Color(0.434446, 0.229973, 0.0632738, 1)
+bg_color = Color(0.43, 0.228975, 0.0645, 0)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [node name="Empty Note Entry" type="Control"]
 custom_minimum_size = Vector2(250, 30)
@@ -36,8 +42,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_jrm02")
+theme_override_font_sizes/font_size = 20
 text = "Noch keine Infos"
 horizontal_alignment = 1
 vertical_alignment = 1

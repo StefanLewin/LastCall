@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5qhs4bpw1u0t"]
+[gd_scene load_steps=4 format=3 uid="uid://b5qhs4bpw1u0t"]
 
 [ext_resource type="Script" uid="uid://1qu2dskseq60" path="res://scripts/notepad_category.gd" id="1_m0ftf"]
+[ext_resource type="FontFile" uid="uid://hbli1eds8no4" path="res://assets/fonts/Caveat/static/Caveat-Regular.ttf" id="2_4j8ii"]
+[ext_resource type="FontFile" uid="uid://bta0ikn8a8vn7" path="res://assets/fonts/Caveat/static/Caveat-Bold.ttf" id="3_upxie"]
 
 [node name="Category" type="VBoxContainer"]
 offset_right = 250.0
@@ -9,8 +11,11 @@ mouse_filter = 2
 script = ExtResource("1_m0ftf")
 
 [node name="Title" type="RichTextLabel" parent="."]
-custom_minimum_size = Vector2(0, 60)
+custom_minimum_size = Vector2(0, 30)
 layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_4j8ii")
+theme_override_fonts/bold_font = ExtResource("3_upxie")
 theme_override_font_sizes/normal_font_size = 20
 text = "Kategorie
 "

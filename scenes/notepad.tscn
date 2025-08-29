@@ -1,10 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://dtygpitmw4tm8"]
+[gd_scene load_steps=5 format=3 uid="uid://dtygpitmw4tm8"]
 
 [ext_resource type="Script" uid="uid://bx2sd4v8yilwc" path="res://scripts/notepad.gd" id="1_nkxj1"]
 [ext_resource type="PackedScene" uid="uid://c5brqahg1khus" path="res://scenes/notepad_entry_emtpy.tscn" id="2_fhm5p"]
 [ext_resource type="PackedScene" uid="uid://b5qhs4bpw1u0t" path="res://scenes/notepad_category.tscn" id="3_pq6gc"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vobun"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pq6gc"]
 
@@ -13,70 +11,74 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 250.0
 offset_bottom = 360.0
+mouse_filter = 1
 script = ExtResource("1_nkxj1")
 item_scene = ExtResource("2_fhm5p")
 
-[node name="Panel" type="ScrollContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxEmpty_vobun")
-horizontal_scroll_mode = 0
-
-[node name="TabContainer" type="TabContainer" parent="Panel"]
+[node name="TabContainer" type="TabContainer" parent="."]
 custom_minimum_size = Vector2(250, 0)
 layout_mode = 2
+offset_right = 250.0
+offset_bottom = 355.0
 mouse_filter = 2
-theme_override_font_sizes/font_size = 8
+theme_override_font_sizes/font_size = 10
 theme_override_styles/panel = SubResource("StyleBoxEmpty_pq6gc")
 tab_alignment = 2
 current_tab = 0
+clip_tabs = false
 
-[node name="Personen" type="VBoxContainer" parent="Panel/TabContainer"]
+[node name="Verdächtige" type="ScrollContainer" parent="TabContainer"]
 layout_mode = 2
+horizontal_scroll_mode = 0
 metadata/_tab_index = 0
 
-[node name="Family" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
+[node name="Personen" type="VBoxContainer" parent="TabContainer/Verdächtige"]
+layout_mode = 2
+
+[node name="Family" parent="TabContainer/Verdächtige/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Familie"
 relationship = 1
 
-[node name="Friends" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
+[node name="Friends" parent="TabContainer/Verdächtige/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Friends"
 
-[node name="Officials" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
+[node name="Officials" parent="TabContainer/Verdächtige/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Beamte"
 relationship = 2
 
-[node name="Misc" parent="Panel/TabContainer/Personen" instance=ExtResource("3_pq6gc")]
+[node name="Misc" parent="TabContainer/Verdächtige/Personen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Sonstige"
 relationship = 3
 
-[node name="Notizen" type="VBoxContainer" parent="Panel/TabContainer"]
+[node name="Notizen" type="ScrollContainer" parent="TabContainer"]
 visible = false
 layout_mode = 2
-mouse_filter = 2
+follow_focus = true
+draw_focus_border = true
+horizontal_scroll_mode = 0
 metadata/_tab_index = 1
 
-[node name="Weapons" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
+[node name="Notizen" type="VBoxContainer" parent="TabContainer/Notizen"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Weapons" parent="TabContainer/Notizen/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Waffen"
 category = 1
 relationship = 4
 
-[node name="Motives" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
+[node name="Motives" parent="TabContainer/Notizen/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Motive"
 category = 2
 relationship = 4
 
-[node name="Places" parent="Panel/TabContainer/Notizen" instance=ExtResource("3_pq6gc")]
+[node name="Places" parent="TabContainer/Notizen/Notizen" instance=ExtResource("3_pq6gc")]
 layout_mode = 2
 _category_name = "Orte"
 category = 3
@@ -84,7 +86,4 @@ relationship = 4
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
-[connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]
-[connection signal="mouse_entered" from="Panel" to="." method="_on_panel_mouse_entered"]
-[connection signal="mouse_exited" from="Panel" to="." method="_on_panel_mouse_exited"]
-[connection signal="gui_input" from="Panel/TabContainer/Personen/Misc" to="." method="_on_misc_gui_input"]
+[connection signal="gui_input" from="TabContainer/Verdächtige/Personen/Misc" to="." method="_on_misc_gui_input"]

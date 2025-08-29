@@ -1,9 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://3yommdgsdner"]
+[gd_scene load_steps=4 format=3 uid="uid://3yommdgsdner"]
 
 [ext_resource type="Script" uid="uid://6n22nnyiak0f" path="res://scripts/text_block.gd" id="1_ikfkd"]
+[ext_resource type="FontFile" uid="uid://cg88et6v27tk6" path="res://assets/fonts/Caveat/static/Caveat-Medium.ttf" id="2_bjouy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eeilq"]
-bg_color = Color(0.139212, 0.330467, 0.284179, 1)
+bg_color = Color(0.598473, 0.548361, 0.378442, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [node name="TextBlock" type="Control"]
 custom_minimum_size = Vector2(400, 100)
@@ -40,8 +50,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 40
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_bjouy")
+theme_override_font_sizes/font_size = 20
 text = "Example Text"
 horizontal_alignment = 1
 vertical_alignment = 1

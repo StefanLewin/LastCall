@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6ffa8ilftud1"]
+
+[ext_resource type="Script" uid="uid://2n0hqg8lyjwr" path="res://scripts/call_button.gd" id="1_m1n1f"]
+
+[node name="CallButton" type="Button"]
+focus_mode = 0
+text = "1"
+script = ExtResource("1_m1n1f")

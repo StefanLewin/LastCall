@@ -1,15 +1,30 @@
-[gd_scene load_steps=4 format=3 uid="uid://capa8f5hs0iv7"]
+[gd_scene load_steps=8 format=3 uid="uid://capa8f5hs0iv7"]
 
 [ext_resource type="Script" uid="uid://o66t8umuh1x8" path="res://scripts/transcript.gd" id="1_yaytj"]
 [ext_resource type="Script" uid="uid://drprf1ww1026r" path="res://manager/dialog_manager.gd" id="2_yaytj"]
+[ext_resource type="FontFile" uid="uid://2isuunkcnjgm" path="res://assets/fonts/Courier_Prime/CourierPrime-Regular.ttf" id="3_wgsjd"]
+[ext_resource type="FontFile" uid="uid://dnxh0dnxfp1ba" path="res://assets/fonts/Courier_Prime/CourierPrime-Italic.ttf" id="4_nm7tx"]
+[ext_resource type="FontFile" uid="uid://2vlkiav068c3" path="res://assets/fonts/Courier_Prime/CourierPrime-BoldItalic.ttf" id="5_yaltw"]
+[ext_resource type="FontFile" uid="uid://ctulb8s4ns7bo" path="res://assets/fonts/Courier_Prime/CourierPrime-Bold.ttf" id="6_f2vi3"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yaytj"]
 
-[node name="Transcript" type="Control"]
+[node name="Transcript" type="Control" groups=["Transcript"]]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 400.0
-offset_bottom = 550.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -275.0
+offset_right = 200.0
+offset_bottom = 275.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
 script = ExtResource("1_yaytj")
 
 [node name="DialogManagerComponent" type="Node" parent="." node_paths=PackedStringArray("label_caller_name", "label_called_name", "label_time")]
@@ -26,6 +41,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 theme_override_styles/panel = SubResource("StyleBoxEmpty_yaytj")
 
 [node name="MarginContainer" type="MarginContainer" parent="Panel"]
@@ -42,58 +58,87 @@ theme_override_constants/margin_bottom = 20
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel/MarginContainer"]
 layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
 
 [node name="GridContainer" type="GridContainer" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
-columns = 4
+columns = 2
 
 [node name="_Caller" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(80, 0)
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 0
 size_flags_stretch_ratio = 0.25
-theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
 text = "Caller:"
+fit_content = true
 
 [node name="CallerValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.25
-text = "Stefan
-"
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
+fit_content = true
 
 [node name="_Time" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
+visible = false
+custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 0
 size_flags_stretch_ratio = 0.25
-theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
 text = "Time:"
 fit_content = true
-horizontal_alignment = 2
 vertical_alignment = 1
 
 [node name="TimeValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.25
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
 text = "12:00"
 
 [node name="_Called" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
-custom_minimum_size = Vector2(61.73, 0)
+custom_minimum_size = Vector2(80, 0)
 layout_mode = 2
-theme_override_colors/default_color = Color(1, 1, 1, 1)
+size_flags_horizontal = 0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
 text = "Called:"
 fit_content = true
 
 [node name="CalledValue" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/GridContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Maria"
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
 
 [node name="Call Transcript" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_wgsjd")
+theme_override_fonts/italics_font = ExtResource("4_nm7tx")
+theme_override_fonts/bold_italics_font = ExtResource("5_yaltw")
+theme_override_fonts/bold_font = ExtResource("6_f2vi3")
+theme_override_font_sizes/bold_italics_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 theme_override_font_sizes/normal_font_size = 20
 bbcode_enabled = true
-text = "
-"
+text = "Drücke  Sie die Leertaste, um mehr zu lesen.
+
+Nora Hickens wurde vor zehn Jahen tot aufgefunden. Die Behörden sind von einem Suizid ausgegangen, doch anonyme Hinweise deuten darauf hin, dass es Mord sein könnte. Gehen Sie die alten Telefonate durch und überprüfen Sie den Fall nochmal!
+
+Holen Sie im Archiv das erste Telefonat raus.
+Es erscheint in Ihren Notizen. Achten sie auf [u]Markierungen![/u] Sie können auf diese Klicken und sie in ihr Notizheft übertragen."
 scroll_following = true
+
+[connection signal="tree_entered" from="." to="." method="_on_tree_entered"]

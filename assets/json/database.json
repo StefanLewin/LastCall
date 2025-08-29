@@ -29,7 +29,12 @@
 			"id": 106,
 			"name": "Neil Hopkins",
 			"relation": "3"
-		}
+		},
+		{
+			"id": 107,
+			"name": "Tipps",
+			"relation": "3"
+		},
 	],
 	"weapons": [
 		{
