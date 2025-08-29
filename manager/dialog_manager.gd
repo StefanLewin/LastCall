@@ -16,45 +16,52 @@ var text_display_time
 @export var label_called_name: RichTextLabel
 @export var label_time: RichTextLabel
 
+#Is a dialog currently building?
 var  in_progress := false
+
+#Is a line currently bein typed?
 var typing := false
+
+var reached_end := false
 
 
 func _ready() -> void:
 	calls_dict = load_call_text()
 	#_on_display_call("Sorgentelefon", "phoneCalls", 0)
 	pass
-func _process(delta: float) -> void:
+func _process(delta: float) -> void:		
 	if !typing:
-		if Input.is_action_just_pressed("ui_accept"):
+		if Input.is_action_just_pressed("ui_accept") && in_progress:
 			next_line()
 		else:
 			pass
 
 # call this function to start displaying the call
 func _on_display_call(character_key, phonecalls_key, index_key):
-	if in_progress:
-		next_line()
-	else:
-		var character
-		var phonecalls
-		var indey
-		
-		index = 0
-		label_call.text = ""
-		character = calls_dict[character_key].duplicate()
-		phonecalls = character[phonecalls_key].duplicate()
-		indey = phonecalls[index_key].duplicate()
-		call_text = indey["transcript"]
-		called_text = indey["from"]
-		time_text = indey["time"]
-		caller_text = character["name"]
-		
-		in_progress = true
-		display_call()
-		display_called_name()
-		display_caller_name()
-		display_call_time()
+	label_call.clear()
+	full_call = ""
+	index = 0
+	reached_end = false
+	
+	var character
+	var phonecalls
+	var indey
+	
+	index = 0
+	label_call.text = ""
+	character = calls_dict[character_key].duplicate()
+	phonecalls = character[phonecalls_key].duplicate()
+	indey = phonecalls[index_key].duplicate()
+	call_text = indey["transcript"]
+	called_text = indey["from"]
+	time_text = indey["time"]
+	caller_text = character["name"]
+	
+	in_progress = true
+	display_call()
+	display_called_name()
+	display_caller_name()
+	display_call_time()
 
 #Loads the json file
 func load_call_text():
@@ -76,10 +83,13 @@ func next_line():
 			finish()
 
 func finish():
-	label_call.clear()
-	full_call = ""
-	index = 0
 	in_progress = false
+	if !reached_end:
+		label_call.clear()
+		full_call += "\n[ Ende der Aufnahme ]"
+		label_call.visible_characters = full_call.length()
+		label_call.text = full_call
+		reached_end = true;
 
 func display_call():
 	if label_call != null:
@@ -87,10 +97,12 @@ func display_call():
 		typing = true
 		var tween = get_tree().create_tween()
 		full_call += call_text[index]
-		label_call.visible_characters = full_call.length() - call_text[index].length()
-		text_display_time = 0.01 * (full_call.length() - (full_call.length() - call_text[index].length()))
+		var current_call_text_length = strip_bbcode(call_text[index]).length()
+		var full_call_length = strip_bbcode(full_call).length()
+		label_call.visible_characters = full_call_length - current_call_text_length
+		text_display_time = 0.01 * (full_call_length - (full_call_length - current_call_text_length))
 		label_call.text = full_call
-		tween.tween_property(label_call, "visible_characters", full_call.length(), text_display_time)
+		tween.tween_property(label_call, "visible_characters", full_call_length, text_display_time)
 		await tween.finished
 		typing = false
 
@@ -110,3 +122,8 @@ func get_number_calls(name) -> int:
 	var character = calls_dict[name].duplicate()
 	return character["phoneCalls"].size()
 	
+func strip_bbcode(text: String) -> String:
+	var regex := RegEx.new()
+	# Matches [tag], [tag=something], [/tag]
+	regex.compile(r"\[\/?\w+(?:=[^\]]+)?\]")
+	return regex.sub(text, "", true)

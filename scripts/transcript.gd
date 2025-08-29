@@ -37,7 +37,6 @@ func select_person(id:int):
 		
 	var script = self.get_child(0)
 	var callName: String
-	script.finish()
 	match id:
 			101:
 				callName = "Sorgentelefon"

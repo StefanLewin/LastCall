@@ -14,5 +14,4 @@ func _ready() -> void:
 	
 
 func _on_pressed() -> void:
-	transcript.get_child(0).finish()
 	transcript.get_child(0)._on_display_call(call_name,"phoneCalls", call_index)
